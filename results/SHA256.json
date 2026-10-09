@@ -6,8 +6,8 @@
   },
   {
     "file": "README.md",
-    "sha256": "c4996c4bab185139a400d1b28d62d165fd18105834f7ab84123d44d3e40a0ea7",
-    "bytes": 7976
+    "sha256": "73c8cc82d91b5daf9ab52da2d6a6c8d124c0210d3d360dc2ea5ad4b58ee97f28",
+    "bytes": 8614
   },
   {
     "file": "configs/example_manifest.jsonl",
@@ -21,8 +21,8 @@
   },
   {
     "file": "docs/ONE_PAGE_SUMMARY.md",
-    "sha256": "1e0b97785f39f8ce0b7fdd809f17db089b49573493343b09b3b5e9eb2a5f3b92",
-    "bytes": 3909
+    "sha256": "e07d6ae1622cdec1792234551413e6f6e7049178814d27cb61a8ac1aeea72f0d",
+    "bytes": 3196
   },
   {
     "file": "figures/post_rl_uplift.png",
@@ -90,6 +90,11 @@
     "bytes": 36100
   },
   {
+    "file": "scripts/check_release.py",
+    "sha256": "381872e997facdb3b1668237c0a8d32685802e1b64310faf8345e2c20f528b0f",
+    "bytes": 1053
+  },
+  {
     "file": "scripts/evaluate_external.py",
     "sha256": "439384f3acbed84900db49d1e8182da91721924cc454b01b6ce9819ce6e4fee3",
     "bytes": 7310
@@ -101,8 +106,8 @@
   },
   {
     "file": "scripts/publish_github.sh",
-    "sha256": "34c0548ee83b2d43b6b43d9a62fe0c54e2c6eecda217d232106324a6daf5e7ba",
-    "bytes": 299
+    "sha256": "c8176945541ddc00e4025c49a958b46f11667e703bae87b40be3f51b60ba3218",
+    "bytes": 712
   },
   {
     "file": "scripts/reproduce_results.py",

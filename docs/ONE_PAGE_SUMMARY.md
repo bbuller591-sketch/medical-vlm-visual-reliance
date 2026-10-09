@@ -1,37 +1,35 @@
-# How Much Does a Medical VLM Rely on Its Image?
+# When Does a Medical VLM Actually Use Its Image?
 
-*Pilot findings on visual evidence, image quality, and medical RL — 9 October 2026*
+*Research pilot — 9 October 2026*
 
-### Question and measurements
+### What we measured
 
-We asked whether correct medical-VQA answers actually depend on the **current image**, and whether that dependence changes as images deteriorate. We evaluated **Qwen2-VL-2B-Instruct** and its RL-trained counterpart **MedVLM-R1** on the official medical-VQA benchmark (900 MRI/CT/X-ray questions; 825 four-choice questions for the primary comparison). For each question, we tested its original image (**Clean**), no image, and a different real image substituted for the original (**Mismatch**); we also applied mild-to-severe synthetic blur. We measured answer accuracy, **signed ground-truth margin** (correct-answer score minus the strongest incorrect-answer score), and entropy over the answer choices. A mismatched image is not necessarily a clinically contradictory image.
+We studied whether medical-VQA answers depend on the **current image**, and whether this dependence changes with image quality. We compared **Qwen2-VL-2B-Instruct** with its RL-trained checkpoint **MedVLM-R1** on the official 900-question medical-VQA benchmark (including 825 four-choice questions). We tested **Clean** images, **No-image**, a different real medical image paired with the same question (**Mismatch**), and increasing synthetic **Blur**. We measured accuracy, signed ground-truth (GT) log margin, and answer-choice entropy. Mismatch preserves a real visual input but does not guarantee a clinically contradictory image.
 
-### What we found: visual evidence helps, but its benefit depends on quality
+### What we found
 
-On 900 questions under the same probability-scoring protocol, the *mean correct-image benefit over mismatched images*, measured as the **GT log-margin difference**, fell with degradation:
+**Correct visual evidence helps, but the benefit decreases with degradation.** On 900 questions under matched scoring, the mean **GT log-margin benefit** of the correctly paired image over mismatched images was:
 
-| Checkpoint | Clean | Mild blur | Medium blur | Severe blur |
+| Model | Clean | Mild blur | Medium | Severe |
 |---|---:|---:|---:|---:|
-| Qwen2-VL-2B | 0.730 | 0.736 | 0.543 | 0.211 |
+| Qwen Base | 0.730 | 0.736 | 0.543 | 0.211 |
 | MedVLM-R1 | 0.894 | 0.883 | 0.647 | 0.228 |
 
-Answer uncertainty generally increased under stronger blur, while probing recovered near-perfect information about severe image degradation from both checkpoints' internal representations. **Knowing that an image changed is not the same as appropriately relying on it.** In a label-supported semantic-conflict subset, adding an image sometimes *sharpened* the predicted answer distribution while *lowering* the correct-answer margin (about **31%** of cases for Base; **23%** for MedVLM-R1). Thus, entropy reduction alone is not reliable evidence of *useful* visual grounding.
+Stronger blur generally reduced GT margin and increased answer entropy. Linear probing decoded severe degradation from both checkpoints' internal states (best AUROC ≈ 1.00), although decodability does not establish causal or clinically appropriate use. Importantly, in a label-supported semantic-conflict test, adding an image sometimes **reduced entropy while also lowering the correct-answer margin** (31% of Base cases; 23% of RL cases). Thus, image-induced confidence alone is not evidence of *useful* visual reliance.
 
-### What surprised us: large gains survive with no visual input
+### What surprised us
 
-Under the **same candidate-scoring and option-order protocol** for both checkpoints:
+**The RL checkpoint's advantage remained large without images.** With the **same candidate-scoring protocol for both checkpoints**:
 
-| Benchmark | RL−Base, Clean | RL−Base, No-image | Change in Clean−No-image benefit |
-|---|---:|---:|---:|
-| MRI, 300 questions | **+29.1 pp** | **+32.1 pp** | −3.0 pp |
-| Four-choice, 825 questions | **+12.1 pp** | **+13.8 pp** | −1.7 pp |
+| Evaluation | RL−Base Clean gain | RL−Base No-image gain |
+|---|---:|---:|
+| MRI, 300 questions | +29.1 pp | **+32.1 pp** |
+| All four-choice, 825 | +12.1 pp | **+13.8 pp** |
 
-Both changes in image-presence benefit have uncertainty intervals spanning zero. On **506 questions both checkpoints answered correctly with Clean images**, the RL checkpoint retained more correct answers after image removal; this controls prior success with an image, **not prior non-visual medical knowledge**. Even Base scored **44.1% without images** on the 825 four-choice questions, above the 25% uniform-guess baseline. RL may therefore be reinforcing useful medical knowledge and/or predictable question/answer patterns without proportionately improving current-image grounding. These are hypotheses, not a causal attribution.
+The additional Clean−No-image benefit did **not** increase significantly after RL. Even Base achieved **44.1% without images** on 825 four-choice questions (25% uniform-guess baseline), indicating exploitable non-visual information. On 506 items both checkpoints answered correctly with images, RL also retained more correct answers after removing the image. This controls prior **image-conditioned success**, not equal prior medical knowledge. A plausible hypothesis is that RL reinforced medical knowledge and/or task-specific question-answer priors, rather than yielding a proportional gain in current-image grounding.
 
-The same RL checkpoint did not reproduce its large MRI gain on external benchmarks: **SLAKE test −5.8 pp**, **SLAKE validation −4.2 pp**, **PMC-VQA +0.3 pp** (latter statistically unresolved). This points to task-dependent benefits rather than a general conclusion that the model does not use images.
+This gain was **not consistent across external tasks**: MedVLM-R1 versus Base was −5.8 pp on SLAKE test, −4.2 pp on SLAKE validation, and +0.3 pp on PMC-VQA. The cause remains unresolved.
 
-### Next question
+**Open question:** Can we separate genuine, quality-aware visual trust from passive loss of readability? A matched **image-free RL** training control could also help test which capabilities the reward reinforces; this control has **not** been trained.
 
-Can we distinguish genuine quality-aware visual trust from passive degradation of unreadable inputs, and can a **matched image-free RL training control** separate reinforcement of visual understanding from reinforcement of text-based answer priors? These are proposed follow-ups; no new RL training has been performed.
-
-*The four-choice and MRI comparisons use matched scoring. The quality/relevance contrasts use a separate frozen quality-analysis protocol; absolute margins should not be pooled across protocols. See [detailed supporting results](DETAILED_REPORT.md).*
+*See [supporting experiments](DETAILED_REPORT.md) for protocols, uncertainty intervals, and interpretation limits.*

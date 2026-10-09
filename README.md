@@ -94,3 +94,7 @@ The inference script uses the image-and-question chat template, exact `A) ...` a
 - [PMC-VQA dataset and model](https://github.com/xiaoman-zhang/PMC-VQA)
 
 This code/results release includes no raw medical images, weights, private experiments, original full datasets, or API credentials. Upstream repositories and datasets retain their respective licenses. An explicit open-source license for this *new project code* has not yet been assigned by the project owner.
+
+## Publication
+
+If a new public GitHub repository cannot be created from your connected GitHub integration, this directory is prepared for publication. On a machine with GitHub CLI authenticated using `gh auth login`, run `bash scripts/publish_github.sh`; it attempts to create a **new public repository** named `medical-vlm-visual-reliance`. Do not substitute an unrelated existing repository. If you prefer to create the empty public repo in GitHub's web UI, initialize a local git repository here and push to that URL instead. **Until one of those actions succeeds, this package is not online and no GitHub link should be reported.**
