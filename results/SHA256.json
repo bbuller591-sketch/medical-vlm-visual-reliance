@@ -26,8 +26,8 @@
   },
   {
     "file": "docs/DETAILED_REPORT.md",
-    "sha256": "f8357c09634df42ad21180cd293f883c2061232bc3fa52fd58b47f406fefbc7b",
-    "bytes": 11161
+    "sha256": "37a86d8cac266574b1cbf5b94a7b1cc0eccdf1dd35c37fcef59c67b540120365",
+    "bytes": 10345
   },
   {
     "file": "docs/ENVIRONMENT_PROVENANCE.md",
@@ -36,8 +36,8 @@
   },
   {
     "file": "docs/ONE_PAGE_SUMMARY.md",
-    "sha256": "e07d6ae1622cdec1792234551413e6f6e7049178814d27cb61a8ac1aeea72f0d",
-    "bytes": 3196
+    "sha256": "38ce23e0d015a66d41f66ced71cfd7a93099fd221b5f0c69ae0de49fe834b69d",
+    "bytes": 3198
   },
   {
     "file": "docs/REPRODUCE_FROM_SCRATCH.md",
