@@ -21,3 +21,17 @@ __pycache__/
 *.log
 .cache/
 .DS_Store
+
+# Downloaded checkpoints, original VQA questions, extracted medical images, generated features
+assets/
+outputs/
+artifacts/
+*.npz
+*.npy
+*.parquet
+*.zip
+experiments/original_sources/models/
+experiments/original_sources/official900_replication/data/
+experiments/original_sources/*/features/
+experiments/original_sources/*/generated_images/
+experiments/original_sources/*/results/raw/

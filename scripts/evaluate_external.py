@@ -119,9 +119,14 @@ def main():
  ap.add_argument('--device',default='cuda:0')
  ap.add_argument('--output',default='evaluation_records.jsonl')
  ap.add_argument('--dry-run',action='store_true',help='Only validate inputs and freeze donor pairing')
+ ap.add_argument('--limit',type=int,default=0,help='Smoke test only; freezes donors on FULL manifest first')
+ ap.add_argument('--max-orders',type=int,choices=[1,2,3],default=3)
+ ap.add_argument('--conditions',default='clean,no_image,shuffled_image')
+ ap.add_argument('--resume',action='store_true',help='Append missing item/condition/order combinations')
  args=ap.parse_args()
  items=load_manifest(args.manifest);donor=build_or_load_donor_plan(items,args.donor_plan)
  lookup={it['item_id']:it for it in items}
+ if args.limit:items=items[:args.limit]
  nopts={len(it['options']) for it in items}
  assert len(nopts)==1,'One run must use a fixed choice count'
  if args.dry_run:
@@ -129,15 +134,25 @@ def main():
   return
  assert args.checkpoint,'--checkpoint required for GPU inference'
  model,proc,tok_ids=load_checkpoint(args.checkpoint,args.device)
- orders=['O0','O1'] if next(iter(nopts))==2 else ['O0','O1','O2']
+ orders=(['O0','O1'] if next(iter(nopts))==2 else ['O0','O1','O2'])[:args.max_orders]
+ conditions=[x.strip() for x in args.conditions.split(',') if x.strip()]
+ assert conditions and all(c in ('clean','no_image','shuffled_image') for c in conditions)
  outfile=Path(args.output);outfile.parent.mkdir(parents=True,exist_ok=True)
- with outfile.open('w',encoding='utf-8') as f:
+ completed=set()
+ if args.resume and outfile.exists():
+  for line in outfile.open():
+   try:
+    x=json.loads(line);completed.add((x['item_id'],x['condition'],x['order']))
+   except json.JSONDecodeError:pass
+ with outfile.open('a' if args.resume else 'w',encoding='utf-8') as f:
   for index,it in enumerate(items):
-   for cond in ['clean','no_image','shuffled_image']:
+   for cond in conditions:
+    if all((it['item_id'],cond,o) in completed for o in orders):continue
     image_path=(it['image_path'] if cond=='clean' else
                 lookup[donor[it['item_id']]]['image_path'] if cond=='shuffled_image' else None)
     if image_path is not None and not Path(image_path).is_file():raise FileNotFoundError(image_path)
     for o in orders:
+     if (it['item_id'],cond,o) in completed:continue
      perm=option_order(len(it['options']),o,it['item_id'])
      p=score(model,proc,tok_ids,it,image_path,perm,args.device)
      g=int(it['gt_index'])

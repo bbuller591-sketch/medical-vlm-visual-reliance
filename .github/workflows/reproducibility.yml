@@ -1,0 +1,21 @@
+name: CPU reproducibility
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install lightweight dependencies
+        run: pip install -r requirements-analysis.txt
+      - name: Verify committed file checksums before recomputation
+        run: python scripts/check_release.py --verify
+      - name: Reproduce tables and figures from frozen outputs
+        run: python scripts/reproduce_results.py --check --plots
+      - name: Run CPU tests
+        run: python -m unittest discover -s tests -v

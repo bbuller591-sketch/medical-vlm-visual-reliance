@@ -1,0 +1,14 @@
+# Auditable original experiment code (research archive)
+
+This directory preserves the **original implementation scripts** for the previous studies, as reference material. It includes stage-specific methods that are not all part of the simple portable CLI: representation features, hidden-state linear probes, TVI, activation patching, visual knockout, entropy/VES diagnostics, and the quality × relevance experimental infrastructure.
+
+- `official900_visual_reliance_v1/scripts/common.py`: original dataset loading, image degradation definitions, prompts, seed/permutation logic and metrics.
+- `visual_reliance_mechanism_v2/scripts/`: original matched-processing mechanism scripts, including `m6_probes.py`, `m8_patching.py`, and `m9_knockout.py`.
+- `official900_replication/scripts/`: source official generative-checkpoint evaluation scripts and original cross-check tools.
+- `briefing_20261009/analyze_clean_both_correct.py`: original 506-item conditional experiment code.
+- `native_reasoning_reliance_v1/scripts/`: original native reasoning scorer reference.
+- `quality_reliance_v1/scripts/`: original quality/relevance scoring and analysis code (`q1_run.py`, `q2_behavior.py`, `q3_ves.py`, `q4_probes.py`, and others).
+
+**These are archived raw source files, not an independently verified one-command package.** Their original workflows depend on experiment-specific input trees, donor maps, and cached feature shards, and are not all runnable without recreating that environment. They are included for method transparency and exact implementation reference, **not** as a claim that `README.md`'s lightweight quick start reproduces every mechanism result. The portable and GPU smoke-tested primary behavioral pipeline lives in `scripts/` at repository root.
+
+Any absolute machine-specific source comments were neutralized for public release. No pretrained weights, patient images, experimental large feature tensors, private paths, or credentials are included.

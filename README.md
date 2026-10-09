@@ -43,39 +43,25 @@ Main data files:
 
 **Difference between two margin metrics:** `GT probability margin = p(correct) − max p(wrong)` and `GT log margin = log p(correct) − max log p(wrong)`. Their numerical scales cannot be pooled or directly compared. The quality figure uses **log margin**. The frozen `official825_scores.csv` from the matched stage uses the **probability margin** in `margin_gt_minus_best_wrong`.
 
-## Re-run **model inference** (requires separate assets; packaging smoke-tested only)
+## Full model/dataset download and GPU reproduction
 
-Upstream model repositories:
+The repository now includes the **full portable behavioral analysis pipeline**, rather than only CPU recomputation. It follows the original checkpoint and dataset setup used by the published [MedVLM-R1 research repository](https://github.com/JZPeterPan/MedVLM-R1): source installation, separately downloaded model weights, original dataset download, explicit evaluation scripts, frozen experiment configs, and post-processing.
 
-- Qwen2-VL-2B-Instruct: https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct
-- MedVLM-R1: https://huggingface.co/JZPeterPan/MedVLM-R1
+**[Start-to-finish reproduction guide with copyable commands →](docs/REPRODUCE_FROM_SCRATCH.md)**  · [Original environment versions](docs/ENVIRONMENT_PROVENANCE.md)
 
-Upstream datasets:
+Quick index:
 
-- MedVLM-R1 official benchmark/project: https://github.com/JZPeterPan/MedVLM-R1
-- SLAKE: https://huggingface.co/datasets/BoKelvin/SLAKE
-- PMC-VQA: https://huggingface.co/datasets/xmcmic/PMC-VQA
-- VQA-RAD: https://huggingface.co/datasets/flaviagiammarino/vqa-rad
+1. `scripts/download_assets.py`: Hugging Face checkpoints and original dataset archives, including verified official 900-question JSON and source image archive.
+2. `scripts/prepare_datasets.py`: strict conversion to reproducible local JSONL manifests (official900/825, SLAKE test/val, PMC-VQA, VQA-RAD).
+3. `scripts/evaluate_external.py`: original, no-image, and shuffled-image **GPU** inference with frozen option permutations and image donors.
+4. `scripts/evaluate_quality.py`: **GPU** 900-question blur × three donors × semantic-conflict experiment using `configs/official900_donors.json`.
+5. `scripts/analyze_inference.py`: **CPU** accuracy, GT probability/log margin, entropy, paired source-cluster bootstrap CIs, image-content utility and VES-style confidence/harmfulness analysis.
+6. `scripts/probe_image_quality.py`: **GPU** layer-wise residual extraction and **CPU** group-disjoint linear probing.
+7. `experiments/original_sources/`: original research experiment sources for extended probing, activation patching, knockout and quality interventions (archived; additional original staging requirements).
 
-Download and extract the relevant dataset according to its license and documentation. Convert your local test items into the JSONL schema documented in `scripts/evaluate_external.py`; a *synthetic schema example* is in `configs/example_manifest.jsonl`. For the four-choice PMC-VQA subset, the historic release fixed a **stratified 1,000-item sample**. Reproducing its exact model-level benchmark numbers requires recovering the same item identities and the original frozen donor matching, not only resampling 1,000 items with the same seed. Contact the authors/retain the original private frozen manifest if exact new inference is required; the numeric per-item CSV supports full *analysis* reproduction in this archive.
+All original images, full questions, model files, and large feature arrays are ignored by Git; only safe numeric, item-ID-level experiment records and code are published. PMC-VQA image archives exceed 20 GB and download only when explicitly requested.
 
-```bash
-python -m pip install -r requirements-inference.txt
-python scripts/evaluate_external.py \
-  --manifest /local/path/benchmark.jsonl \
-  --donor-plan /local/path/shared_frozen_donors.json \
-  --dry-run
-
-python scripts/evaluate_external.py \
-  --manifest /local/path/benchmark.jsonl \
-  --donor-plan /local/path/shared_frozen_donors.json \
-  --checkpoint /local/path/Qwen2-VL-2B-Instruct \
-  --device cuda:0 --output /local/path/qwen_scores.jsonl
-
-# Repeat with the same manifest and exact donor plan, changing --checkpoint to MedVLM-R1.
-```
-
-The inference script uses the image-and-question chat template, exact `A) ...` answer options, single-token A/B/C/D candidate scoring, softmax normalized over the displayed choices, semantic answer ID inversion, min/max image pixels `3136/401408`, three answer orders for four-choice or two for Yes/No, and a frozen seeded one-cycle image donor permutation. It does not download raw data or train a model; multimodal inference needs CUDA-capable hardware and `qwen-vl-utils`.
+**Verification boundary:** The standalone data adapters, two checkpoints' GPU inference on a smoke subset, main quality perturbation scorer on a smoke subset, and representation extraction have been tested. Full-scale GPU re-inference of every arm has *not* been rerun using the new portable wrapper and is not claimed as bitwise reproduced. The exact historical published figures **are** reproduced from frozen numeric CSV exports by `scripts/reproduce_results.py`.
 
 ## Experimental limitations
 
@@ -93,8 +79,8 @@ The inference script uses the image-and-question chat template, exact `A) ...` a
 - [Reference-free whole-heart MR IQA, Radiology: AI 2020](https://pubs.rsna.org/doi/full/10.1148/ryai.2020190123)
 - [PMC-VQA dataset and model](https://github.com/xiaoman-zhang/PMC-VQA)
 
-This code/results release includes no raw medical images, weights, private experiments, original full datasets, or API credentials. Upstream repositories and datasets retain their respective licenses. An explicit open-source license for this *new project code* has not yet been assigned by the project owner.
+This code/results release includes no raw medical images, weights, private experiments, original full datasets, or API credentials. Upstream repositories and datasets retain their respective licenses. An explicit open-source license for this *new project code* has not yet been assigned by the project owner. Please request a license decision before redistributing modified code.
 
-## Publication
+## Repository status and authorship
 
-If a new public GitHub repository cannot be created from your connected GitHub integration, this directory is prepared for publication. On a machine with GitHub CLI authenticated using `gh auth login`, run `bash scripts/publish_github.sh`; it attempts to create a **new public repository** named `medical-vlm-visual-reliance`. Do not substitute an unrelated existing repository. If you prefer to create the empty public repo in GitHub's web UI, initialize a local git repository here and push to that URL instead. **Until one of those actions succeeds, this package is not online and no GitHub link should be reported.**
+This is the **public** GitHub repository: https://github.com/bbuller591-sketch/medical-vlm-visual-reliance . It contains the full stand-alone behavioral workflow and an archive of the original mechanistic scripts, with separate reproducibility statuses documented above. No API keys or raw patient images are included. The project owner has not selected a license for newly authored research code; all third-party model/dataset sources retain their own terms.

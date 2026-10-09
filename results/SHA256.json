@@ -1,13 +1,18 @@
 [
   {
+    "file": ".github/workflows/reproducibility.yml",
+    "sha256": "6fee553b621b6ec86fae47d98c4d094d7aa350b9ad765054b7d01797b0965ba5",
+    "bytes": 679
+  },
+  {
     "file": ".gitignore",
-    "sha256": "b39d0aab36bbd294efe27c75cbaedaeca32d8a3702629768d435498adf6deaa9",
-    "bytes": 286
+    "sha256": "eb8b62d7cfb31aa0fac27623c65e32741dcc5635706810a0c3458a84064ae4c7",
+    "bytes": 668
   },
   {
     "file": "README.md",
-    "sha256": "73c8cc82d91b5daf9ab52da2d6a6c8d124c0210d3d360dc2ea5ad4b58ee97f28",
-    "bytes": 8614
+    "sha256": "24c9a7eb68cf5afda478a52667c0587824c6d67343703a59023e581b9549d65b",
+    "bytes": 8767
   },
   {
     "file": "configs/example_manifest.jsonl",
@@ -15,14 +20,199 @@
     "bytes": 381
   },
   {
+    "file": "configs/official900_donors.json",
+    "sha256": "7e3ff8f0a959f7202f25878fe75a5c466ca140217ff7ad6bb7a7a3830f37b8b3",
+    "bytes": 104908
+  },
+  {
     "file": "docs/DETAILED_REPORT.md",
     "sha256": "f8357c09634df42ad21180cd293f883c2061232bc3fa52fd58b47f406fefbc7b",
     "bytes": 11161
   },
   {
+    "file": "docs/ENVIRONMENT_PROVENANCE.md",
+    "sha256": "d8ebfce18eb85945f2f9807dfdbafe05492a2d02363d3e338c70fb33e3f50b56",
+    "bytes": 1004
+  },
+  {
     "file": "docs/ONE_PAGE_SUMMARY.md",
     "sha256": "e07d6ae1622cdec1792234551413e6f6e7049178814d27cb61a8ac1aeea72f0d",
     "bytes": 3196
+  },
+  {
+    "file": "docs/REPRODUCE_FROM_SCRATCH.md",
+    "sha256": "eeb46d7b5fa6ef5e833eb7f2f8d4b71c950addf874bf6ba1e7c3f29b23f98670",
+    "bytes": 12851
+  },
+  {
+    "file": "experiments/original_sources/README.md",
+    "sha256": "4daa160c76693b2d0fc1a56c9208c8eb7a289f4ca6c04b11564614fd57d23c69",
+    "bytes": 1965
+  },
+  {
+    "file": "experiments/original_sources/briefing_20261009/analyze_clean_both_correct.py",
+    "sha256": "f0fffcc50b3bcb9ac4822243f4427b5dea537468a73293156766294779410e10",
+    "bytes": 12646
+  },
+  {
+    "file": "experiments/original_sources/native_reasoning_reliance_v1/scripts/run_native.py",
+    "sha256": "dc37d9533b53d6aa921236ea7eab5c7713276e40fa7f493a9dca007f612b50a0",
+    "bytes": 17902
+  },
+  {
+    "file": "experiments/original_sources/native_reasoning_reliance_v1/scripts/run_qwen_direct_score.py",
+    "sha256": "3a44bfdee54e5a51737c0893b427e579b9360a39c8fb45c3751700a4c062c84c",
+    "bytes": 5413
+  },
+  {
+    "file": "experiments/original_sources/official900_replication/scripts/compute_metrics.py",
+    "sha256": "aa46a11cd15b38d41ba09500fce3fdb18bd990d273682f97f28e55bc7cb5afdd",
+    "bytes": 11839
+  },
+  {
+    "file": "experiments/original_sources/official900_replication/scripts/run_official900.py",
+    "sha256": "716a547f1a780a87be02cbf8b30dfd9872845385d0e5f60a47da03476ea3a932",
+    "bytes": 21482
+  },
+  {
+    "file": "experiments/original_sources/official900_replication/scripts/verify_prompt_render.py",
+    "sha256": "898c1ad3cd17ffc3f5ff4e27d5bab32d566a3c34b8d523b7a53e2b579a8a72ae",
+    "bytes": 4407
+  },
+  {
+    "file": "experiments/original_sources/official900_visual_reliance_v1/scripts/common.py",
+    "sha256": "a51da74bd464318e2365ccd6b5c65fcda89a1fc50d21a0570d5041396c5b1e55",
+    "bytes": 22321
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/common_qr.py",
+    "sha256": "86fb7383befdfc0fad4223cba25b8a2eed374d828fc28c76e6703250f4fda257",
+    "bytes": 19917
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/f3_figures.py",
+    "sha256": "bb0e38bc1a6c64ec16c4c86d35f234939006085ae38a00112184e420178a8080",
+    "bytes": 18777
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/p0_derangements.py",
+    "sha256": "d2eda5c02c9a83eb8d46d2e682d3117bdc11eea114651534b70c0b75317d659a",
+    "bytes": 11394
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/p0_semantic_conflict.py",
+    "sha256": "609badbdbd49f2446de6f69b0b0b954585dd7cac70df9d7b7c03ea7ff45f2ed2",
+    "bytes": 8083
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q0_provenance.py",
+    "sha256": "2b029550625e32fcf8a0570e3e161a5cd5e018bf7f21a3019ffbcf1b95f1ff90",
+    "bytes": 8543
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q1_run.py",
+    "sha256": "d2fd56f4568e72475f931762e9e2d3c10646d37c01e5f4b80b4b0f54feab840c",
+    "bytes": 23288
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q2_behavior.py",
+    "sha256": "728769bb9d92baf448cee46a181c10d63dd5f98a42a523a2671e2e3e822c6fb5",
+    "bytes": 21467
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q3_ves.py",
+    "sha256": "4ef294f87e540fe38b10687087283cab4dfadd4f5975412ca44fd0b0973939e4",
+    "bytes": 12316
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q4_probes.py",
+    "sha256": "725d049678d9b2aa60ad2147002a88aa9f793fb2e5aa81a63991ba4a77382839",
+    "bytes": 33754
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q5_vip.py",
+    "sha256": "fcf394b7c21dd2146c64edf033398f28c2d003698c16eeb6d634c0aebb58a05a",
+    "bytes": 8513
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q6_causal.py",
+    "sha256": "7f72bc0a149fca4d3e6507b55b9dcba484569ab389993cd901523e1610f73b24",
+    "bytes": 7644
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q6_run_causal.py",
+    "sha256": "ba99cae049cdc17f09b7df8e8e1fe1674ba16118c3b8fdab4d4cd06c465ee0c5",
+    "bytes": 18297
+  },
+  {
+    "file": "experiments/original_sources/quality_reliance_v1/scripts/q7_report.py",
+    "sha256": "0649dcfefd727fbe8921105db0b56b1f16a7f7114e26c885a0c5ea18534f978d",
+    "bytes": 23952
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/common_v2.py",
+    "sha256": "b81f76519412cbb9c56e6377a9df79b56c6dc769377b99d292cfa908f1502a8e",
+    "bytes": 11269
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/featlib.py",
+    "sha256": "b6fecfca3c2cd44dc2fc61cc7bea83f8caf27c72667a907233486a594d210d51",
+    "bytes": 6342
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m11_causal_report.py",
+    "sha256": "861f722a5d7e725b1c076045d306ebd0aa6e1243d86327be1b88cf939fc3a5e0",
+    "bytes": 14115
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m13_plots.py",
+    "sha256": "06d2c047c2c5b6ef34d3703ba100f1429e006e6df7f21f38b6230646d2d348a7",
+    "bytes": 10259
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m1_processor_audit.py",
+    "sha256": "ee813da5669e6b04759f8a68471338c345e9dca14023c303a73ec78f39f6cca9",
+    "bytes": 18439
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m2_extract.py",
+    "sha256": "f427a74c5bf1b0f5075777902a57aa5f733367069670145ce67002df300db0ed",
+    "bytes": 20340
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m3_validate.py",
+    "sha256": "677ad0b52ce62fc4fb1013107973ed647196656207b4a8c6691f644f7f9824e7",
+    "bytes": 8854
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m4_behavior.py",
+    "sha256": "c8780fe39833103899add35f128a0a9e37744aed49b2b3b5e9e497eb0dbab96f",
+    "bytes": 13600
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m5_tvi.py",
+    "sha256": "550c7ecb96da4bf744714ec517704956ad691b1396f8412a4963450297ffddaa",
+    "bytes": 11059
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m6_probes.py",
+    "sha256": "3eff79d5364db8bd3e6505806f734e3279e0f5931a300dd5410fb0da54057049",
+    "bytes": 14355
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m7_casebook.py",
+    "sha256": "1b23352e7f88235dcec540799b3d78fdade361292a08659f70b72b3f487f8507",
+    "bytes": 7153
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m8_patching.py",
+    "sha256": "a0b227925eb066b850d54bee98d4edb06d3da4f9612de7e03ed85abd54358163",
+    "bytes": 14924
+  },
+  {
+    "file": "experiments/original_sources/visual_reliance_mechanism_v2/scripts/m9_knockout.py",
+    "sha256": "3f66ca92e2f82fba7f791281634b14aacf3367e4e91b3c12e66b976707106c8a",
+    "bytes": 11700
   },
   {
     "file": "figures/post_rl_uplift.png",
@@ -36,8 +226,13 @@
   },
   {
     "file": "requirements-analysis.txt",
-    "sha256": "84f5adebc745706c410125781d91db59b59f4322870a2c53685e0aaefb9b8575",
-    "bytes": 34
+    "sha256": "09383fb97c0242ed0eb773adf99aaa6c2938b5344b52a0f25d2a6624a51e98eb",
+    "bytes": 49
+  },
+  {
+    "file": "requirements-download.txt",
+    "sha256": "44b28b89660909dc64f8dbc676397262a6fe9bab13a03d68fc134d5bae45ed7b",
+    "bytes": 25
   },
   {
     "file": "requirements-inference.txt",
@@ -90,14 +285,34 @@
     "bytes": 36100
   },
   {
+    "file": "scripts/analyze_inference.py",
+    "sha256": "8efcfc0d1b62a7d21dc7a1bb3580d86cc2347b1e022af25c671047e67691d43e",
+    "bytes": 5674
+  },
+  {
     "file": "scripts/check_release.py",
     "sha256": "381872e997facdb3b1668237c0a8d32685802e1b64310faf8345e2c20f528b0f",
     "bytes": 1053
   },
   {
+    "file": "scripts/download_assets.py",
+    "sha256": "08f2ed0aab63222c61cd7a8b563f2f4c95609c62a67b0da19fb230da94de7c97",
+    "bytes": 4020
+  },
+  {
     "file": "scripts/evaluate_external.py",
-    "sha256": "439384f3acbed84900db49d1e8182da91721924cc454b01b6ce9819ce6e4fee3",
-    "bytes": 7310
+    "sha256": "ea2f0a293cd736ff0345d45b9b51dd02794d6a671072fa40c0e407a674c73459",
+    "bytes": 8220
+  },
+  {
+    "file": "scripts/evaluate_quality.py",
+    "sha256": "9aa264e3f074bf2a6136ba35c65288cd368931969b4e0ebcfb189b9a925a3426",
+    "bytes": 5918
+  },
+  {
+    "file": "scripts/prepare_datasets.py",
+    "sha256": "757fb204c47c33cbb66b318bc7c890de033d60f45b8ed78ac82e4ae19d5a6058",
+    "bytes": 10046
   },
   {
     "file": "scripts/prepare_release_data.py",
@@ -105,14 +320,24 @@
     "bytes": 2942
   },
   {
-    "file": "scripts/publish_github.sh",
-    "sha256": "c8176945541ddc00e4025c49a958b46f11667e703bae87b40be3f51b60ba3218",
-    "bytes": 712
+    "file": "scripts/probe_image_quality.py",
+    "sha256": "2274bb95822065b8f609d9157aeed99e0a8769b6c67c44787b6b0a351ed8a8e0",
+    "bytes": 4649
   },
   {
     "file": "scripts/reproduce_results.py",
     "sha256": "066c6ad73baed4de5058b2c306e14b9ed9a3667d288661b958f45ff2c11ddbb7",
     "bytes": 5276
+  },
+  {
+    "file": "scripts/setup_env.sh",
+    "sha256": "36678cb04b85ea54c46f3bd38378ecda0cfc8d21784671080ca0f37a79da99f0",
+    "bytes": 530
+  },
+  {
+    "file": "tests/test_full_pipeline.py",
+    "sha256": "44586cd6682c31c21619627d54527dbdb9b8aa6aaff6f5f80ea2253111277b2c",
+    "bytes": 3261
   },
   {
     "file": "tests/test_metrics.py",
