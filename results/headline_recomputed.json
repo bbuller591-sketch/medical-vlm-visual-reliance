@@ -1,0 +1,61 @@
+{
+  "official_matched": {
+    "all": {
+      "qwen2vl_clean": 0.6888888888888889,
+      "qwen2vl_no_image": 0.4412121212121212,
+      "medvlmr1_clean": 0.8096969696969697,
+      "medvlmr1_no_image": 0.5793939393939394,
+      "uplift_clean": 0.12080808080808081,
+      "uplift_no_image": 0.13818181818181813,
+      "interaction": -0.01737373737373732
+    },
+    "mri": {
+      "qwen2vl_clean": 0.6733333333333333,
+      "qwen2vl_no_image": 0.43555555555555553,
+      "medvlmr1_clean": 0.9644444444444444,
+      "medvlmr1_no_image": 0.7566666666666667,
+      "uplift_clean": 0.2911111111111111,
+      "uplift_no_image": 0.3211111111111112,
+      "interaction": -0.030000000000000082
+    }
+  },
+  "quality_content": {
+    "qwen2vl": {
+      "clean": 0.7301000000000001,
+      "mild": 0.7359666666666667,
+      "medium": 0.5430333333333334,
+      "severe": 0.2105
+    },
+    "medvlmr1": {
+      "clean": 0.8942666666666668,
+      "mild": 0.8827666666666666,
+      "medium": 0.6472333333333333,
+      "severe": 0.22799999999999998
+    }
+  },
+  "external": {
+    "slake_yesno_test": {
+      "qwen2vl_clean": 0.680281690140845,
+      "qwen2vl_no_image": 0.4535211267605634,
+      "qwen2vl_shuffled_image": 0.528169014084507,
+      "medvlmr1_clean": 0.6225352112676056,
+      "medvlmr1_no_image": 0.4267605633802817,
+      "medvlmr1_shuffled_image": 0.4915492957746479,
+      "uplift_clean": -0.05774647887323947,
+      "content_base": 0.15211267605633805,
+      "content_rl": 0.13098591549295768
+    },
+    "pmcvqa": {
+      "qwen2vl_clean": 0.45099998900000005,
+      "qwen2vl_no_image": 0.314333311,
+      "qwen2vl_shuffled_image": 0.293333316,
+      "medvlmr1_clean": 0.454333323,
+      "medvlmr1_no_image": 0.310666643,
+      "medvlmr1_shuffled_image": 0.29399998600000005,
+      "uplift_clean": 0.0033333339999999656,
+      "content_base": 0.15766667300000003,
+      "content_rl": 0.16033333699999996
+    }
+  },
+  "note": "QWEN and RL matched per-order candidate-scoring; quality in separate frozen log-margin dataset"
+}

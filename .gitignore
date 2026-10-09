@@ -1,0 +1,23 @@
+# Never publish medical source files, checkpoints, tokens, raw result archives
+.env
+.env.*
+*.key
+*.pem
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+model_weights/
+checkpoints/
+raw_images/
+raw_datasets/
+private/
+secrets/
+api_responses/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+.cache/
+.DS_Store

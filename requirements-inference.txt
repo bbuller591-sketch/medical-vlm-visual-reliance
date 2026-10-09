@@ -1,0 +1,6 @@
+-r requirements-analysis.txt
+torch>=2.3
+transformers==4.53.3
+qwen-vl-utils>=0.0.10
+Pillow>=10
+accelerate>=0.34

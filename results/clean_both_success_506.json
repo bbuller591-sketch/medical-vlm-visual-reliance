@@ -1,0 +1,12 @@
+{
+  "n_shared_clean_correct": 506,
+  "n_both_no_image_valid": 499,
+  "both_correct": 219,
+  "rl_only_correct": 82,
+  "base_only_correct": 46,
+  "neither_correct": 152,
+  "med_no_image_correct_in_valid": 301,
+  "base_no_image_correct_in_valid": 265,
+  "base_definition": "Qwen direct candidate scoring on Clean; RL native generated answer on Clean",
+  "limitations": "Clean conditioned and output protocols differ; not a controlled equal-knowledge subset"
+}

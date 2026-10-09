@@ -1,0 +1,2 @@
+{"item_id":"example_yes","image_id":"image_a","image_path":"/path/to/your/own/image_a.png","question":"Is there a visible abnormality?","options":["Yes","No"],"gt_index":0,"group":"example"}
+{"item_id":"example_no","image_id":"image_b","image_path":"/path/to/your/own/image_b.png","question":"Is there a visible abnormality?","options":["Yes","No"],"gt_index":1,"group":"example"}
