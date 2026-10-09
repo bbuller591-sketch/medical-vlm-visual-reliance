@@ -1,0 +1,5602 @@
+{
+  "selection_rule": "Both original models correctly predict GT at Clean O0, matched candidate scoring",
+  "confidence_rule": "25 + (100*p_clean_O0_max-25)*0.5, each model separately; hold fixed across all visual arms and hinted options",
+  "n": 559,
+  "modality_counts": {
+    "CT": 160,
+    "MRI": 207,
+    "Xray": 192
+  },
+  "items": [
+    {
+      "sample_id": "CT_001",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9613246321678162,
+      "qwen2vl_hint_confidence_pct": 60.566,
+      "medvlmr1_clean_pmax": 0.974937379360199,
+      "medvlmr1_hint_confidence_pct": 61.247
+    },
+    {
+      "sample_id": "CT_002",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9899343848228455,
+      "qwen2vl_hint_confidence_pct": 61.997,
+      "medvlmr1_clean_pmax": 0.9951295852661133,
+      "medvlmr1_hint_confidence_pct": 62.256
+    },
+    {
+      "sample_id": "CT_008",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7219619750976562,
+      "qwen2vl_hint_confidence_pct": 48.598,
+      "medvlmr1_clean_pmax": 0.7742425799369812,
+      "medvlmr1_hint_confidence_pct": 51.212
+    },
+    {
+      "sample_id": "CT_009",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7863472104072571,
+      "qwen2vl_hint_confidence_pct": 51.817,
+      "medvlmr1_clean_pmax": 0.8768689632415771,
+      "medvlmr1_hint_confidence_pct": 56.343
+    },
+    {
+      "sample_id": "CT_011",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3669421076774597,
+      "qwen2vl_hint_confidence_pct": 30.847,
+      "medvlmr1_clean_pmax": 0.3668293058872223,
+      "medvlmr1_hint_confidence_pct": 30.841
+    },
+    {
+      "sample_id": "CT_012",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6612446904182434,
+      "qwen2vl_hint_confidence_pct": 45.562,
+      "medvlmr1_clean_pmax": 0.7198688387870789,
+      "medvlmr1_hint_confidence_pct": 48.493
+    },
+    {
+      "sample_id": "CT_014",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4926466643810272,
+      "qwen2vl_hint_confidence_pct": 37.132,
+      "medvlmr1_clean_pmax": 0.4647168219089508,
+      "medvlmr1_hint_confidence_pct": 35.736
+    },
+    {
+      "sample_id": "CT_018",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9792182445526123,
+      "qwen2vl_hint_confidence_pct": 61.461,
+      "medvlmr1_clean_pmax": 0.9900745749473572,
+      "medvlmr1_hint_confidence_pct": 62.004
+    },
+    {
+      "sample_id": "CT_022",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9887462258338928,
+      "qwen2vl_hint_confidence_pct": 61.937,
+      "medvlmr1_clean_pmax": 0.9940379858016968,
+      "medvlmr1_hint_confidence_pct": 62.202
+    },
+    {
+      "sample_id": "CT_023",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9387289881706238,
+      "qwen2vl_hint_confidence_pct": 59.436,
+      "medvlmr1_clean_pmax": 0.9848157167434692,
+      "medvlmr1_hint_confidence_pct": 61.741
+    },
+    {
+      "sample_id": "CT_025",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9755463600158691,
+      "qwen2vl_hint_confidence_pct": 61.277,
+      "medvlmr1_clean_pmax": 0.9854937791824341,
+      "medvlmr1_hint_confidence_pct": 61.775
+    },
+    {
+      "sample_id": "CT_026",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.954472005367279,
+      "qwen2vl_hint_confidence_pct": 60.224,
+      "medvlmr1_clean_pmax": 0.9880833029747009,
+      "medvlmr1_hint_confidence_pct": 61.904
+    },
+    {
+      "sample_id": "CT_027",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5022860169410706,
+      "qwen2vl_hint_confidence_pct": 37.614,
+      "medvlmr1_clean_pmax": 0.70863276720047,
+      "medvlmr1_hint_confidence_pct": 47.932
+    },
+    {
+      "sample_id": "CT_028",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6743619441986084,
+      "qwen2vl_hint_confidence_pct": 46.218,
+      "medvlmr1_clean_pmax": 0.8142673373222351,
+      "medvlmr1_hint_confidence_pct": 53.213
+    },
+    {
+      "sample_id": "CT_031",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8216397762298584,
+      "qwen2vl_hint_confidence_pct": 53.582,
+      "medvlmr1_clean_pmax": 0.9129238724708557,
+      "medvlmr1_hint_confidence_pct": 58.146
+    },
+    {
+      "sample_id": "CT_032",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9820926189422607,
+      "qwen2vl_hint_confidence_pct": 61.605,
+      "medvlmr1_clean_pmax": 0.9909394979476929,
+      "medvlmr1_hint_confidence_pct": 62.047
+    },
+    {
+      "sample_id": "CT_033",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5150773525238037,
+      "qwen2vl_hint_confidence_pct": 38.254,
+      "medvlmr1_clean_pmax": 0.5464209914207458,
+      "medvlmr1_hint_confidence_pct": 39.821
+    },
+    {
+      "sample_id": "CT_036",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5413407683372498,
+      "qwen2vl_hint_confidence_pct": 39.567,
+      "medvlmr1_clean_pmax": 0.7368703484535217,
+      "medvlmr1_hint_confidence_pct": 49.344
+    },
+    {
+      "sample_id": "CT_040",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4833890497684479,
+      "qwen2vl_hint_confidence_pct": 36.669,
+      "medvlmr1_clean_pmax": 0.5817968249320984,
+      "medvlmr1_hint_confidence_pct": 41.59
+    },
+    {
+      "sample_id": "CT_042",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.593745231628418,
+      "qwen2vl_hint_confidence_pct": 42.187,
+      "medvlmr1_clean_pmax": 0.7580704689025879,
+      "medvlmr1_hint_confidence_pct": 50.404
+    },
+    {
+      "sample_id": "CT_044",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7989398241043091,
+      "qwen2vl_hint_confidence_pct": 52.447,
+      "medvlmr1_clean_pmax": 0.9643325209617615,
+      "medvlmr1_hint_confidence_pct": 60.717
+    },
+    {
+      "sample_id": "CT_045",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9934067726135254,
+      "qwen2vl_hint_confidence_pct": 62.17,
+      "medvlmr1_clean_pmax": 0.9959905743598938,
+      "medvlmr1_hint_confidence_pct": 62.3
+    },
+    {
+      "sample_id": "CT_046",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6384500861167908,
+      "qwen2vl_hint_confidence_pct": 44.423,
+      "medvlmr1_clean_pmax": 0.7458714842796326,
+      "medvlmr1_hint_confidence_pct": 49.794
+    },
+    {
+      "sample_id": "CT_047",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9352197647094727,
+      "qwen2vl_hint_confidence_pct": 59.261,
+      "medvlmr1_clean_pmax": 0.9766369462013245,
+      "medvlmr1_hint_confidence_pct": 61.332
+    },
+    {
+      "sample_id": "CT_048",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6829342842102051,
+      "qwen2vl_hint_confidence_pct": 46.647,
+      "medvlmr1_clean_pmax": 0.927792489528656,
+      "medvlmr1_hint_confidence_pct": 58.89
+    },
+    {
+      "sample_id": "CT_050",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9969059824943542,
+      "qwen2vl_hint_confidence_pct": 62.345,
+      "medvlmr1_clean_pmax": 0.9978715181350708,
+      "medvlmr1_hint_confidence_pct": 62.394
+    },
+    {
+      "sample_id": "CT_051",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8897444009780884,
+      "qwen2vl_hint_confidence_pct": 56.987,
+      "medvlmr1_clean_pmax": 0.9450899362564087,
+      "medvlmr1_hint_confidence_pct": 59.754
+    },
+    {
+      "sample_id": "CT_052",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6324708461761475,
+      "qwen2vl_hint_confidence_pct": 44.124,
+      "medvlmr1_clean_pmax": 0.5746043920516968,
+      "medvlmr1_hint_confidence_pct": 41.23
+    },
+    {
+      "sample_id": "CT_054",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5742606520652771,
+      "qwen2vl_hint_confidence_pct": 41.213,
+      "medvlmr1_clean_pmax": 0.6813739538192749,
+      "medvlmr1_hint_confidence_pct": 46.569
+    },
+    {
+      "sample_id": "CT_055",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9876469373703003,
+      "qwen2vl_hint_confidence_pct": 61.882,
+      "medvlmr1_clean_pmax": 0.9941650032997131,
+      "medvlmr1_hint_confidence_pct": 62.208
+    },
+    {
+      "sample_id": "CT_059",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.34478846192359924,
+      "qwen2vl_hint_confidence_pct": 29.739,
+      "medvlmr1_clean_pmax": 0.5652453899383545,
+      "medvlmr1_hint_confidence_pct": 40.762
+    },
+    {
+      "sample_id": "CT_061",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9814190864562988,
+      "qwen2vl_hint_confidence_pct": 61.571,
+      "medvlmr1_clean_pmax": 0.9899343848228455,
+      "medvlmr1_hint_confidence_pct": 61.997
+    },
+    {
+      "sample_id": "CT_062",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5256467461585999,
+      "qwen2vl_hint_confidence_pct": 38.782,
+      "medvlmr1_clean_pmax": 0.629816472530365,
+      "medvlmr1_hint_confidence_pct": 43.991
+    },
+    {
+      "sample_id": "CT_063",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7261431217193604,
+      "qwen2vl_hint_confidence_pct": 48.807,
+      "medvlmr1_clean_pmax": 0.8138375878334045,
+      "medvlmr1_hint_confidence_pct": 53.192
+    },
+    {
+      "sample_id": "CT_065",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8198158740997314,
+      "qwen2vl_hint_confidence_pct": 53.491,
+      "medvlmr1_clean_pmax": 0.8974459767341614,
+      "medvlmr1_hint_confidence_pct": 57.372
+    },
+    {
+      "sample_id": "CT_066",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.46252545714378357,
+      "qwen2vl_hint_confidence_pct": 35.626,
+      "medvlmr1_clean_pmax": 0.630463182926178,
+      "medvlmr1_hint_confidence_pct": 44.023
+    },
+    {
+      "sample_id": "CT_069",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9476418495178223,
+      "qwen2vl_hint_confidence_pct": 59.882,
+      "medvlmr1_clean_pmax": 0.982453465461731,
+      "medvlmr1_hint_confidence_pct": 61.623
+    },
+    {
+      "sample_id": "CT_071",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7587555646896362,
+      "qwen2vl_hint_confidence_pct": 50.438,
+      "medvlmr1_clean_pmax": 0.920126736164093,
+      "medvlmr1_hint_confidence_pct": 58.506
+    },
+    {
+      "sample_id": "CT_072",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7409476041793823,
+      "qwen2vl_hint_confidence_pct": 49.547,
+      "medvlmr1_clean_pmax": 0.8738680481910706,
+      "medvlmr1_hint_confidence_pct": 56.193
+    },
+    {
+      "sample_id": "CT_073",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7034605145454407,
+      "qwen2vl_hint_confidence_pct": 47.673,
+      "medvlmr1_clean_pmax": 0.8830282092094421,
+      "medvlmr1_hint_confidence_pct": 56.651
+    },
+    {
+      "sample_id": "CT_074",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5972965955734253,
+      "qwen2vl_hint_confidence_pct": 42.365,
+      "medvlmr1_clean_pmax": 0.6713923215866089,
+      "medvlmr1_hint_confidence_pct": 46.07
+    },
+    {
+      "sample_id": "CT_078",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9930832386016846,
+      "qwen2vl_hint_confidence_pct": 62.154,
+      "medvlmr1_clean_pmax": 0.9967635869979858,
+      "medvlmr1_hint_confidence_pct": 62.338
+    },
+    {
+      "sample_id": "CT_079",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5338118672370911,
+      "qwen2vl_hint_confidence_pct": 39.191,
+      "medvlmr1_clean_pmax": 0.7222037315368652,
+      "medvlmr1_hint_confidence_pct": 48.61
+    },
+    {
+      "sample_id": "CT_083",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6505758166313171,
+      "qwen2vl_hint_confidence_pct": 45.029,
+      "medvlmr1_clean_pmax": 0.8822641372680664,
+      "medvlmr1_hint_confidence_pct": 56.613
+    },
+    {
+      "sample_id": "CT_084",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.29539206624031067,
+      "qwen2vl_hint_confidence_pct": 27.27,
+      "medvlmr1_clean_pmax": 0.31428200006484985,
+      "medvlmr1_hint_confidence_pct": 28.214
+    },
+    {
+      "sample_id": "CT_085",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9789280891418457,
+      "qwen2vl_hint_confidence_pct": 61.446,
+      "medvlmr1_clean_pmax": 0.9876267313957214,
+      "medvlmr1_hint_confidence_pct": 61.881
+    },
+    {
+      "sample_id": "CT_086",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9396531581878662,
+      "qwen2vl_hint_confidence_pct": 59.483,
+      "medvlmr1_clean_pmax": 0.9711911082267761,
+      "medvlmr1_hint_confidence_pct": 61.06
+    },
+    {
+      "sample_id": "CT_087",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5140406489372253,
+      "qwen2vl_hint_confidence_pct": 38.202,
+      "medvlmr1_clean_pmax": 0.5878419280052185,
+      "medvlmr1_hint_confidence_pct": 41.892
+    },
+    {
+      "sample_id": "CT_088",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9953047037124634,
+      "qwen2vl_hint_confidence_pct": 62.265,
+      "medvlmr1_clean_pmax": 0.9973239898681641,
+      "medvlmr1_hint_confidence_pct": 62.366
+    },
+    {
+      "sample_id": "CT_089",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9906236529350281,
+      "qwen2vl_hint_confidence_pct": 62.031,
+      "medvlmr1_clean_pmax": 0.9955488443374634,
+      "medvlmr1_hint_confidence_pct": 62.277
+    },
+    {
+      "sample_id": "CT_090",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9950482249259949,
+      "qwen2vl_hint_confidence_pct": 62.252,
+      "medvlmr1_clean_pmax": 0.9977185726165771,
+      "medvlmr1_hint_confidence_pct": 62.386
+    },
+    {
+      "sample_id": "CT_091",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9733509421348572,
+      "qwen2vl_hint_confidence_pct": 61.168,
+      "medvlmr1_clean_pmax": 0.9854233264923096,
+      "medvlmr1_hint_confidence_pct": 61.771
+    },
+    {
+      "sample_id": "CT_095",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.656570315361023,
+      "qwen2vl_hint_confidence_pct": 45.329,
+      "medvlmr1_clean_pmax": 0.8201155066490173,
+      "medvlmr1_hint_confidence_pct": 53.506
+    },
+    {
+      "sample_id": "CT_097",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9965329170227051,
+      "qwen2vl_hint_confidence_pct": 62.327,
+      "medvlmr1_clean_pmax": 0.9980303645133972,
+      "medvlmr1_hint_confidence_pct": 62.402
+    },
+    {
+      "sample_id": "CT_098",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4208921194076538,
+      "qwen2vl_hint_confidence_pct": 33.545,
+      "medvlmr1_clean_pmax": 0.6803513169288635,
+      "medvlmr1_hint_confidence_pct": 46.518
+    },
+    {
+      "sample_id": "CT_099",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5944816470146179,
+      "qwen2vl_hint_confidence_pct": 42.224,
+      "medvlmr1_clean_pmax": 0.7677457928657532,
+      "medvlmr1_hint_confidence_pct": 50.887
+    },
+    {
+      "sample_id": "CT_101",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5222412943840027,
+      "qwen2vl_hint_confidence_pct": 38.612,
+      "medvlmr1_clean_pmax": 0.7722395658493042,
+      "medvlmr1_hint_confidence_pct": 51.112
+    },
+    {
+      "sample_id": "CT_102",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.748638391494751,
+      "qwen2vl_hint_confidence_pct": 49.932,
+      "medvlmr1_clean_pmax": 0.6251333355903625,
+      "medvlmr1_hint_confidence_pct": 43.757
+    },
+    {
+      "sample_id": "CT_103",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7727271318435669,
+      "qwen2vl_hint_confidence_pct": 51.136,
+      "medvlmr1_clean_pmax": 0.9035542011260986,
+      "medvlmr1_hint_confidence_pct": 57.678
+    },
+    {
+      "sample_id": "CT_105",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7959347367286682,
+      "qwen2vl_hint_confidence_pct": 52.297,
+      "medvlmr1_clean_pmax": 0.906235933303833,
+      "medvlmr1_hint_confidence_pct": 57.812
+    },
+    {
+      "sample_id": "CT_111",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.683777391910553,
+      "qwen2vl_hint_confidence_pct": 46.689,
+      "medvlmr1_clean_pmax": 0.8654225468635559,
+      "medvlmr1_hint_confidence_pct": 55.771
+    },
+    {
+      "sample_id": "CT_112",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6446455121040344,
+      "qwen2vl_hint_confidence_pct": 44.732,
+      "medvlmr1_clean_pmax": 0.5790808200836182,
+      "medvlmr1_hint_confidence_pct": 41.454
+    },
+    {
+      "sample_id": "CT_116",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7244946360588074,
+      "qwen2vl_hint_confidence_pct": 48.725,
+      "medvlmr1_clean_pmax": 0.6799643635749817,
+      "medvlmr1_hint_confidence_pct": 46.498
+    },
+    {
+      "sample_id": "CT_121",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7834686040878296,
+      "qwen2vl_hint_confidence_pct": 51.673,
+      "medvlmr1_clean_pmax": 0.8975028991699219,
+      "medvlmr1_hint_confidence_pct": 57.375
+    },
+    {
+      "sample_id": "CT_123",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3833678960800171,
+      "qwen2vl_hint_confidence_pct": 31.668,
+      "medvlmr1_clean_pmax": 0.5589296221733093,
+      "medvlmr1_hint_confidence_pct": 40.446
+    },
+    {
+      "sample_id": "CT_126",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5473827719688416,
+      "qwen2vl_hint_confidence_pct": 39.869,
+      "medvlmr1_clean_pmax": 0.8137889504432678,
+      "medvlmr1_hint_confidence_pct": 53.189
+    },
+    {
+      "sample_id": "CT_131",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9510790705680847,
+      "qwen2vl_hint_confidence_pct": 60.054,
+      "medvlmr1_clean_pmax": 0.9577658176422119,
+      "medvlmr1_hint_confidence_pct": 60.388
+    },
+    {
+      "sample_id": "CT_134",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4086344540119171,
+      "qwen2vl_hint_confidence_pct": 32.932,
+      "medvlmr1_clean_pmax": 0.6684280633926392,
+      "medvlmr1_hint_confidence_pct": 45.921
+    },
+    {
+      "sample_id": "CT_135",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5346326231956482,
+      "qwen2vl_hint_confidence_pct": 39.232,
+      "medvlmr1_clean_pmax": 0.557236909866333,
+      "medvlmr1_hint_confidence_pct": 40.362
+    },
+    {
+      "sample_id": "CT_137",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5941355228424072,
+      "qwen2vl_hint_confidence_pct": 42.207,
+      "medvlmr1_clean_pmax": 0.6832000613212585,
+      "medvlmr1_hint_confidence_pct": 46.66
+    },
+    {
+      "sample_id": "CT_140",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5054450631141663,
+      "qwen2vl_hint_confidence_pct": 37.772,
+      "medvlmr1_clean_pmax": 0.7353193759918213,
+      "medvlmr1_hint_confidence_pct": 49.266
+    },
+    {
+      "sample_id": "CT_142",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8128401637077332,
+      "qwen2vl_hint_confidence_pct": 53.142,
+      "medvlmr1_clean_pmax": 0.8222076296806335,
+      "medvlmr1_hint_confidence_pct": 53.61
+    },
+    {
+      "sample_id": "CT_143",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9447728395462036,
+      "qwen2vl_hint_confidence_pct": 59.739,
+      "medvlmr1_clean_pmax": 0.973368763923645,
+      "medvlmr1_hint_confidence_pct": 61.168
+    },
+    {
+      "sample_id": "CT_144",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9823318123817444,
+      "qwen2vl_hint_confidence_pct": 61.617,
+      "medvlmr1_clean_pmax": 0.9882031083106995,
+      "medvlmr1_hint_confidence_pct": 61.91
+    },
+    {
+      "sample_id": "CT_146",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9175333976745605,
+      "qwen2vl_hint_confidence_pct": 58.377,
+      "medvlmr1_clean_pmax": 0.9727645516395569,
+      "medvlmr1_hint_confidence_pct": 61.138
+    },
+    {
+      "sample_id": "CT_149",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4978741705417633,
+      "qwen2vl_hint_confidence_pct": 37.394,
+      "medvlmr1_clean_pmax": 0.7492543458938599,
+      "medvlmr1_hint_confidence_pct": 49.963
+    },
+    {
+      "sample_id": "CT_150",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6387009620666504,
+      "qwen2vl_hint_confidence_pct": 44.435,
+      "medvlmr1_clean_pmax": 0.830952525138855,
+      "medvlmr1_hint_confidence_pct": 54.048
+    },
+    {
+      "sample_id": "CT_151",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8264005184173584,
+      "qwen2vl_hint_confidence_pct": 53.82,
+      "medvlmr1_clean_pmax": 0.9189574122428894,
+      "medvlmr1_hint_confidence_pct": 58.448
+    },
+    {
+      "sample_id": "CT_152",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3802222013473511,
+      "qwen2vl_hint_confidence_pct": 31.511,
+      "medvlmr1_clean_pmax": 0.6472148895263672,
+      "medvlmr1_hint_confidence_pct": 44.861
+    },
+    {
+      "sample_id": "CT_154",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9158284068107605,
+      "qwen2vl_hint_confidence_pct": 58.291,
+      "medvlmr1_clean_pmax": 0.9419089555740356,
+      "medvlmr1_hint_confidence_pct": 59.595
+    },
+    {
+      "sample_id": "CT_155",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.885134756565094,
+      "qwen2vl_hint_confidence_pct": 56.757,
+      "medvlmr1_clean_pmax": 0.9359067678451538,
+      "medvlmr1_hint_confidence_pct": 59.295
+    },
+    {
+      "sample_id": "CT_156",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9193487763404846,
+      "qwen2vl_hint_confidence_pct": 58.467,
+      "medvlmr1_clean_pmax": 0.9631557464599609,
+      "medvlmr1_hint_confidence_pct": 60.658
+    },
+    {
+      "sample_id": "CT_157",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6980718374252319,
+      "qwen2vl_hint_confidence_pct": 47.404,
+      "medvlmr1_clean_pmax": 0.8120898604393005,
+      "medvlmr1_hint_confidence_pct": 53.104
+    },
+    {
+      "sample_id": "CT_158",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9076944589614868,
+      "qwen2vl_hint_confidence_pct": 57.885,
+      "medvlmr1_clean_pmax": 0.9436940550804138,
+      "medvlmr1_hint_confidence_pct": 59.685
+    },
+    {
+      "sample_id": "CT_160",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7252359986305237,
+      "qwen2vl_hint_confidence_pct": 48.762,
+      "medvlmr1_clean_pmax": 0.8760426640510559,
+      "medvlmr1_hint_confidence_pct": 56.302
+    },
+    {
+      "sample_id": "CT_161",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47001132369041443,
+      "qwen2vl_hint_confidence_pct": 36.001,
+      "medvlmr1_clean_pmax": 0.5695763826370239,
+      "medvlmr1_hint_confidence_pct": 40.979
+    },
+    {
+      "sample_id": "CT_162",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.38023921847343445,
+      "qwen2vl_hint_confidence_pct": 31.512,
+      "medvlmr1_clean_pmax": 0.5326191186904907,
+      "medvlmr1_hint_confidence_pct": 39.131
+    },
+    {
+      "sample_id": "CT_163",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4415437579154968,
+      "qwen2vl_hint_confidence_pct": 34.577,
+      "medvlmr1_clean_pmax": 0.603657066822052,
+      "medvlmr1_hint_confidence_pct": 42.683
+    },
+    {
+      "sample_id": "CT_164",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.40434545278549194,
+      "qwen2vl_hint_confidence_pct": 32.717,
+      "medvlmr1_clean_pmax": 0.46550965309143066,
+      "medvlmr1_hint_confidence_pct": 35.775
+    },
+    {
+      "sample_id": "CT_165",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.973724901676178,
+      "qwen2vl_hint_confidence_pct": 61.186,
+      "medvlmr1_clean_pmax": 0.980851948261261,
+      "medvlmr1_hint_confidence_pct": 61.543
+    },
+    {
+      "sample_id": "CT_166",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.36871013045310974,
+      "qwen2vl_hint_confidence_pct": 30.936,
+      "medvlmr1_clean_pmax": 0.5561950206756592,
+      "medvlmr1_hint_confidence_pct": 40.31
+    },
+    {
+      "sample_id": "CT_169",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8029194474220276,
+      "qwen2vl_hint_confidence_pct": 52.646,
+      "medvlmr1_clean_pmax": 0.9276338815689087,
+      "medvlmr1_hint_confidence_pct": 58.882
+    },
+    {
+      "sample_id": "CT_170",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3949756324291229,
+      "qwen2vl_hint_confidence_pct": 32.249,
+      "medvlmr1_clean_pmax": 0.4086156189441681,
+      "medvlmr1_hint_confidence_pct": 32.931
+    },
+    {
+      "sample_id": "CT_171",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9643260836601257,
+      "qwen2vl_hint_confidence_pct": 60.716,
+      "medvlmr1_clean_pmax": 0.9848129153251648,
+      "medvlmr1_hint_confidence_pct": 61.741
+    },
+    {
+      "sample_id": "CT_172",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9221426248550415,
+      "qwen2vl_hint_confidence_pct": 58.607,
+      "medvlmr1_clean_pmax": 0.9531120657920837,
+      "medvlmr1_hint_confidence_pct": 60.156
+    },
+    {
+      "sample_id": "CT_173",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3278917372226715,
+      "qwen2vl_hint_confidence_pct": 28.895,
+      "medvlmr1_clean_pmax": 0.4492645263671875,
+      "medvlmr1_hint_confidence_pct": 34.963
+    },
+    {
+      "sample_id": "CT_179",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9892834424972534,
+      "qwen2vl_hint_confidence_pct": 61.964,
+      "medvlmr1_clean_pmax": 0.9949778914451599,
+      "medvlmr1_hint_confidence_pct": 62.249
+    },
+    {
+      "sample_id": "CT_180",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4114753007888794,
+      "qwen2vl_hint_confidence_pct": 33.074,
+      "medvlmr1_clean_pmax": 0.49300649762153625,
+      "medvlmr1_hint_confidence_pct": 37.15
+    },
+    {
+      "sample_id": "CT_181",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8048645257949829,
+      "qwen2vl_hint_confidence_pct": 52.743,
+      "medvlmr1_clean_pmax": 0.8597905039787292,
+      "medvlmr1_hint_confidence_pct": 55.49
+    },
+    {
+      "sample_id": "CT_182",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8102052807807922,
+      "qwen2vl_hint_confidence_pct": 53.01,
+      "medvlmr1_clean_pmax": 0.8913931846618652,
+      "medvlmr1_hint_confidence_pct": 57.07
+    },
+    {
+      "sample_id": "CT_188",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5971612930297852,
+      "qwen2vl_hint_confidence_pct": 42.358,
+      "medvlmr1_clean_pmax": 0.8339426517486572,
+      "medvlmr1_hint_confidence_pct": 54.197
+    },
+    {
+      "sample_id": "CT_189",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.43242332339286804,
+      "qwen2vl_hint_confidence_pct": 34.121,
+      "medvlmr1_clean_pmax": 0.5064964890480042,
+      "medvlmr1_hint_confidence_pct": 37.825
+    },
+    {
+      "sample_id": "CT_190",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6247326135635376,
+      "qwen2vl_hint_confidence_pct": 43.737,
+      "medvlmr1_clean_pmax": 0.6889477968215942,
+      "medvlmr1_hint_confidence_pct": 46.947
+    },
+    {
+      "sample_id": "CT_192",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6987522840499878,
+      "qwen2vl_hint_confidence_pct": 47.438,
+      "medvlmr1_clean_pmax": 0.8561563491821289,
+      "medvlmr1_hint_confidence_pct": 55.308
+    },
+    {
+      "sample_id": "CT_193",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9858324527740479,
+      "qwen2vl_hint_confidence_pct": 61.792,
+      "medvlmr1_clean_pmax": 0.9925199747085571,
+      "medvlmr1_hint_confidence_pct": 62.126
+    },
+    {
+      "sample_id": "CT_194",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8717091679573059,
+      "qwen2vl_hint_confidence_pct": 56.085,
+      "medvlmr1_clean_pmax": 0.9434224963188171,
+      "medvlmr1_hint_confidence_pct": 59.671
+    },
+    {
+      "sample_id": "CT_195",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.37709224224090576,
+      "qwen2vl_hint_confidence_pct": 31.355,
+      "medvlmr1_clean_pmax": 0.4440821409225464,
+      "medvlmr1_hint_confidence_pct": 34.704
+    },
+    {
+      "sample_id": "CT_196",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9891534447669983,
+      "qwen2vl_hint_confidence_pct": 61.958,
+      "medvlmr1_clean_pmax": 0.995023250579834,
+      "medvlmr1_hint_confidence_pct": 62.251
+    },
+    {
+      "sample_id": "CT_198",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8279999494552612,
+      "qwen2vl_hint_confidence_pct": 53.9,
+      "medvlmr1_clean_pmax": 0.8769862651824951,
+      "medvlmr1_hint_confidence_pct": 56.349
+    },
+    {
+      "sample_id": "CT_199",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9892125129699707,
+      "qwen2vl_hint_confidence_pct": 61.961,
+      "medvlmr1_clean_pmax": 0.9938706159591675,
+      "medvlmr1_hint_confidence_pct": 62.194
+    },
+    {
+      "sample_id": "CT_201",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6436780095100403,
+      "qwen2vl_hint_confidence_pct": 44.684,
+      "medvlmr1_clean_pmax": 0.48604682087898254,
+      "medvlmr1_hint_confidence_pct": 36.802
+    },
+    {
+      "sample_id": "CT_204",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4627523422241211,
+      "qwen2vl_hint_confidence_pct": 35.638,
+      "medvlmr1_clean_pmax": 0.7990530729293823,
+      "medvlmr1_hint_confidence_pct": 52.453
+    },
+    {
+      "sample_id": "CT_205",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9834734797477722,
+      "qwen2vl_hint_confidence_pct": 61.674,
+      "medvlmr1_clean_pmax": 0.9922987818717957,
+      "medvlmr1_hint_confidence_pct": 62.115
+    },
+    {
+      "sample_id": "CT_208",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47305864095687866,
+      "qwen2vl_hint_confidence_pct": 36.153,
+      "medvlmr1_clean_pmax": 0.554135262966156,
+      "medvlmr1_hint_confidence_pct": 40.207
+    },
+    {
+      "sample_id": "CT_209",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9809240102767944,
+      "qwen2vl_hint_confidence_pct": 61.546,
+      "medvlmr1_clean_pmax": 0.9934661984443665,
+      "medvlmr1_hint_confidence_pct": 62.173
+    },
+    {
+      "sample_id": "CT_211",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8177534937858582,
+      "qwen2vl_hint_confidence_pct": 53.388,
+      "medvlmr1_clean_pmax": 0.7448855638504028,
+      "medvlmr1_hint_confidence_pct": 49.744
+    },
+    {
+      "sample_id": "CT_213",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9945847392082214,
+      "qwen2vl_hint_confidence_pct": 62.229,
+      "medvlmr1_clean_pmax": 0.9970000386238098,
+      "medvlmr1_hint_confidence_pct": 62.35
+    },
+    {
+      "sample_id": "CT_214",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9684222340583801,
+      "qwen2vl_hint_confidence_pct": 60.921,
+      "medvlmr1_clean_pmax": 0.9856008887290955,
+      "medvlmr1_hint_confidence_pct": 61.78
+    },
+    {
+      "sample_id": "CT_215",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3939288258552551,
+      "qwen2vl_hint_confidence_pct": 32.196,
+      "medvlmr1_clean_pmax": 0.6222105622291565,
+      "medvlmr1_hint_confidence_pct": 43.611
+    },
+    {
+      "sample_id": "CT_220",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.535514771938324,
+      "qwen2vl_hint_confidence_pct": 39.276,
+      "medvlmr1_clean_pmax": 0.766137421131134,
+      "medvlmr1_hint_confidence_pct": 50.807
+    },
+    {
+      "sample_id": "CT_221",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8222153782844543,
+      "qwen2vl_hint_confidence_pct": 53.611,
+      "medvlmr1_clean_pmax": 0.9381862878799438,
+      "medvlmr1_hint_confidence_pct": 59.409
+    },
+    {
+      "sample_id": "CT_224",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9827405214309692,
+      "qwen2vl_hint_confidence_pct": 61.637,
+      "medvlmr1_clean_pmax": 0.9906905889511108,
+      "medvlmr1_hint_confidence_pct": 62.035
+    },
+    {
+      "sample_id": "CT_226",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7454892992973328,
+      "qwen2vl_hint_confidence_pct": 49.774,
+      "medvlmr1_clean_pmax": 0.8768715858459473,
+      "medvlmr1_hint_confidence_pct": 56.344
+    },
+    {
+      "sample_id": "CT_228",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5778375864028931,
+      "qwen2vl_hint_confidence_pct": 41.392,
+      "medvlmr1_clean_pmax": 0.6077367663383484,
+      "medvlmr1_hint_confidence_pct": 42.887
+    },
+    {
+      "sample_id": "CT_230",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4925598204135895,
+      "qwen2vl_hint_confidence_pct": 37.128,
+      "medvlmr1_clean_pmax": 0.792058527469635,
+      "medvlmr1_hint_confidence_pct": 52.103
+    },
+    {
+      "sample_id": "CT_231",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7220801115036011,
+      "qwen2vl_hint_confidence_pct": 48.604,
+      "medvlmr1_clean_pmax": 0.7382212281227112,
+      "medvlmr1_hint_confidence_pct": 49.411
+    },
+    {
+      "sample_id": "CT_232",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6845414042472839,
+      "qwen2vl_hint_confidence_pct": 46.727,
+      "medvlmr1_clean_pmax": 0.8550439476966858,
+      "medvlmr1_hint_confidence_pct": 55.252
+    },
+    {
+      "sample_id": "CT_233",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6463490724563599,
+      "qwen2vl_hint_confidence_pct": 44.817,
+      "medvlmr1_clean_pmax": 0.8022146821022034,
+      "medvlmr1_hint_confidence_pct": 52.611
+    },
+    {
+      "sample_id": "CT_234",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9931208491325378,
+      "qwen2vl_hint_confidence_pct": 62.156,
+      "medvlmr1_clean_pmax": 0.9963060617446899,
+      "medvlmr1_hint_confidence_pct": 62.315
+    },
+    {
+      "sample_id": "CT_235",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.42096269130706787,
+      "qwen2vl_hint_confidence_pct": 33.548,
+      "medvlmr1_clean_pmax": 0.5140406489372253,
+      "medvlmr1_hint_confidence_pct": 38.202
+    },
+    {
+      "sample_id": "CT_236",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5843741297721863,
+      "qwen2vl_hint_confidence_pct": 41.719,
+      "medvlmr1_clean_pmax": 0.7426310777664185,
+      "medvlmr1_hint_confidence_pct": 49.632
+    },
+    {
+      "sample_id": "CT_237",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8653767108917236,
+      "qwen2vl_hint_confidence_pct": 55.769,
+      "medvlmr1_clean_pmax": 0.9528452754020691,
+      "medvlmr1_hint_confidence_pct": 60.142
+    },
+    {
+      "sample_id": "CT_241",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6939484477043152,
+      "qwen2vl_hint_confidence_pct": 47.197,
+      "medvlmr1_clean_pmax": 0.9322370290756226,
+      "medvlmr1_hint_confidence_pct": 59.112
+    },
+    {
+      "sample_id": "CT_248",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6799323558807373,
+      "qwen2vl_hint_confidence_pct": 46.497,
+      "medvlmr1_clean_pmax": 0.7998144030570984,
+      "medvlmr1_hint_confidence_pct": 52.491
+    },
+    {
+      "sample_id": "CT_251",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.702840268611908,
+      "qwen2vl_hint_confidence_pct": 47.642,
+      "medvlmr1_clean_pmax": 0.8446566462516785,
+      "medvlmr1_hint_confidence_pct": 54.733
+    },
+    {
+      "sample_id": "CT_252",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5408022403717041,
+      "qwen2vl_hint_confidence_pct": 39.54,
+      "medvlmr1_clean_pmax": 0.6951852440834045,
+      "medvlmr1_hint_confidence_pct": 47.259
+    },
+    {
+      "sample_id": "CT_253",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7969207763671875,
+      "qwen2vl_hint_confidence_pct": 52.346,
+      "medvlmr1_clean_pmax": 0.8695741295814514,
+      "medvlmr1_hint_confidence_pct": 55.979
+    },
+    {
+      "sample_id": "CT_255",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9509243965148926,
+      "qwen2vl_hint_confidence_pct": 60.046,
+      "medvlmr1_clean_pmax": 0.9760017395019531,
+      "medvlmr1_hint_confidence_pct": 61.3
+    },
+    {
+      "sample_id": "CT_257",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9700459241867065,
+      "qwen2vl_hint_confidence_pct": 61.002,
+      "medvlmr1_clean_pmax": 0.9938387274742126,
+      "medvlmr1_hint_confidence_pct": 62.192
+    },
+    {
+      "sample_id": "CT_259",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6091268658638,
+      "qwen2vl_hint_confidence_pct": 42.956,
+      "medvlmr1_clean_pmax": 0.8494958281517029,
+      "medvlmr1_hint_confidence_pct": 54.975
+    },
+    {
+      "sample_id": "CT_261",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7195326685905457,
+      "qwen2vl_hint_confidence_pct": 48.477,
+      "medvlmr1_clean_pmax": 0.8966580033302307,
+      "medvlmr1_hint_confidence_pct": 57.333
+    },
+    {
+      "sample_id": "CT_263",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.613751232624054,
+      "qwen2vl_hint_confidence_pct": 43.188,
+      "medvlmr1_clean_pmax": 0.8527606129646301,
+      "medvlmr1_hint_confidence_pct": 55.138
+    },
+    {
+      "sample_id": "CT_265",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9646401405334473,
+      "qwen2vl_hint_confidence_pct": 60.732,
+      "medvlmr1_clean_pmax": 0.9836552739143372,
+      "medvlmr1_hint_confidence_pct": 61.683
+    },
+    {
+      "sample_id": "CT_266",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9103807806968689,
+      "qwen2vl_hint_confidence_pct": 58.019,
+      "medvlmr1_clean_pmax": 0.9881324172019958,
+      "medvlmr1_hint_confidence_pct": 61.907
+    },
+    {
+      "sample_id": "CT_267",
+      "modality": "CT",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9780753254890442,
+      "qwen2vl_hint_confidence_pct": 61.404,
+      "medvlmr1_clean_pmax": 0.988838791847229,
+      "medvlmr1_hint_confidence_pct": 61.942
+    },
+    {
+      "sample_id": "CT_268",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7213854789733887,
+      "qwen2vl_hint_confidence_pct": 48.569,
+      "medvlmr1_clean_pmax": 0.8293576836585999,
+      "medvlmr1_hint_confidence_pct": 53.968
+    },
+    {
+      "sample_id": "CT_270",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.40428435802459717,
+      "qwen2vl_hint_confidence_pct": 32.714,
+      "medvlmr1_clean_pmax": 0.6371872425079346,
+      "medvlmr1_hint_confidence_pct": 44.359
+    },
+    {
+      "sample_id": "CT_272",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8227967619895935,
+      "qwen2vl_hint_confidence_pct": 53.64,
+      "medvlmr1_clean_pmax": 0.9759760499000549,
+      "medvlmr1_hint_confidence_pct": 61.299
+    },
+    {
+      "sample_id": "CT_273",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5878419280052185,
+      "qwen2vl_hint_confidence_pct": 41.892,
+      "medvlmr1_clean_pmax": 0.6129845976829529,
+      "medvlmr1_hint_confidence_pct": 43.149
+    },
+    {
+      "sample_id": "CT_276",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5414438247680664,
+      "qwen2vl_hint_confidence_pct": 39.572,
+      "medvlmr1_clean_pmax": 0.6363949775695801,
+      "medvlmr1_hint_confidence_pct": 44.32
+    },
+    {
+      "sample_id": "CT_278",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9935805797576904,
+      "qwen2vl_hint_confidence_pct": 62.179,
+      "medvlmr1_clean_pmax": 0.9966475367546082,
+      "medvlmr1_hint_confidence_pct": 62.332
+    },
+    {
+      "sample_id": "CT_283",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7284591794013977,
+      "qwen2vl_hint_confidence_pct": 48.923,
+      "medvlmr1_clean_pmax": 0.7504643797874451,
+      "medvlmr1_hint_confidence_pct": 50.023
+    },
+    {
+      "sample_id": "CT_286",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4655096232891083,
+      "qwen2vl_hint_confidence_pct": 35.775,
+      "medvlmr1_clean_pmax": 0.6846435070037842,
+      "medvlmr1_hint_confidence_pct": 46.732
+    },
+    {
+      "sample_id": "CT_287",
+      "modality": "CT",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9926877021789551,
+      "qwen2vl_hint_confidence_pct": 62.134,
+      "medvlmr1_clean_pmax": 0.9963617920875549,
+      "medvlmr1_hint_confidence_pct": 62.318
+    },
+    {
+      "sample_id": "CT_288",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7096154689788818,
+      "qwen2vl_hint_confidence_pct": 47.981,
+      "medvlmr1_clean_pmax": 0.6580557823181152,
+      "medvlmr1_hint_confidence_pct": 45.403
+    },
+    {
+      "sample_id": "CT_289",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6438198089599609,
+      "qwen2vl_hint_confidence_pct": 44.691,
+      "medvlmr1_clean_pmax": 0.9519231915473938,
+      "medvlmr1_hint_confidence_pct": 60.096
+    },
+    {
+      "sample_id": "CT_294",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9819496273994446,
+      "qwen2vl_hint_confidence_pct": 61.597,
+      "medvlmr1_clean_pmax": 0.9902565479278564,
+      "medvlmr1_hint_confidence_pct": 62.013
+    },
+    {
+      "sample_id": "CT_296",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5776604413986206,
+      "qwen2vl_hint_confidence_pct": 41.383,
+      "medvlmr1_clean_pmax": 0.6760801672935486,
+      "medvlmr1_hint_confidence_pct": 46.304
+    },
+    {
+      "sample_id": "CT_297",
+      "modality": "CT",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8265283107757568,
+      "qwen2vl_hint_confidence_pct": 53.826,
+      "medvlmr1_clean_pmax": 0.884465217590332,
+      "medvlmr1_hint_confidence_pct": 56.723
+    },
+    {
+      "sample_id": "CT_298",
+      "modality": "CT",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7220500707626343,
+      "qwen2vl_hint_confidence_pct": 48.603,
+      "medvlmr1_clean_pmax": 0.8580011129379272,
+      "medvlmr1_hint_confidence_pct": 55.4
+    },
+    {
+      "sample_id": "MRI_000",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7824310660362244,
+      "qwen2vl_hint_confidence_pct": 51.622,
+      "medvlmr1_clean_pmax": 0.7370163798332214,
+      "medvlmr1_hint_confidence_pct": 49.351
+    },
+    {
+      "sample_id": "MRI_001",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8184807300567627,
+      "qwen2vl_hint_confidence_pct": 53.424,
+      "medvlmr1_clean_pmax": 0.963083028793335,
+      "medvlmr1_hint_confidence_pct": 60.654
+    },
+    {
+      "sample_id": "MRI_002",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9936704635620117,
+      "qwen2vl_hint_confidence_pct": 62.184,
+      "medvlmr1_clean_pmax": 0.9964814186096191,
+      "medvlmr1_hint_confidence_pct": 62.324
+    },
+    {
+      "sample_id": "MRI_005",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9386401176452637,
+      "qwen2vl_hint_confidence_pct": 59.432,
+      "medvlmr1_clean_pmax": 0.9964851140975952,
+      "medvlmr1_hint_confidence_pct": 62.324
+    },
+    {
+      "sample_id": "MRI_006",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6071451306343079,
+      "qwen2vl_hint_confidence_pct": 42.857,
+      "medvlmr1_clean_pmax": 0.9746190905570984,
+      "medvlmr1_hint_confidence_pct": 61.231
+    },
+    {
+      "sample_id": "MRI_007",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9904692769050598,
+      "qwen2vl_hint_confidence_pct": 62.023,
+      "medvlmr1_clean_pmax": 0.995763897895813,
+      "medvlmr1_hint_confidence_pct": 62.288
+    },
+    {
+      "sample_id": "MRI_008",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5987341403961182,
+      "qwen2vl_hint_confidence_pct": 42.437,
+      "medvlmr1_clean_pmax": 0.9448477625846863,
+      "medvlmr1_hint_confidence_pct": 59.742
+    },
+    {
+      "sample_id": "MRI_009",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6667771339416504,
+      "qwen2vl_hint_confidence_pct": 45.839,
+      "medvlmr1_clean_pmax": 0.9897508025169373,
+      "medvlmr1_hint_confidence_pct": 61.988
+    },
+    {
+      "sample_id": "MRI_010",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9402168393135071,
+      "qwen2vl_hint_confidence_pct": 59.511,
+      "medvlmr1_clean_pmax": 0.9966279864311218,
+      "medvlmr1_hint_confidence_pct": 62.331
+    },
+    {
+      "sample_id": "MRI_011",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7724797129631042,
+      "qwen2vl_hint_confidence_pct": 51.124,
+      "medvlmr1_clean_pmax": 0.984421968460083,
+      "medvlmr1_hint_confidence_pct": 61.721
+    },
+    {
+      "sample_id": "MRI_012",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.40428435802459717,
+      "qwen2vl_hint_confidence_pct": 32.714,
+      "medvlmr1_clean_pmax": 0.9890790581703186,
+      "medvlmr1_hint_confidence_pct": 61.954
+    },
+    {
+      "sample_id": "MRI_013",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5028667449951172,
+      "qwen2vl_hint_confidence_pct": 37.643,
+      "medvlmr1_clean_pmax": 0.6315497159957886,
+      "medvlmr1_hint_confidence_pct": 44.077
+    },
+    {
+      "sample_id": "MRI_014",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9606354832649231,
+      "qwen2vl_hint_confidence_pct": 60.532,
+      "medvlmr1_clean_pmax": 0.9841886758804321,
+      "medvlmr1_hint_confidence_pct": 61.709
+    },
+    {
+      "sample_id": "MRI_015",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5095721483230591,
+      "qwen2vl_hint_confidence_pct": 37.979,
+      "medvlmr1_clean_pmax": 0.9524190425872803,
+      "medvlmr1_hint_confidence_pct": 60.121
+    },
+    {
+      "sample_id": "MRI_016",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9716710448265076,
+      "qwen2vl_hint_confidence_pct": 61.084,
+      "medvlmr1_clean_pmax": 0.9979617595672607,
+      "medvlmr1_hint_confidence_pct": 62.398
+    },
+    {
+      "sample_id": "MRI_017",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6525425910949707,
+      "qwen2vl_hint_confidence_pct": 45.127,
+      "medvlmr1_clean_pmax": 0.9662427306175232,
+      "medvlmr1_hint_confidence_pct": 60.812
+    },
+    {
+      "sample_id": "MRI_018",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3632935881614685,
+      "qwen2vl_hint_confidence_pct": 30.665,
+      "medvlmr1_clean_pmax": 0.9590912461280823,
+      "medvlmr1_hint_confidence_pct": 60.455
+    },
+    {
+      "sample_id": "MRI_019",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5279257297515869,
+      "qwen2vl_hint_confidence_pct": 38.896,
+      "medvlmr1_clean_pmax": 0.9575632214546204,
+      "medvlmr1_hint_confidence_pct": 60.378
+    },
+    {
+      "sample_id": "MRI_021",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8956868648529053,
+      "qwen2vl_hint_confidence_pct": 57.284,
+      "medvlmr1_clean_pmax": 0.9043371677398682,
+      "medvlmr1_hint_confidence_pct": 57.717
+    },
+    {
+      "sample_id": "MRI_022",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.34565770626068115,
+      "qwen2vl_hint_confidence_pct": 29.783,
+      "medvlmr1_clean_pmax": 0.9780068397521973,
+      "medvlmr1_hint_confidence_pct": 61.4
+    },
+    {
+      "sample_id": "MRI_023",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9623619318008423,
+      "qwen2vl_hint_confidence_pct": 60.618,
+      "medvlmr1_clean_pmax": 0.9807515144348145,
+      "medvlmr1_hint_confidence_pct": 61.538
+    },
+    {
+      "sample_id": "MRI_024",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9390208125114441,
+      "qwen2vl_hint_confidence_pct": 59.451,
+      "medvlmr1_clean_pmax": 0.9914675951004028,
+      "medvlmr1_hint_confidence_pct": 62.073
+    },
+    {
+      "sample_id": "MRI_026",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4406479001045227,
+      "qwen2vl_hint_confidence_pct": 34.532,
+      "medvlmr1_clean_pmax": 0.9560863375663757,
+      "medvlmr1_hint_confidence_pct": 60.304
+    },
+    {
+      "sample_id": "MRI_027",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5365409255027771,
+      "qwen2vl_hint_confidence_pct": 39.327,
+      "medvlmr1_clean_pmax": 0.9475250840187073,
+      "medvlmr1_hint_confidence_pct": 59.876
+    },
+    {
+      "sample_id": "MRI_028",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8388534784317017,
+      "qwen2vl_hint_confidence_pct": 54.443,
+      "medvlmr1_clean_pmax": 0.9709011316299438,
+      "medvlmr1_hint_confidence_pct": 61.045
+    },
+    {
+      "sample_id": "MRI_029",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6801518797874451,
+      "qwen2vl_hint_confidence_pct": 46.508,
+      "medvlmr1_clean_pmax": 0.9890825748443604,
+      "medvlmr1_hint_confidence_pct": 61.954
+    },
+    {
+      "sample_id": "MRI_031",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6500610113143921,
+      "qwen2vl_hint_confidence_pct": 45.003,
+      "medvlmr1_clean_pmax": 0.9885179996490479,
+      "medvlmr1_hint_confidence_pct": 61.926
+    },
+    {
+      "sample_id": "MRI_032",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5220127701759338,
+      "qwen2vl_hint_confidence_pct": 38.601,
+      "medvlmr1_clean_pmax": 0.9632119536399841,
+      "medvlmr1_hint_confidence_pct": 60.661
+    },
+    {
+      "sample_id": "MRI_033",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9929218888282776,
+      "qwen2vl_hint_confidence_pct": 62.146,
+      "medvlmr1_clean_pmax": 0.9960222840309143,
+      "medvlmr1_hint_confidence_pct": 62.301
+    },
+    {
+      "sample_id": "MRI_038",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5037210583686829,
+      "qwen2vl_hint_confidence_pct": 37.686,
+      "medvlmr1_clean_pmax": 0.6658977270126343,
+      "medvlmr1_hint_confidence_pct": 45.795
+    },
+    {
+      "sample_id": "MRI_039",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7699977159500122,
+      "qwen2vl_hint_confidence_pct": 51.0,
+      "medvlmr1_clean_pmax": 0.9394689798355103,
+      "medvlmr1_hint_confidence_pct": 59.473
+    },
+    {
+      "sample_id": "MRI_040",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9816688895225525,
+      "qwen2vl_hint_confidence_pct": 61.583,
+      "medvlmr1_clean_pmax": 0.9959542751312256,
+      "medvlmr1_hint_confidence_pct": 62.298
+    },
+    {
+      "sample_id": "MRI_042",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4133149981498718,
+      "qwen2vl_hint_confidence_pct": 33.166,
+      "medvlmr1_clean_pmax": 0.8070846796035767,
+      "medvlmr1_hint_confidence_pct": 52.854
+    },
+    {
+      "sample_id": "MRI_043",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9794975519180298,
+      "qwen2vl_hint_confidence_pct": 61.475,
+      "medvlmr1_clean_pmax": 0.9923576712608337,
+      "medvlmr1_hint_confidence_pct": 62.118
+    },
+    {
+      "sample_id": "MRI_044",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5110800266265869,
+      "qwen2vl_hint_confidence_pct": 38.054,
+      "medvlmr1_clean_pmax": 0.9941967725753784,
+      "medvlmr1_hint_confidence_pct": 62.21
+    },
+    {
+      "sample_id": "MRI_045",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.49562203884124756,
+      "qwen2vl_hint_confidence_pct": 37.281,
+      "medvlmr1_clean_pmax": 0.9874805808067322,
+      "medvlmr1_hint_confidence_pct": 61.874
+    },
+    {
+      "sample_id": "MRI_048",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.745801568031311,
+      "qwen2vl_hint_confidence_pct": 49.79,
+      "medvlmr1_clean_pmax": 0.5727180242538452,
+      "medvlmr1_hint_confidence_pct": 41.136
+    },
+    {
+      "sample_id": "MRI_049",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9831939935684204,
+      "qwen2vl_hint_confidence_pct": 61.66,
+      "medvlmr1_clean_pmax": 0.9914358258247375,
+      "medvlmr1_hint_confidence_pct": 62.072
+    },
+    {
+      "sample_id": "MRI_050",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6079975366592407,
+      "qwen2vl_hint_confidence_pct": 42.9,
+      "medvlmr1_clean_pmax": 0.974937379360199,
+      "medvlmr1_hint_confidence_pct": 61.247
+    },
+    {
+      "sample_id": "MRI_054",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9751038551330566,
+      "qwen2vl_hint_confidence_pct": 61.255,
+      "medvlmr1_clean_pmax": 0.9893331527709961,
+      "medvlmr1_hint_confidence_pct": 61.967
+    },
+    {
+      "sample_id": "MRI_056",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9152483344078064,
+      "qwen2vl_hint_confidence_pct": 58.262,
+      "medvlmr1_clean_pmax": 0.9552263021469116,
+      "medvlmr1_hint_confidence_pct": 60.261
+    },
+    {
+      "sample_id": "MRI_057",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5739476084709167,
+      "qwen2vl_hint_confidence_pct": 41.197,
+      "medvlmr1_clean_pmax": 0.8384072184562683,
+      "medvlmr1_hint_confidence_pct": 54.42
+    },
+    {
+      "sample_id": "MRI_059",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9151952266693115,
+      "qwen2vl_hint_confidence_pct": 58.26,
+      "medvlmr1_clean_pmax": 0.9939741492271423,
+      "medvlmr1_hint_confidence_pct": 62.199
+    },
+    {
+      "sample_id": "MRI_060",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4070778787136078,
+      "qwen2vl_hint_confidence_pct": 32.854,
+      "medvlmr1_clean_pmax": 0.9690538644790649,
+      "medvlmr1_hint_confidence_pct": 60.953
+    },
+    {
+      "sample_id": "MRI_061",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5663881897926331,
+      "qwen2vl_hint_confidence_pct": 40.819,
+      "medvlmr1_clean_pmax": 0.9888910055160522,
+      "medvlmr1_hint_confidence_pct": 61.945
+    },
+    {
+      "sample_id": "MRI_062",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9728710651397705,
+      "qwen2vl_hint_confidence_pct": 61.144,
+      "medvlmr1_clean_pmax": 0.9917203187942505,
+      "medvlmr1_hint_confidence_pct": 62.086
+    },
+    {
+      "sample_id": "MRI_063",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9931305050849915,
+      "qwen2vl_hint_confidence_pct": 62.157,
+      "medvlmr1_clean_pmax": 0.9967917799949646,
+      "medvlmr1_hint_confidence_pct": 62.34
+    },
+    {
+      "sample_id": "MRI_064",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5915592908859253,
+      "qwen2vl_hint_confidence_pct": 42.078,
+      "medvlmr1_clean_pmax": 0.8414874076843262,
+      "medvlmr1_hint_confidence_pct": 54.574
+    },
+    {
+      "sample_id": "MRI_065",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4895760715007782,
+      "qwen2vl_hint_confidence_pct": 36.979,
+      "medvlmr1_clean_pmax": 0.9377970695495605,
+      "medvlmr1_hint_confidence_pct": 59.39
+    },
+    {
+      "sample_id": "MRI_066",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4828011393547058,
+      "qwen2vl_hint_confidence_pct": 36.64,
+      "medvlmr1_clean_pmax": 0.7497020959854126,
+      "medvlmr1_hint_confidence_pct": 49.985
+    },
+    {
+      "sample_id": "MRI_067",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3847353458404541,
+      "qwen2vl_hint_confidence_pct": 31.737,
+      "medvlmr1_clean_pmax": 0.7742425799369812,
+      "medvlmr1_hint_confidence_pct": 51.212
+    },
+    {
+      "sample_id": "MRI_068",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9769456386566162,
+      "qwen2vl_hint_confidence_pct": 61.347,
+      "medvlmr1_clean_pmax": 0.9968323111534119,
+      "medvlmr1_hint_confidence_pct": 62.342
+    },
+    {
+      "sample_id": "MRI_069",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5486567616462708,
+      "qwen2vl_hint_confidence_pct": 39.933,
+      "medvlmr1_clean_pmax": 0.9883205890655518,
+      "medvlmr1_hint_confidence_pct": 61.916
+    },
+    {
+      "sample_id": "MRI_071",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9436562657356262,
+      "qwen2vl_hint_confidence_pct": 59.683,
+      "medvlmr1_clean_pmax": 0.9866906404495239,
+      "medvlmr1_hint_confidence_pct": 61.835
+    },
+    {
+      "sample_id": "MRI_072",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7445418834686279,
+      "qwen2vl_hint_confidence_pct": 49.727,
+      "medvlmr1_clean_pmax": 0.9539145231246948,
+      "medvlmr1_hint_confidence_pct": 60.196
+    },
+    {
+      "sample_id": "MRI_076",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5635018944740295,
+      "qwen2vl_hint_confidence_pct": 40.675,
+      "medvlmr1_clean_pmax": 0.7999376058578491,
+      "medvlmr1_hint_confidence_pct": 52.497
+    },
+    {
+      "sample_id": "MRI_079",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6237889528274536,
+      "qwen2vl_hint_confidence_pct": 43.689,
+      "medvlmr1_clean_pmax": 0.9968035221099854,
+      "medvlmr1_hint_confidence_pct": 62.34
+    },
+    {
+      "sample_id": "MRI_080",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9831026196479797,
+      "qwen2vl_hint_confidence_pct": 61.655,
+      "medvlmr1_clean_pmax": 0.9968633651733398,
+      "medvlmr1_hint_confidence_pct": 62.343
+    },
+    {
+      "sample_id": "MRI_081",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7130277156829834,
+      "qwen2vl_hint_confidence_pct": 48.151,
+      "medvlmr1_clean_pmax": 0.9666408896446228,
+      "medvlmr1_hint_confidence_pct": 60.832
+    },
+    {
+      "sample_id": "MRI_082",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4064580202102661,
+      "qwen2vl_hint_confidence_pct": 32.823,
+      "medvlmr1_clean_pmax": 0.9928885102272034,
+      "medvlmr1_hint_confidence_pct": 62.144
+    },
+    {
+      "sample_id": "MRI_083",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5292563438415527,
+      "qwen2vl_hint_confidence_pct": 38.963,
+      "medvlmr1_clean_pmax": 0.9425139427185059,
+      "medvlmr1_hint_confidence_pct": 59.626
+    },
+    {
+      "sample_id": "MRI_085",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.49402302503585815,
+      "qwen2vl_hint_confidence_pct": 37.201,
+      "medvlmr1_clean_pmax": 0.9907811284065247,
+      "medvlmr1_hint_confidence_pct": 62.039
+    },
+    {
+      "sample_id": "MRI_087",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5664296746253967,
+      "qwen2vl_hint_confidence_pct": 40.821,
+      "medvlmr1_clean_pmax": 0.9842445254325867,
+      "medvlmr1_hint_confidence_pct": 61.712
+    },
+    {
+      "sample_id": "MRI_091",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.46067965030670166,
+      "qwen2vl_hint_confidence_pct": 35.534,
+      "medvlmr1_clean_pmax": 0.989607036113739,
+      "medvlmr1_hint_confidence_pct": 61.98
+    },
+    {
+      "sample_id": "MRI_093",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47030699253082275,
+      "qwen2vl_hint_confidence_pct": 36.015,
+      "medvlmr1_clean_pmax": 0.9904357194900513,
+      "medvlmr1_hint_confidence_pct": 62.022
+    },
+    {
+      "sample_id": "MRI_094",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4899701774120331,
+      "qwen2vl_hint_confidence_pct": 36.999,
+      "medvlmr1_clean_pmax": 0.9874152541160583,
+      "medvlmr1_hint_confidence_pct": 61.871
+    },
+    {
+      "sample_id": "MRI_095",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9928860068321228,
+      "qwen2vl_hint_confidence_pct": 62.144,
+      "medvlmr1_clean_pmax": 0.9960732460021973,
+      "medvlmr1_hint_confidence_pct": 62.304
+    },
+    {
+      "sample_id": "MRI_096",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.44296666979789734,
+      "qwen2vl_hint_confidence_pct": 34.648,
+      "medvlmr1_clean_pmax": 0.6137189865112305,
+      "medvlmr1_hint_confidence_pct": 43.186
+    },
+    {
+      "sample_id": "MRI_098",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8924962282180786,
+      "qwen2vl_hint_confidence_pct": 57.125,
+      "medvlmr1_clean_pmax": 0.995998740196228,
+      "medvlmr1_hint_confidence_pct": 62.3
+    },
+    {
+      "sample_id": "MRI_099",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6976892948150635,
+      "qwen2vl_hint_confidence_pct": 47.384,
+      "medvlmr1_clean_pmax": 0.9911360740661621,
+      "medvlmr1_hint_confidence_pct": 62.057
+    },
+    {
+      "sample_id": "MRI_102",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9702790975570679,
+      "qwen2vl_hint_confidence_pct": 61.014,
+      "medvlmr1_clean_pmax": 0.9871765971183777,
+      "medvlmr1_hint_confidence_pct": 61.859
+    },
+    {
+      "sample_id": "MRI_103",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7848511338233948,
+      "qwen2vl_hint_confidence_pct": 51.743,
+      "medvlmr1_clean_pmax": 0.8828496932983398,
+      "medvlmr1_hint_confidence_pct": 56.642
+    },
+    {
+      "sample_id": "MRI_104",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4687024652957916,
+      "qwen2vl_hint_confidence_pct": 35.935,
+      "medvlmr1_clean_pmax": 0.9884716272354126,
+      "medvlmr1_hint_confidence_pct": 61.924
+    },
+    {
+      "sample_id": "MRI_105",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5208125114440918,
+      "qwen2vl_hint_confidence_pct": 38.541,
+      "medvlmr1_clean_pmax": 0.9818607568740845,
+      "medvlmr1_hint_confidence_pct": 61.593
+    },
+    {
+      "sample_id": "MRI_109",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4332740306854248,
+      "qwen2vl_hint_confidence_pct": 34.164,
+      "medvlmr1_clean_pmax": 0.8484333157539368,
+      "medvlmr1_hint_confidence_pct": 54.922
+    },
+    {
+      "sample_id": "MRI_111",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9873285293579102,
+      "qwen2vl_hint_confidence_pct": 61.866,
+      "medvlmr1_clean_pmax": 0.9951245188713074,
+      "medvlmr1_hint_confidence_pct": 62.256
+    },
+    {
+      "sample_id": "MRI_112",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9728872179985046,
+      "qwen2vl_hint_confidence_pct": 61.144,
+      "medvlmr1_clean_pmax": 0.9915884137153625,
+      "medvlmr1_hint_confidence_pct": 62.079
+    },
+    {
+      "sample_id": "MRI_113",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5694886445999146,
+      "qwen2vl_hint_confidence_pct": 40.974,
+      "medvlmr1_clean_pmax": 0.9867955446243286,
+      "medvlmr1_hint_confidence_pct": 61.84
+    },
+    {
+      "sample_id": "MRI_114",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.81314617395401,
+      "qwen2vl_hint_confidence_pct": 53.157,
+      "medvlmr1_clean_pmax": 0.9752990007400513,
+      "medvlmr1_hint_confidence_pct": 61.265
+    },
+    {
+      "sample_id": "MRI_116",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8848182559013367,
+      "qwen2vl_hint_confidence_pct": 56.741,
+      "medvlmr1_clean_pmax": 0.9942120909690857,
+      "medvlmr1_hint_confidence_pct": 62.211
+    },
+    {
+      "sample_id": "MRI_117",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9854214191436768,
+      "qwen2vl_hint_confidence_pct": 61.771,
+      "medvlmr1_clean_pmax": 0.9975717663764954,
+      "medvlmr1_hint_confidence_pct": 62.379
+    },
+    {
+      "sample_id": "MRI_118",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9091652631759644,
+      "qwen2vl_hint_confidence_pct": 57.958,
+      "medvlmr1_clean_pmax": 0.9807019829750061,
+      "medvlmr1_hint_confidence_pct": 61.535
+    },
+    {
+      "sample_id": "MRI_121",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4182952344417572,
+      "qwen2vl_hint_confidence_pct": 33.415,
+      "medvlmr1_clean_pmax": 0.8375486731529236,
+      "medvlmr1_hint_confidence_pct": 54.377
+    },
+    {
+      "sample_id": "MRI_123",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.41872960329055786,
+      "qwen2vl_hint_confidence_pct": 33.436,
+      "medvlmr1_clean_pmax": 0.9624038338661194,
+      "medvlmr1_hint_confidence_pct": 60.62
+    },
+    {
+      "sample_id": "MRI_124",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9818629622459412,
+      "qwen2vl_hint_confidence_pct": 61.593,
+      "medvlmr1_clean_pmax": 0.9940065145492554,
+      "medvlmr1_hint_confidence_pct": 62.2
+    },
+    {
+      "sample_id": "MRI_127",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4939335584640503,
+      "qwen2vl_hint_confidence_pct": 37.197,
+      "medvlmr1_clean_pmax": 0.9757559299468994,
+      "medvlmr1_hint_confidence_pct": 61.288
+    },
+    {
+      "sample_id": "MRI_128",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.39564236998558044,
+      "qwen2vl_hint_confidence_pct": 32.282,
+      "medvlmr1_clean_pmax": 0.9391098618507385,
+      "medvlmr1_hint_confidence_pct": 59.455
+    },
+    {
+      "sample_id": "MRI_129",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5469058156013489,
+      "qwen2vl_hint_confidence_pct": 39.845,
+      "medvlmr1_clean_pmax": 0.7779545783996582,
+      "medvlmr1_hint_confidence_pct": 51.398
+    },
+    {
+      "sample_id": "MRI_130",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6274251341819763,
+      "qwen2vl_hint_confidence_pct": 43.871,
+      "medvlmr1_clean_pmax": 0.9550484418869019,
+      "medvlmr1_hint_confidence_pct": 60.252
+    },
+    {
+      "sample_id": "MRI_133",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6102956533432007,
+      "qwen2vl_hint_confidence_pct": 43.015,
+      "medvlmr1_clean_pmax": 0.9665547609329224,
+      "medvlmr1_hint_confidence_pct": 60.828
+    },
+    {
+      "sample_id": "MRI_134",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4528728425502777,
+      "qwen2vl_hint_confidence_pct": 35.144,
+      "medvlmr1_clean_pmax": 0.9675851464271545,
+      "medvlmr1_hint_confidence_pct": 60.879
+    },
+    {
+      "sample_id": "MRI_135",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7927140593528748,
+      "qwen2vl_hint_confidence_pct": 52.136,
+      "medvlmr1_clean_pmax": 0.9972805976867676,
+      "medvlmr1_hint_confidence_pct": 62.364
+    },
+    {
+      "sample_id": "MRI_136",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6072888374328613,
+      "qwen2vl_hint_confidence_pct": 42.864,
+      "medvlmr1_clean_pmax": 0.9336186051368713,
+      "medvlmr1_hint_confidence_pct": 59.181
+    },
+    {
+      "sample_id": "MRI_137",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.39008525013923645,
+      "qwen2vl_hint_confidence_pct": 32.004,
+      "medvlmr1_clean_pmax": 0.9245185256004333,
+      "medvlmr1_hint_confidence_pct": 58.726
+    },
+    {
+      "sample_id": "MRI_138",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7061101794242859,
+      "qwen2vl_hint_confidence_pct": 47.806,
+      "medvlmr1_clean_pmax": 0.9924989342689514,
+      "medvlmr1_hint_confidence_pct": 62.125
+    },
+    {
+      "sample_id": "MRI_139",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5231901407241821,
+      "qwen2vl_hint_confidence_pct": 38.66,
+      "medvlmr1_clean_pmax": 0.7719454765319824,
+      "medvlmr1_hint_confidence_pct": 51.097
+    },
+    {
+      "sample_id": "MRI_140",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9783387184143066,
+      "qwen2vl_hint_confidence_pct": 61.417,
+      "medvlmr1_clean_pmax": 0.9950120449066162,
+      "medvlmr1_hint_confidence_pct": 62.251
+    },
+    {
+      "sample_id": "MRI_142",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9978629946708679,
+      "qwen2vl_hint_confidence_pct": 62.393,
+      "medvlmr1_clean_pmax": 0.9985806941986084,
+      "medvlmr1_hint_confidence_pct": 62.429
+    },
+    {
+      "sample_id": "MRI_143",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9954865574836731,
+      "qwen2vl_hint_confidence_pct": 62.274,
+      "medvlmr1_clean_pmax": 0.9974724650382996,
+      "medvlmr1_hint_confidence_pct": 62.374
+    },
+    {
+      "sample_id": "MRI_144",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6871317625045776,
+      "qwen2vl_hint_confidence_pct": 46.857,
+      "medvlmr1_clean_pmax": 0.9887396097183228,
+      "medvlmr1_hint_confidence_pct": 61.937
+    },
+    {
+      "sample_id": "MRI_145",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4762870669364929,
+      "qwen2vl_hint_confidence_pct": 36.314,
+      "medvlmr1_clean_pmax": 0.9751362800598145,
+      "medvlmr1_hint_confidence_pct": 61.257
+    },
+    {
+      "sample_id": "MRI_147",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6965836882591248,
+      "qwen2vl_hint_confidence_pct": 47.329,
+      "medvlmr1_clean_pmax": 0.9927454590797424,
+      "medvlmr1_hint_confidence_pct": 62.137
+    },
+    {
+      "sample_id": "MRI_148",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7595464587211609,
+      "qwen2vl_hint_confidence_pct": 50.477,
+      "medvlmr1_clean_pmax": 0.9673868417739868,
+      "medvlmr1_hint_confidence_pct": 60.869
+    },
+    {
+      "sample_id": "MRI_150",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.45352235436439514,
+      "qwen2vl_hint_confidence_pct": 35.176,
+      "medvlmr1_clean_pmax": 0.9741765260696411,
+      "medvlmr1_hint_confidence_pct": 61.209
+    },
+    {
+      "sample_id": "MRI_151",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7885726690292358,
+      "qwen2vl_hint_confidence_pct": 51.929,
+      "medvlmr1_clean_pmax": 0.8694592714309692,
+      "medvlmr1_hint_confidence_pct": 55.973
+    },
+    {
+      "sample_id": "MRI_153",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5464207530021667,
+      "qwen2vl_hint_confidence_pct": 39.821,
+      "medvlmr1_clean_pmax": 0.9425793290138245,
+      "medvlmr1_hint_confidence_pct": 59.629
+    },
+    {
+      "sample_id": "MRI_155",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8574157953262329,
+      "qwen2vl_hint_confidence_pct": 55.371,
+      "medvlmr1_clean_pmax": 0.9949617385864258,
+      "medvlmr1_hint_confidence_pct": 62.248
+    },
+    {
+      "sample_id": "MRI_156",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5781207084655762,
+      "qwen2vl_hint_confidence_pct": 41.406,
+      "medvlmr1_clean_pmax": 0.7863275408744812,
+      "medvlmr1_hint_confidence_pct": 51.816
+    },
+    {
+      "sample_id": "MRI_161",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9458708763122559,
+      "qwen2vl_hint_confidence_pct": 59.794,
+      "medvlmr1_clean_pmax": 0.9588126540184021,
+      "medvlmr1_hint_confidence_pct": 60.441
+    },
+    {
+      "sample_id": "MRI_162",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.45253559947013855,
+      "qwen2vl_hint_confidence_pct": 35.127,
+      "medvlmr1_clean_pmax": 0.947302520275116,
+      "medvlmr1_hint_confidence_pct": 59.865
+    },
+    {
+      "sample_id": "MRI_163",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9459538459777832,
+      "qwen2vl_hint_confidence_pct": 59.798,
+      "medvlmr1_clean_pmax": 0.9865357279777527,
+      "medvlmr1_hint_confidence_pct": 61.827
+    },
+    {
+      "sample_id": "MRI_164",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.675204336643219,
+      "qwen2vl_hint_confidence_pct": 46.26,
+      "medvlmr1_clean_pmax": 0.9961198568344116,
+      "medvlmr1_hint_confidence_pct": 62.306
+    },
+    {
+      "sample_id": "MRI_165",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9483695030212402,
+      "qwen2vl_hint_confidence_pct": 59.918,
+      "medvlmr1_clean_pmax": 0.9925277233123779,
+      "medvlmr1_hint_confidence_pct": 62.126
+    },
+    {
+      "sample_id": "MRI_167",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9024607539176941,
+      "qwen2vl_hint_confidence_pct": 57.623,
+      "medvlmr1_clean_pmax": 0.9828973412513733,
+      "medvlmr1_hint_confidence_pct": 61.645
+    },
+    {
+      "sample_id": "MRI_168",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7963047623634338,
+      "qwen2vl_hint_confidence_pct": 52.315,
+      "medvlmr1_clean_pmax": 0.9571006298065186,
+      "medvlmr1_hint_confidence_pct": 60.355
+    },
+    {
+      "sample_id": "MRI_169",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9827405214309692,
+      "qwen2vl_hint_confidence_pct": 61.637,
+      "medvlmr1_clean_pmax": 0.9952619075775146,
+      "medvlmr1_hint_confidence_pct": 62.263
+    },
+    {
+      "sample_id": "MRI_171",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.932809054851532,
+      "qwen2vl_hint_confidence_pct": 59.14,
+      "medvlmr1_clean_pmax": 0.9721599817276001,
+      "medvlmr1_hint_confidence_pct": 61.108
+    },
+    {
+      "sample_id": "MRI_172",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.40553128719329834,
+      "qwen2vl_hint_confidence_pct": 32.777,
+      "medvlmr1_clean_pmax": 0.9850636720657349,
+      "medvlmr1_hint_confidence_pct": 61.753
+    },
+    {
+      "sample_id": "MRI_173",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9096096158027649,
+      "qwen2vl_hint_confidence_pct": 57.98,
+      "medvlmr1_clean_pmax": 0.9806061387062073,
+      "medvlmr1_hint_confidence_pct": 61.53
+    },
+    {
+      "sample_id": "MRI_174",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.683777391910553,
+      "qwen2vl_hint_confidence_pct": 46.689,
+      "medvlmr1_clean_pmax": 0.9946343898773193,
+      "medvlmr1_hint_confidence_pct": 62.232
+    },
+    {
+      "sample_id": "MRI_175",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8208619952201843,
+      "qwen2vl_hint_confidence_pct": 53.543,
+      "medvlmr1_clean_pmax": 0.9935805797576904,
+      "medvlmr1_hint_confidence_pct": 62.179
+    },
+    {
+      "sample_id": "MRI_177",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.34031471610069275,
+      "qwen2vl_hint_confidence_pct": 29.516,
+      "medvlmr1_clean_pmax": 0.43363431096076965,
+      "medvlmr1_hint_confidence_pct": 34.182
+    },
+    {
+      "sample_id": "MRI_178",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9623664021492004,
+      "qwen2vl_hint_confidence_pct": 60.618,
+      "medvlmr1_clean_pmax": 0.9952685236930847,
+      "medvlmr1_hint_confidence_pct": 62.263
+    },
+    {
+      "sample_id": "MRI_179",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9933998584747314,
+      "qwen2vl_hint_confidence_pct": 62.17,
+      "medvlmr1_clean_pmax": 0.9968003034591675,
+      "medvlmr1_hint_confidence_pct": 62.34
+    },
+    {
+      "sample_id": "MRI_180",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9671188592910767,
+      "qwen2vl_hint_confidence_pct": 60.856,
+      "medvlmr1_clean_pmax": 0.9975791573524475,
+      "medvlmr1_hint_confidence_pct": 62.379
+    },
+    {
+      "sample_id": "MRI_182",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.944234311580658,
+      "qwen2vl_hint_confidence_pct": 59.712,
+      "medvlmr1_clean_pmax": 0.9870961904525757,
+      "medvlmr1_hint_confidence_pct": 61.855
+    },
+    {
+      "sample_id": "MRI_183",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9858860969543457,
+      "qwen2vl_hint_confidence_pct": 61.794,
+      "medvlmr1_clean_pmax": 0.9979198575019836,
+      "medvlmr1_hint_confidence_pct": 62.396
+    },
+    {
+      "sample_id": "MRI_184",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9440829157829285,
+      "qwen2vl_hint_confidence_pct": 59.704,
+      "medvlmr1_clean_pmax": 0.9772786498069763,
+      "medvlmr1_hint_confidence_pct": 61.364
+    },
+    {
+      "sample_id": "MRI_185",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9428402185440063,
+      "qwen2vl_hint_confidence_pct": 59.642,
+      "medvlmr1_clean_pmax": 0.9843754172325134,
+      "medvlmr1_hint_confidence_pct": 61.719
+    },
+    {
+      "sample_id": "MRI_186",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6450534462928772,
+      "qwen2vl_hint_confidence_pct": 44.753,
+      "medvlmr1_clean_pmax": 0.9878258109092712,
+      "medvlmr1_hint_confidence_pct": 61.891
+    },
+    {
+      "sample_id": "MRI_187",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9552380442619324,
+      "qwen2vl_hint_confidence_pct": 60.262,
+      "medvlmr1_clean_pmax": 0.9935606718063354,
+      "medvlmr1_hint_confidence_pct": 62.178
+    },
+    {
+      "sample_id": "MRI_188",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9793805480003357,
+      "qwen2vl_hint_confidence_pct": 61.469,
+      "medvlmr1_clean_pmax": 0.9971593618392944,
+      "medvlmr1_hint_confidence_pct": 62.358
+    },
+    {
+      "sample_id": "MRI_190",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9708147048950195,
+      "qwen2vl_hint_confidence_pct": 61.041,
+      "medvlmr1_clean_pmax": 0.9970412850379944,
+      "medvlmr1_hint_confidence_pct": 62.352
+    },
+    {
+      "sample_id": "MRI_191",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5172863006591797,
+      "qwen2vl_hint_confidence_pct": 38.364,
+      "medvlmr1_clean_pmax": 0.8022147417068481,
+      "medvlmr1_hint_confidence_pct": 52.611
+    },
+    {
+      "sample_id": "MRI_193",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9661405682563782,
+      "qwen2vl_hint_confidence_pct": 60.807,
+      "medvlmr1_clean_pmax": 0.9860109090805054,
+      "medvlmr1_hint_confidence_pct": 61.801
+    },
+    {
+      "sample_id": "MRI_196",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9039720296859741,
+      "qwen2vl_hint_confidence_pct": 57.699,
+      "medvlmr1_clean_pmax": 0.9971134662628174,
+      "medvlmr1_hint_confidence_pct": 62.356
+    },
+    {
+      "sample_id": "MRI_197",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.393444687128067,
+      "qwen2vl_hint_confidence_pct": 32.172,
+      "medvlmr1_clean_pmax": 0.819282591342926,
+      "medvlmr1_hint_confidence_pct": 53.464
+    },
+    {
+      "sample_id": "MRI_199",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47495147585868835,
+      "qwen2vl_hint_confidence_pct": 36.248,
+      "medvlmr1_clean_pmax": 0.9913499355316162,
+      "medvlmr1_hint_confidence_pct": 62.067
+    },
+    {
+      "sample_id": "MRI_206",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5870279669761658,
+      "qwen2vl_hint_confidence_pct": 41.851,
+      "medvlmr1_clean_pmax": 0.6857885718345642,
+      "medvlmr1_hint_confidence_pct": 46.789
+    },
+    {
+      "sample_id": "MRI_208",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6469483375549316,
+      "qwen2vl_hint_confidence_pct": 44.847,
+      "medvlmr1_clean_pmax": 0.8906135559082031,
+      "medvlmr1_hint_confidence_pct": 57.031
+    },
+    {
+      "sample_id": "MRI_209",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9428520798683167,
+      "qwen2vl_hint_confidence_pct": 59.643,
+      "medvlmr1_clean_pmax": 0.9751401543617249,
+      "medvlmr1_hint_confidence_pct": 61.257
+    },
+    {
+      "sample_id": "MRI_211",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.36611589789390564,
+      "qwen2vl_hint_confidence_pct": 30.806,
+      "medvlmr1_clean_pmax": 0.9536605477333069,
+      "medvlmr1_hint_confidence_pct": 60.183
+    },
+    {
+      "sample_id": "MRI_212",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9710699319839478,
+      "qwen2vl_hint_confidence_pct": 61.053,
+      "medvlmr1_clean_pmax": 0.9899305105209351,
+      "medvlmr1_hint_confidence_pct": 61.997
+    },
+    {
+      "sample_id": "MRI_213",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5739476084709167,
+      "qwen2vl_hint_confidence_pct": 41.197,
+      "medvlmr1_clean_pmax": 0.8195061683654785,
+      "medvlmr1_hint_confidence_pct": 53.475
+    },
+    {
+      "sample_id": "MRI_214",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6684280037879944,
+      "qwen2vl_hint_confidence_pct": 45.921,
+      "medvlmr1_clean_pmax": 0.9927681684494019,
+      "medvlmr1_hint_confidence_pct": 62.138
+    },
+    {
+      "sample_id": "MRI_215",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8679007887840271,
+      "qwen2vl_hint_confidence_pct": 55.895,
+      "medvlmr1_clean_pmax": 0.9885092377662659,
+      "medvlmr1_hint_confidence_pct": 61.925
+    },
+    {
+      "sample_id": "MRI_217",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3602912425994873,
+      "qwen2vl_hint_confidence_pct": 30.515,
+      "medvlmr1_clean_pmax": 0.9359067678451538,
+      "medvlmr1_hint_confidence_pct": 59.295
+    },
+    {
+      "sample_id": "MRI_220",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.49651941657066345,
+      "qwen2vl_hint_confidence_pct": 37.326,
+      "medvlmr1_clean_pmax": 0.9954912066459656,
+      "medvlmr1_hint_confidence_pct": 62.275
+    },
+    {
+      "sample_id": "MRI_221",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9874245524406433,
+      "qwen2vl_hint_confidence_pct": 61.871,
+      "medvlmr1_clean_pmax": 0.9971369504928589,
+      "medvlmr1_hint_confidence_pct": 62.357
+    },
+    {
+      "sample_id": "MRI_222",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9815866351127625,
+      "qwen2vl_hint_confidence_pct": 61.579,
+      "medvlmr1_clean_pmax": 0.9913097620010376,
+      "medvlmr1_hint_confidence_pct": 62.065
+    },
+    {
+      "sample_id": "MRI_224",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6895925998687744,
+      "qwen2vl_hint_confidence_pct": 46.98,
+      "medvlmr1_clean_pmax": 0.9897486567497253,
+      "medvlmr1_hint_confidence_pct": 61.987
+    },
+    {
+      "sample_id": "MRI_225",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4876345694065094,
+      "qwen2vl_hint_confidence_pct": 36.882,
+      "medvlmr1_clean_pmax": 0.9804738759994507,
+      "medvlmr1_hint_confidence_pct": 61.524
+    },
+    {
+      "sample_id": "MRI_226",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7841649055480957,
+      "qwen2vl_hint_confidence_pct": 51.708,
+      "medvlmr1_clean_pmax": 0.986738920211792,
+      "medvlmr1_hint_confidence_pct": 61.837
+    },
+    {
+      "sample_id": "MRI_227",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8533965945243835,
+      "qwen2vl_hint_confidence_pct": 55.17,
+      "medvlmr1_clean_pmax": 0.9950852990150452,
+      "medvlmr1_hint_confidence_pct": 62.254
+    },
+    {
+      "sample_id": "MRI_231",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5635696053504944,
+      "qwen2vl_hint_confidence_pct": 40.678,
+      "medvlmr1_clean_pmax": 0.8384072184562683,
+      "medvlmr1_hint_confidence_pct": 54.42
+    },
+    {
+      "sample_id": "MRI_232",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9876377582550049,
+      "qwen2vl_hint_confidence_pct": 61.882,
+      "medvlmr1_clean_pmax": 0.992752194404602,
+      "medvlmr1_hint_confidence_pct": 62.138
+    },
+    {
+      "sample_id": "MRI_234",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3500289022922516,
+      "qwen2vl_hint_confidence_pct": 30.001,
+      "medvlmr1_clean_pmax": 0.9610090851783752,
+      "medvlmr1_hint_confidence_pct": 60.55
+    },
+    {
+      "sample_id": "MRI_235",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.663124144077301,
+      "qwen2vl_hint_confidence_pct": 45.656,
+      "medvlmr1_clean_pmax": 0.9633328318595886,
+      "medvlmr1_hint_confidence_pct": 60.667
+    },
+    {
+      "sample_id": "MRI_236",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8090181946754456,
+      "qwen2vl_hint_confidence_pct": 52.951,
+      "medvlmr1_clean_pmax": 0.9953367114067078,
+      "medvlmr1_hint_confidence_pct": 62.267
+    },
+    {
+      "sample_id": "MRI_237",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4990958869457245,
+      "qwen2vl_hint_confidence_pct": 37.455,
+      "medvlmr1_clean_pmax": 0.9454750418663025,
+      "medvlmr1_hint_confidence_pct": 59.774
+    },
+    {
+      "sample_id": "MRI_238",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6379225850105286,
+      "qwen2vl_hint_confidence_pct": 44.396,
+      "medvlmr1_clean_pmax": 0.9923143982887268,
+      "medvlmr1_hint_confidence_pct": 62.116
+    },
+    {
+      "sample_id": "MRI_239",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5220187902450562,
+      "qwen2vl_hint_confidence_pct": 38.601,
+      "medvlmr1_clean_pmax": 0.8890508413314819,
+      "medvlmr1_hint_confidence_pct": 56.953
+    },
+    {
+      "sample_id": "MRI_240",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6980665922164917,
+      "qwen2vl_hint_confidence_pct": 47.403,
+      "medvlmr1_clean_pmax": 0.9489706158638,
+      "medvlmr1_hint_confidence_pct": 59.949
+    },
+    {
+      "sample_id": "MRI_244",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6487061977386475,
+      "qwen2vl_hint_confidence_pct": 44.935,
+      "medvlmr1_clean_pmax": 0.9850584268569946,
+      "medvlmr1_hint_confidence_pct": 61.753
+    },
+    {
+      "sample_id": "MRI_246",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5101922750473022,
+      "qwen2vl_hint_confidence_pct": 38.01,
+      "medvlmr1_clean_pmax": 0.6973903775215149,
+      "medvlmr1_hint_confidence_pct": 47.37
+    },
+    {
+      "sample_id": "MRI_247",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8157041668891907,
+      "qwen2vl_hint_confidence_pct": 53.285,
+      "medvlmr1_clean_pmax": 0.9961808919906616,
+      "medvlmr1_hint_confidence_pct": 62.309
+    },
+    {
+      "sample_id": "MRI_248",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7823648452758789,
+      "qwen2vl_hint_confidence_pct": 51.618,
+      "medvlmr1_clean_pmax": 0.9940687417984009,
+      "medvlmr1_hint_confidence_pct": 62.203
+    },
+    {
+      "sample_id": "MRI_249",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7031847238540649,
+      "qwen2vl_hint_confidence_pct": 47.659,
+      "medvlmr1_clean_pmax": 0.7941322326660156,
+      "medvlmr1_hint_confidence_pct": 52.207
+    },
+    {
+      "sample_id": "MRI_250",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9960732460021973,
+      "qwen2vl_hint_confidence_pct": 62.304,
+      "medvlmr1_clean_pmax": 0.9990241527557373,
+      "medvlmr1_hint_confidence_pct": 62.451
+    },
+    {
+      "sample_id": "MRI_252",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9531915783882141,
+      "qwen2vl_hint_confidence_pct": 60.16,
+      "medvlmr1_clean_pmax": 0.9981560111045837,
+      "medvlmr1_hint_confidence_pct": 62.408
+    },
+    {
+      "sample_id": "MRI_253",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9907070398330688,
+      "qwen2vl_hint_confidence_pct": 62.035,
+      "medvlmr1_clean_pmax": 0.9992103576660156,
+      "medvlmr1_hint_confidence_pct": 62.461
+    },
+    {
+      "sample_id": "MRI_254",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.43589457869529724,
+      "qwen2vl_hint_confidence_pct": 34.295,
+      "medvlmr1_clean_pmax": 0.9195264577865601,
+      "medvlmr1_hint_confidence_pct": 58.476
+    },
+    {
+      "sample_id": "MRI_256",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5097164511680603,
+      "qwen2vl_hint_confidence_pct": 37.986,
+      "medvlmr1_clean_pmax": 0.9683459997177124,
+      "medvlmr1_hint_confidence_pct": 60.917
+    },
+    {
+      "sample_id": "MRI_258",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8207131028175354,
+      "qwen2vl_hint_confidence_pct": 53.536,
+      "medvlmr1_clean_pmax": 0.9430087804794312,
+      "medvlmr1_hint_confidence_pct": 59.65
+    },
+    {
+      "sample_id": "MRI_259",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.952410101890564,
+      "qwen2vl_hint_confidence_pct": 60.121,
+      "medvlmr1_clean_pmax": 0.9945991039276123,
+      "medvlmr1_hint_confidence_pct": 62.23
+    },
+    {
+      "sample_id": "MRI_260",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9883205890655518,
+      "qwen2vl_hint_confidence_pct": 61.916,
+      "medvlmr1_clean_pmax": 0.9940142035484314,
+      "medvlmr1_hint_confidence_pct": 62.201
+    },
+    {
+      "sample_id": "MRI_261",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5257224440574646,
+      "qwen2vl_hint_confidence_pct": 38.786,
+      "medvlmr1_clean_pmax": 0.6889520287513733,
+      "medvlmr1_hint_confidence_pct": 46.948
+    },
+    {
+      "sample_id": "MRI_262",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.43899595737457275,
+      "qwen2vl_hint_confidence_pct": 34.45,
+      "medvlmr1_clean_pmax": 0.9916008710861206,
+      "medvlmr1_hint_confidence_pct": 62.08
+    },
+    {
+      "sample_id": "MRI_263",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.36722296476364136,
+      "qwen2vl_hint_confidence_pct": 30.861,
+      "medvlmr1_clean_pmax": 0.9575681090354919,
+      "medvlmr1_hint_confidence_pct": 60.378
+    },
+    {
+      "sample_id": "MRI_265",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9772191047668457,
+      "qwen2vl_hint_confidence_pct": 61.361,
+      "medvlmr1_clean_pmax": 0.9912722706794739,
+      "medvlmr1_hint_confidence_pct": 62.064
+    },
+    {
+      "sample_id": "MRI_267",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47066470980644226,
+      "qwen2vl_hint_confidence_pct": 36.033,
+      "medvlmr1_clean_pmax": 0.9886802434921265,
+      "medvlmr1_hint_confidence_pct": 61.934
+    },
+    {
+      "sample_id": "MRI_269",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9897506833076477,
+      "qwen2vl_hint_confidence_pct": 61.988,
+      "medvlmr1_clean_pmax": 0.9951322674751282,
+      "medvlmr1_hint_confidence_pct": 62.257
+    },
+    {
+      "sample_id": "MRI_270",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.683422863483429,
+      "qwen2vl_hint_confidence_pct": 46.671,
+      "medvlmr1_clean_pmax": 0.967194139957428,
+      "medvlmr1_hint_confidence_pct": 60.86
+    },
+    {
+      "sample_id": "MRI_271",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4982187747955322,
+      "qwen2vl_hint_confidence_pct": 37.411,
+      "medvlmr1_clean_pmax": 0.9351087212562561,
+      "medvlmr1_hint_confidence_pct": 59.255
+    },
+    {
+      "sample_id": "MRI_273",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5827658772468567,
+      "qwen2vl_hint_confidence_pct": 41.638,
+      "medvlmr1_clean_pmax": 0.8526409864425659,
+      "medvlmr1_hint_confidence_pct": 55.132
+    },
+    {
+      "sample_id": "MRI_274",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8626384139060974,
+      "qwen2vl_hint_confidence_pct": 55.632,
+      "medvlmr1_clean_pmax": 0.9973885416984558,
+      "medvlmr1_hint_confidence_pct": 62.369
+    },
+    {
+      "sample_id": "MRI_275",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8585193753242493,
+      "qwen2vl_hint_confidence_pct": 55.426,
+      "medvlmr1_clean_pmax": 0.9517310857772827,
+      "medvlmr1_hint_confidence_pct": 60.087
+    },
+    {
+      "sample_id": "MRI_277",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7657898664474487,
+      "qwen2vl_hint_confidence_pct": 50.789,
+      "medvlmr1_clean_pmax": 0.9014226794242859,
+      "medvlmr1_hint_confidence_pct": 57.571
+    },
+    {
+      "sample_id": "MRI_278",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7419593334197998,
+      "qwen2vl_hint_confidence_pct": 49.598,
+      "medvlmr1_clean_pmax": 0.983391284942627,
+      "medvlmr1_hint_confidence_pct": 61.67
+    },
+    {
+      "sample_id": "MRI_279",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9442976713180542,
+      "qwen2vl_hint_confidence_pct": 59.715,
+      "medvlmr1_clean_pmax": 0.9974155426025391,
+      "medvlmr1_hint_confidence_pct": 62.371
+    },
+    {
+      "sample_id": "MRI_280",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6293995976448059,
+      "qwen2vl_hint_confidence_pct": 43.97,
+      "medvlmr1_clean_pmax": 0.9751067161560059,
+      "medvlmr1_hint_confidence_pct": 61.255
+    },
+    {
+      "sample_id": "MRI_281",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9459307193756104,
+      "qwen2vl_hint_confidence_pct": 59.797,
+      "medvlmr1_clean_pmax": 0.9775814414024353,
+      "medvlmr1_hint_confidence_pct": 61.379
+    },
+    {
+      "sample_id": "MRI_282",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4302893877029419,
+      "qwen2vl_hint_confidence_pct": 34.014,
+      "medvlmr1_clean_pmax": 0.70204758644104,
+      "medvlmr1_hint_confidence_pct": 47.602
+    },
+    {
+      "sample_id": "MRI_283",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9927095174789429,
+      "qwen2vl_hint_confidence_pct": 62.135,
+      "medvlmr1_clean_pmax": 0.9969843029975891,
+      "medvlmr1_hint_confidence_pct": 62.349
+    },
+    {
+      "sample_id": "MRI_284",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7799028754234314,
+      "qwen2vl_hint_confidence_pct": 51.495,
+      "medvlmr1_clean_pmax": 0.9953320622444153,
+      "medvlmr1_hint_confidence_pct": 62.267
+    },
+    {
+      "sample_id": "MRI_285",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.49077802896499634,
+      "qwen2vl_hint_confidence_pct": 37.039,
+      "medvlmr1_clean_pmax": 0.9750926494598389,
+      "medvlmr1_hint_confidence_pct": 61.255
+    },
+    {
+      "sample_id": "MRI_286",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.30702391266822815,
+      "qwen2vl_hint_confidence_pct": 27.851,
+      "medvlmr1_clean_pmax": 0.9761797189712524,
+      "medvlmr1_hint_confidence_pct": 61.309
+    },
+    {
+      "sample_id": "MRI_287",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6429364681243896,
+      "qwen2vl_hint_confidence_pct": 44.647,
+      "medvlmr1_clean_pmax": 0.8043288588523865,
+      "medvlmr1_hint_confidence_pct": 52.716
+    },
+    {
+      "sample_id": "MRI_288",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9119734168052673,
+      "qwen2vl_hint_confidence_pct": 58.099,
+      "medvlmr1_clean_pmax": 0.9908870458602905,
+      "medvlmr1_hint_confidence_pct": 62.044
+    },
+    {
+      "sample_id": "MRI_289",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.43892398476600647,
+      "qwen2vl_hint_confidence_pct": 34.446,
+      "medvlmr1_clean_pmax": 0.9901567697525024,
+      "medvlmr1_hint_confidence_pct": 62.008
+    },
+    {
+      "sample_id": "MRI_291",
+      "modality": "MRI",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5431365966796875,
+      "qwen2vl_hint_confidence_pct": 39.657,
+      "medvlmr1_clean_pmax": 0.9754188656806946,
+      "medvlmr1_hint_confidence_pct": 61.271
+    },
+    {
+      "sample_id": "MRI_294",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.35832759737968445,
+      "qwen2vl_hint_confidence_pct": 30.416,
+      "medvlmr1_clean_pmax": 0.9326954483985901,
+      "medvlmr1_hint_confidence_pct": 59.135
+    },
+    {
+      "sample_id": "MRI_295",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6429364681243896,
+      "qwen2vl_hint_confidence_pct": 44.647,
+      "medvlmr1_clean_pmax": 0.8756333589553833,
+      "medvlmr1_hint_confidence_pct": 56.282
+    },
+    {
+      "sample_id": "MRI_296",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5119916200637817,
+      "qwen2vl_hint_confidence_pct": 38.1,
+      "medvlmr1_clean_pmax": 0.9788201451301575,
+      "medvlmr1_hint_confidence_pct": 61.441
+    },
+    {
+      "sample_id": "MRI_297",
+      "modality": "MRI",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4451936185359955,
+      "qwen2vl_hint_confidence_pct": 34.76,
+      "medvlmr1_clean_pmax": 0.9881010055541992,
+      "medvlmr1_hint_confidence_pct": 61.905
+    },
+    {
+      "sample_id": "MRI_298",
+      "modality": "MRI",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7272378206253052,
+      "qwen2vl_hint_confidence_pct": 48.862,
+      "medvlmr1_clean_pmax": 0.9950482249259949,
+      "medvlmr1_hint_confidence_pct": 62.252
+    },
+    {
+      "sample_id": "MRI_299",
+      "modality": "MRI",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6061547994613647,
+      "qwen2vl_hint_confidence_pct": 42.808,
+      "medvlmr1_clean_pmax": 0.7321010828018188,
+      "medvlmr1_hint_confidence_pct": 49.105
+    },
+    {
+      "sample_id": "Xray_000",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9131824374198914,
+      "qwen2vl_hint_confidence_pct": 58.159,
+      "medvlmr1_clean_pmax": 0.9560666084289551,
+      "medvlmr1_hint_confidence_pct": 60.303
+    },
+    {
+      "sample_id": "Xray_001",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4538043439388275,
+      "qwen2vl_hint_confidence_pct": 35.19,
+      "medvlmr1_clean_pmax": 0.4896826148033142,
+      "medvlmr1_hint_confidence_pct": 36.984
+    },
+    {
+      "sample_id": "Xray_002",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.82753986120224,
+      "qwen2vl_hint_confidence_pct": 53.877,
+      "medvlmr1_clean_pmax": 0.7108692526817322,
+      "medvlmr1_hint_confidence_pct": 48.043
+    },
+    {
+      "sample_id": "Xray_003",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9972234964370728,
+      "qwen2vl_hint_confidence_pct": 62.361,
+      "medvlmr1_clean_pmax": 0.9986491799354553,
+      "medvlmr1_hint_confidence_pct": 62.432
+    },
+    {
+      "sample_id": "Xray_006",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9288865327835083,
+      "qwen2vl_hint_confidence_pct": 58.944,
+      "medvlmr1_clean_pmax": 0.9608737826347351,
+      "medvlmr1_hint_confidence_pct": 60.544
+    },
+    {
+      "sample_id": "Xray_007",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.973642885684967,
+      "qwen2vl_hint_confidence_pct": 61.182,
+      "medvlmr1_clean_pmax": 0.9873741269111633,
+      "medvlmr1_hint_confidence_pct": 61.869
+    },
+    {
+      "sample_id": "Xray_008",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9929295182228088,
+      "qwen2vl_hint_confidence_pct": 62.146,
+      "medvlmr1_clean_pmax": 0.995793342590332,
+      "medvlmr1_hint_confidence_pct": 62.29
+    },
+    {
+      "sample_id": "Xray_010",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.43682727217674255,
+      "qwen2vl_hint_confidence_pct": 34.341,
+      "medvlmr1_clean_pmax": 0.40002506971359253,
+      "medvlmr1_hint_confidence_pct": 32.501
+    },
+    {
+      "sample_id": "Xray_011",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9965632557868958,
+      "qwen2vl_hint_confidence_pct": 62.328,
+      "medvlmr1_clean_pmax": 0.9979127049446106,
+      "medvlmr1_hint_confidence_pct": 62.396
+    },
+    {
+      "sample_id": "Xray_014",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7658170461654663,
+      "qwen2vl_hint_confidence_pct": 50.791,
+      "medvlmr1_clean_pmax": 0.7915024161338806,
+      "medvlmr1_hint_confidence_pct": 52.075
+    },
+    {
+      "sample_id": "Xray_018",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8344029784202576,
+      "qwen2vl_hint_confidence_pct": 54.22,
+      "medvlmr1_clean_pmax": 0.7738275527954102,
+      "medvlmr1_hint_confidence_pct": 51.191
+    },
+    {
+      "sample_id": "Xray_020",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9373846054077148,
+      "qwen2vl_hint_confidence_pct": 59.369,
+      "medvlmr1_clean_pmax": 0.9683306813240051,
+      "medvlmr1_hint_confidence_pct": 60.917
+    },
+    {
+      "sample_id": "Xray_021",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6251503229141235,
+      "qwen2vl_hint_confidence_pct": 43.758,
+      "medvlmr1_clean_pmax": 0.7132038474082947,
+      "medvlmr1_hint_confidence_pct": 48.16
+    },
+    {
+      "sample_id": "Xray_022",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7198805809020996,
+      "qwen2vl_hint_confidence_pct": 48.494,
+      "medvlmr1_clean_pmax": 0.8843282461166382,
+      "medvlmr1_hint_confidence_pct": 56.716
+    },
+    {
+      "sample_id": "Xray_023",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6243491172790527,
+      "qwen2vl_hint_confidence_pct": 43.717,
+      "medvlmr1_clean_pmax": 0.7165573239326477,
+      "medvlmr1_hint_confidence_pct": 48.328
+    },
+    {
+      "sample_id": "Xray_024",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7284590601921082,
+      "qwen2vl_hint_confidence_pct": 48.923,
+      "medvlmr1_clean_pmax": 0.722215473651886,
+      "medvlmr1_hint_confidence_pct": 48.611
+    },
+    {
+      "sample_id": "Xray_025",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8323922157287598,
+      "qwen2vl_hint_confidence_pct": 54.12,
+      "medvlmr1_clean_pmax": 0.9588978290557861,
+      "medvlmr1_hint_confidence_pct": 60.445
+    },
+    {
+      "sample_id": "Xray_026",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9263123869895935,
+      "qwen2vl_hint_confidence_pct": 58.816,
+      "medvlmr1_clean_pmax": 0.9591593146324158,
+      "medvlmr1_hint_confidence_pct": 60.458
+    },
+    {
+      "sample_id": "Xray_027",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8240943551063538,
+      "qwen2vl_hint_confidence_pct": 53.705,
+      "medvlmr1_clean_pmax": 0.8983979225158691,
+      "medvlmr1_hint_confidence_pct": 57.42
+    },
+    {
+      "sample_id": "Xray_030",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6233068108558655,
+      "qwen2vl_hint_confidence_pct": 43.665,
+      "medvlmr1_clean_pmax": 0.6920431852340698,
+      "medvlmr1_hint_confidence_pct": 47.102
+    },
+    {
+      "sample_id": "Xray_031",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9199272990226746,
+      "qwen2vl_hint_confidence_pct": 58.496,
+      "medvlmr1_clean_pmax": 0.9558939337730408,
+      "medvlmr1_hint_confidence_pct": 60.295
+    },
+    {
+      "sample_id": "Xray_032",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9648907780647278,
+      "qwen2vl_hint_confidence_pct": 60.745,
+      "medvlmr1_clean_pmax": 0.9832044839859009,
+      "medvlmr1_hint_confidence_pct": 61.66
+    },
+    {
+      "sample_id": "Xray_033",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9744762182235718,
+      "qwen2vl_hint_confidence_pct": 61.224,
+      "medvlmr1_clean_pmax": 0.9798953533172607,
+      "medvlmr1_hint_confidence_pct": 61.495
+    },
+    {
+      "sample_id": "Xray_034",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9878258109092712,
+      "qwen2vl_hint_confidence_pct": 61.891,
+      "medvlmr1_clean_pmax": 0.9934465289115906,
+      "medvlmr1_hint_confidence_pct": 62.172
+    },
+    {
+      "sample_id": "Xray_035",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5777518153190613,
+      "qwen2vl_hint_confidence_pct": 41.388,
+      "medvlmr1_clean_pmax": 0.603430986404419,
+      "medvlmr1_hint_confidence_pct": 42.672
+    },
+    {
+      "sample_id": "Xray_036",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9099130630493164,
+      "qwen2vl_hint_confidence_pct": 57.996,
+      "medvlmr1_clean_pmax": 0.9498322606086731,
+      "medvlmr1_hint_confidence_pct": 59.992
+    },
+    {
+      "sample_id": "Xray_038",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9505687952041626,
+      "qwen2vl_hint_confidence_pct": 60.028,
+      "medvlmr1_clean_pmax": 0.980911135673523,
+      "medvlmr1_hint_confidence_pct": 61.546
+    },
+    {
+      "sample_id": "Xray_040",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.82759028673172,
+      "qwen2vl_hint_confidence_pct": 53.88,
+      "medvlmr1_clean_pmax": 0.873301088809967,
+      "medvlmr1_hint_confidence_pct": 56.165
+    },
+    {
+      "sample_id": "Xray_041",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9914705157279968,
+      "qwen2vl_hint_confidence_pct": 62.074,
+      "medvlmr1_clean_pmax": 0.9957774877548218,
+      "medvlmr1_hint_confidence_pct": 62.289
+    },
+    {
+      "sample_id": "Xray_042",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9672468900680542,
+      "qwen2vl_hint_confidence_pct": 60.862,
+      "medvlmr1_clean_pmax": 0.986080527305603,
+      "medvlmr1_hint_confidence_pct": 61.804
+    },
+    {
+      "sample_id": "Xray_043",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9401306509971619,
+      "qwen2vl_hint_confidence_pct": 59.507,
+      "medvlmr1_clean_pmax": 0.9773543477058411,
+      "medvlmr1_hint_confidence_pct": 61.368
+    },
+    {
+      "sample_id": "Xray_045",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7476513981819153,
+      "qwen2vl_hint_confidence_pct": 49.883,
+      "medvlmr1_clean_pmax": 0.6494260430335999,
+      "medvlmr1_hint_confidence_pct": 44.971
+    },
+    {
+      "sample_id": "Xray_047",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9692184329032898,
+      "qwen2vl_hint_confidence_pct": 60.961,
+      "medvlmr1_clean_pmax": 0.9976956248283386,
+      "medvlmr1_hint_confidence_pct": 62.385
+    },
+    {
+      "sample_id": "Xray_049",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8804157972335815,
+      "qwen2vl_hint_confidence_pct": 56.521,
+      "medvlmr1_clean_pmax": 0.9338906407356262,
+      "medvlmr1_hint_confidence_pct": 59.195
+    },
+    {
+      "sample_id": "Xray_056",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9670348763465881,
+      "qwen2vl_hint_confidence_pct": 60.852,
+      "medvlmr1_clean_pmax": 0.9815672039985657,
+      "medvlmr1_hint_confidence_pct": 61.578
+    },
+    {
+      "sample_id": "Xray_060",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6480743288993835,
+      "qwen2vl_hint_confidence_pct": 44.904,
+      "medvlmr1_clean_pmax": 0.9566200375556946,
+      "medvlmr1_hint_confidence_pct": 60.331
+    },
+    {
+      "sample_id": "Xray_061",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9897486567497253,
+      "qwen2vl_hint_confidence_pct": 61.987,
+      "medvlmr1_clean_pmax": 0.995412290096283,
+      "medvlmr1_hint_confidence_pct": 62.271
+    },
+    {
+      "sample_id": "Xray_062",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.33248794078826904,
+      "qwen2vl_hint_confidence_pct": 29.124,
+      "medvlmr1_clean_pmax": 0.3834792673587799,
+      "medvlmr1_hint_confidence_pct": 31.674
+    },
+    {
+      "sample_id": "Xray_063",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6033223271369934,
+      "qwen2vl_hint_confidence_pct": 42.666,
+      "medvlmr1_clean_pmax": 0.6589743494987488,
+      "medvlmr1_hint_confidence_pct": 45.449
+    },
+    {
+      "sample_id": "Xray_064",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5590998530387878,
+      "qwen2vl_hint_confidence_pct": 40.455,
+      "medvlmr1_clean_pmax": 0.5870279669761658,
+      "medvlmr1_hint_confidence_pct": 41.851
+    },
+    {
+      "sample_id": "Xray_066",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9892125129699707,
+      "qwen2vl_hint_confidence_pct": 61.961,
+      "medvlmr1_clean_pmax": 0.9928860068321228,
+      "medvlmr1_hint_confidence_pct": 62.144
+    },
+    {
+      "sample_id": "Xray_067",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9423595666885376,
+      "qwen2vl_hint_confidence_pct": 59.618,
+      "medvlmr1_clean_pmax": 0.9751362800598145,
+      "medvlmr1_hint_confidence_pct": 61.257
+    },
+    {
+      "sample_id": "Xray_072",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9556400179862976,
+      "qwen2vl_hint_confidence_pct": 60.282,
+      "medvlmr1_clean_pmax": 0.97651606798172,
+      "medvlmr1_hint_confidence_pct": 61.326
+    },
+    {
+      "sample_id": "Xray_074",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7582146525382996,
+      "qwen2vl_hint_confidence_pct": 50.411,
+      "medvlmr1_clean_pmax": 0.9870961904525757,
+      "medvlmr1_hint_confidence_pct": 61.855
+    },
+    {
+      "sample_id": "Xray_076",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3819020688533783,
+      "qwen2vl_hint_confidence_pct": 31.595,
+      "medvlmr1_clean_pmax": 0.35823798179626465,
+      "medvlmr1_hint_confidence_pct": 30.412
+    },
+    {
+      "sample_id": "Xray_077",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5202018022537231,
+      "qwen2vl_hint_confidence_pct": 38.51,
+      "medvlmr1_clean_pmax": 0.5582533478736877,
+      "medvlmr1_hint_confidence_pct": 40.413
+    },
+    {
+      "sample_id": "Xray_078",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5549235939979553,
+      "qwen2vl_hint_confidence_pct": 40.246,
+      "medvlmr1_clean_pmax": 0.5837369561195374,
+      "medvlmr1_hint_confidence_pct": 41.687
+    },
+    {
+      "sample_id": "Xray_079",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9919463992118835,
+      "qwen2vl_hint_confidence_pct": 62.097,
+      "medvlmr1_clean_pmax": 0.9962718486785889,
+      "medvlmr1_hint_confidence_pct": 62.314
+    },
+    {
+      "sample_id": "Xray_081",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9373300671577454,
+      "qwen2vl_hint_confidence_pct": 59.367,
+      "medvlmr1_clean_pmax": 0.9751980900764465,
+      "medvlmr1_hint_confidence_pct": 61.26
+    },
+    {
+      "sample_id": "Xray_082",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9970412850379944,
+      "qwen2vl_hint_confidence_pct": 62.352,
+      "medvlmr1_clean_pmax": 0.9985916018486023,
+      "medvlmr1_hint_confidence_pct": 62.43
+    },
+    {
+      "sample_id": "Xray_083",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9745100736618042,
+      "qwen2vl_hint_confidence_pct": 61.226,
+      "medvlmr1_clean_pmax": 0.9851565361022949,
+      "medvlmr1_hint_confidence_pct": 61.758
+    },
+    {
+      "sample_id": "Xray_085",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9843595623970032,
+      "qwen2vl_hint_confidence_pct": 61.718,
+      "medvlmr1_clean_pmax": 0.9943488240242004,
+      "medvlmr1_hint_confidence_pct": 62.217
+    },
+    {
+      "sample_id": "Xray_086",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9769456386566162,
+      "qwen2vl_hint_confidence_pct": 61.347,
+      "medvlmr1_clean_pmax": 0.9906304478645325,
+      "medvlmr1_hint_confidence_pct": 62.032
+    },
+    {
+      "sample_id": "Xray_087",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8594014644622803,
+      "qwen2vl_hint_confidence_pct": 55.47,
+      "medvlmr1_clean_pmax": 0.8949310183525085,
+      "medvlmr1_hint_confidence_pct": 57.247
+    },
+    {
+      "sample_id": "Xray_088",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9922229647636414,
+      "qwen2vl_hint_confidence_pct": 62.111,
+      "medvlmr1_clean_pmax": 0.9971248507499695,
+      "medvlmr1_hint_confidence_pct": 62.356
+    },
+    {
+      "sample_id": "Xray_090",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6838290095329285,
+      "qwen2vl_hint_confidence_pct": 46.691,
+      "medvlmr1_clean_pmax": 0.730384111404419,
+      "medvlmr1_hint_confidence_pct": 49.019
+    },
+    {
+      "sample_id": "Xray_091",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9876428842544556,
+      "qwen2vl_hint_confidence_pct": 61.882,
+      "medvlmr1_clean_pmax": 0.9942967295646667,
+      "medvlmr1_hint_confidence_pct": 62.215
+    },
+    {
+      "sample_id": "Xray_092",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9954928159713745,
+      "qwen2vl_hint_confidence_pct": 62.275,
+      "medvlmr1_clean_pmax": 0.9978690147399902,
+      "medvlmr1_hint_confidence_pct": 62.393
+    },
+    {
+      "sample_id": "Xray_093",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5970437526702881,
+      "qwen2vl_hint_confidence_pct": 42.352,
+      "medvlmr1_clean_pmax": 0.6471406817436218,
+      "medvlmr1_hint_confidence_pct": 44.857
+    },
+    {
+      "sample_id": "Xray_094",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9954427480697632,
+      "qwen2vl_hint_confidence_pct": 62.272,
+      "medvlmr1_clean_pmax": 0.9976146221160889,
+      "medvlmr1_hint_confidence_pct": 62.381
+    },
+    {
+      "sample_id": "Xray_095",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9818069934844971,
+      "qwen2vl_hint_confidence_pct": 61.59,
+      "medvlmr1_clean_pmax": 0.9923346638679504,
+      "medvlmr1_hint_confidence_pct": 62.117
+    },
+    {
+      "sample_id": "Xray_096",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4219747483730316,
+      "qwen2vl_hint_confidence_pct": 33.599,
+      "medvlmr1_clean_pmax": 0.619356632232666,
+      "medvlmr1_hint_confidence_pct": 43.468
+    },
+    {
+      "sample_id": "Xray_098",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.46793702244758606,
+      "qwen2vl_hint_confidence_pct": 35.897,
+      "medvlmr1_clean_pmax": 0.515077531337738,
+      "medvlmr1_hint_confidence_pct": 38.254
+    },
+    {
+      "sample_id": "Xray_100",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9927589893341064,
+      "qwen2vl_hint_confidence_pct": 62.138,
+      "medvlmr1_clean_pmax": 0.9959905743598938,
+      "medvlmr1_hint_confidence_pct": 62.3
+    },
+    {
+      "sample_id": "Xray_103",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9835057854652405,
+      "qwen2vl_hint_confidence_pct": 61.675,
+      "medvlmr1_clean_pmax": 0.9924652576446533,
+      "medvlmr1_hint_confidence_pct": 62.123
+    },
+    {
+      "sample_id": "Xray_104",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9980762004852295,
+      "qwen2vl_hint_confidence_pct": 62.404,
+      "medvlmr1_clean_pmax": 0.9994159936904907,
+      "medvlmr1_hint_confidence_pct": 62.471
+    },
+    {
+      "sample_id": "Xray_106",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9840880632400513,
+      "qwen2vl_hint_confidence_pct": 61.704,
+      "medvlmr1_clean_pmax": 0.9964708089828491,
+      "medvlmr1_hint_confidence_pct": 62.324
+    },
+    {
+      "sample_id": "Xray_107",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4690896272659302,
+      "qwen2vl_hint_confidence_pct": 35.954,
+      "medvlmr1_clean_pmax": 0.7847750186920166,
+      "medvlmr1_hint_confidence_pct": 51.739
+    },
+    {
+      "sample_id": "Xray_108",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6237889528274536,
+      "qwen2vl_hint_confidence_pct": 43.689,
+      "medvlmr1_clean_pmax": 0.9342966079711914,
+      "medvlmr1_hint_confidence_pct": 59.215
+    },
+    {
+      "sample_id": "Xray_109",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.942524254322052,
+      "qwen2vl_hint_confidence_pct": 59.626,
+      "medvlmr1_clean_pmax": 0.969635546207428,
+      "medvlmr1_hint_confidence_pct": 60.982
+    },
+    {
+      "sample_id": "Xray_111",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7781230807304382,
+      "qwen2vl_hint_confidence_pct": 51.406,
+      "medvlmr1_clean_pmax": 0.8388534188270569,
+      "medvlmr1_hint_confidence_pct": 54.443
+    },
+    {
+      "sample_id": "Xray_113",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.41675007343292236,
+      "qwen2vl_hint_confidence_pct": 33.338,
+      "medvlmr1_clean_pmax": 0.43059706687927246,
+      "medvlmr1_hint_confidence_pct": 34.03
+    },
+    {
+      "sample_id": "Xray_114",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.988287627696991,
+      "qwen2vl_hint_confidence_pct": 61.914,
+      "medvlmr1_clean_pmax": 0.9951783418655396,
+      "medvlmr1_hint_confidence_pct": 62.259
+    },
+    {
+      "sample_id": "Xray_116",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9036723375320435,
+      "qwen2vl_hint_confidence_pct": 57.684,
+      "medvlmr1_clean_pmax": 0.9084069728851318,
+      "medvlmr1_hint_confidence_pct": 57.92
+    },
+    {
+      "sample_id": "Xray_117",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.998515784740448,
+      "qwen2vl_hint_confidence_pct": 62.426,
+      "medvlmr1_clean_pmax": 0.9990993738174438,
+      "medvlmr1_hint_confidence_pct": 62.455
+    },
+    {
+      "sample_id": "Xray_119",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.813927173614502,
+      "qwen2vl_hint_confidence_pct": 53.196,
+      "medvlmr1_clean_pmax": 0.7855345010757446,
+      "medvlmr1_hint_confidence_pct": 51.777
+    },
+    {
+      "sample_id": "Xray_120",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5771827697753906,
+      "qwen2vl_hint_confidence_pct": 41.359,
+      "medvlmr1_clean_pmax": 0.5705767273902893,
+      "medvlmr1_hint_confidence_pct": 41.029
+    },
+    {
+      "sample_id": "Xray_121",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.46191543340682983,
+      "qwen2vl_hint_confidence_pct": 35.596,
+      "medvlmr1_clean_pmax": 0.5463491082191467,
+      "medvlmr1_hint_confidence_pct": 39.817
+    },
+    {
+      "sample_id": "Xray_122",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6091268658638,
+      "qwen2vl_hint_confidence_pct": 42.956,
+      "medvlmr1_clean_pmax": 0.6613158583641052,
+      "medvlmr1_hint_confidence_pct": 45.566
+    },
+    {
+      "sample_id": "Xray_123",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9687905311584473,
+      "qwen2vl_hint_confidence_pct": 60.94,
+      "medvlmr1_clean_pmax": 0.984039843082428,
+      "medvlmr1_hint_confidence_pct": 61.702
+    },
+    {
+      "sample_id": "Xray_124",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6544176936149597,
+      "qwen2vl_hint_confidence_pct": 45.221,
+      "medvlmr1_clean_pmax": 0.7040205001831055,
+      "medvlmr1_hint_confidence_pct": 47.701
+    },
+    {
+      "sample_id": "Xray_125",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9765242338180542,
+      "qwen2vl_hint_confidence_pct": 61.326,
+      "medvlmr1_clean_pmax": 0.9886530041694641,
+      "medvlmr1_hint_confidence_pct": 61.933
+    },
+    {
+      "sample_id": "Xray_127",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5977710485458374,
+      "qwen2vl_hint_confidence_pct": 42.389,
+      "medvlmr1_clean_pmax": 0.6054069995880127,
+      "medvlmr1_hint_confidence_pct": 42.77
+    },
+    {
+      "sample_id": "Xray_129",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9741784930229187,
+      "qwen2vl_hint_confidence_pct": 61.209,
+      "medvlmr1_clean_pmax": 0.9881438612937927,
+      "medvlmr1_hint_confidence_pct": 61.907
+    },
+    {
+      "sample_id": "Xray_130",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5170665383338928,
+      "qwen2vl_hint_confidence_pct": 38.353,
+      "medvlmr1_clean_pmax": 0.5634644031524658,
+      "medvlmr1_hint_confidence_pct": 40.673
+    },
+    {
+      "sample_id": "Xray_131",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.829155445098877,
+      "qwen2vl_hint_confidence_pct": 53.958,
+      "medvlmr1_clean_pmax": 0.8666399717330933,
+      "medvlmr1_hint_confidence_pct": 55.832
+    },
+    {
+      "sample_id": "Xray_133",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.529063880443573,
+      "qwen2vl_hint_confidence_pct": 38.953,
+      "medvlmr1_clean_pmax": 0.573160707950592,
+      "medvlmr1_hint_confidence_pct": 41.158
+    },
+    {
+      "sample_id": "Xray_136",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.978617250919342,
+      "qwen2vl_hint_confidence_pct": 61.431,
+      "medvlmr1_clean_pmax": 0.9827569723129272,
+      "medvlmr1_hint_confidence_pct": 61.638
+    },
+    {
+      "sample_id": "Xray_138",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8108623623847961,
+      "qwen2vl_hint_confidence_pct": 53.043,
+      "medvlmr1_clean_pmax": 0.9051377773284912,
+      "medvlmr1_hint_confidence_pct": 57.757
+    },
+    {
+      "sample_id": "Xray_140",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9197906255722046,
+      "qwen2vl_hint_confidence_pct": 58.49,
+      "medvlmr1_clean_pmax": 0.929761528968811,
+      "medvlmr1_hint_confidence_pct": 58.988
+    },
+    {
+      "sample_id": "Xray_143",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9643260836601257,
+      "qwen2vl_hint_confidence_pct": 60.716,
+      "medvlmr1_clean_pmax": 0.9838680028915405,
+      "medvlmr1_hint_confidence_pct": 61.693
+    },
+    {
+      "sample_id": "Xray_145",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5221145749092102,
+      "qwen2vl_hint_confidence_pct": 38.606,
+      "medvlmr1_clean_pmax": 0.6970518827438354,
+      "medvlmr1_hint_confidence_pct": 47.353
+    },
+    {
+      "sample_id": "Xray_146",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8531701564788818,
+      "qwen2vl_hint_confidence_pct": 55.159,
+      "medvlmr1_clean_pmax": 0.8862992525100708,
+      "medvlmr1_hint_confidence_pct": 56.815
+    },
+    {
+      "sample_id": "Xray_147",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4632357358932495,
+      "qwen2vl_hint_confidence_pct": 35.662,
+      "medvlmr1_clean_pmax": 0.48081329464912415,
+      "medvlmr1_hint_confidence_pct": 36.541
+    },
+    {
+      "sample_id": "Xray_148",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9950095415115356,
+      "qwen2vl_hint_confidence_pct": 62.25,
+      "medvlmr1_clean_pmax": 0.9968414306640625,
+      "medvlmr1_hint_confidence_pct": 62.342
+    },
+    {
+      "sample_id": "Xray_149",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8082301616668701,
+      "qwen2vl_hint_confidence_pct": 52.912,
+      "medvlmr1_clean_pmax": 0.836097002029419,
+      "medvlmr1_hint_confidence_pct": 54.305
+    },
+    {
+      "sample_id": "Xray_151",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5793091058731079,
+      "qwen2vl_hint_confidence_pct": 41.465,
+      "medvlmr1_clean_pmax": 0.6868553757667542,
+      "medvlmr1_hint_confidence_pct": 46.843
+    },
+    {
+      "sample_id": "Xray_152",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9195780754089355,
+      "qwen2vl_hint_confidence_pct": 58.479,
+      "medvlmr1_clean_pmax": 0.9301518797874451,
+      "medvlmr1_hint_confidence_pct": 59.008
+    },
+    {
+      "sample_id": "Xray_153",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9030262231826782,
+      "qwen2vl_hint_confidence_pct": 57.651,
+      "medvlmr1_clean_pmax": 0.9180223345756531,
+      "medvlmr1_hint_confidence_pct": 58.401
+    },
+    {
+      "sample_id": "Xray_155",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9496082067489624,
+      "qwen2vl_hint_confidence_pct": 59.98,
+      "medvlmr1_clean_pmax": 0.9697801470756531,
+      "medvlmr1_hint_confidence_pct": 60.989
+    },
+    {
+      "sample_id": "Xray_156",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.48369359970092773,
+      "qwen2vl_hint_confidence_pct": 36.685,
+      "medvlmr1_clean_pmax": 0.6762998700141907,
+      "medvlmr1_hint_confidence_pct": 46.315
+    },
+    {
+      "sample_id": "Xray_157",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5284271836280823,
+      "qwen2vl_hint_confidence_pct": 38.921,
+      "medvlmr1_clean_pmax": 0.5778375864028931,
+      "medvlmr1_hint_confidence_pct": 41.392
+    },
+    {
+      "sample_id": "Xray_158",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9662894606590271,
+      "qwen2vl_hint_confidence_pct": 60.814,
+      "medvlmr1_clean_pmax": 0.979166567325592,
+      "medvlmr1_hint_confidence_pct": 61.458
+    },
+    {
+      "sample_id": "Xray_160",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6398181915283203,
+      "qwen2vl_hint_confidence_pct": 44.491,
+      "medvlmr1_clean_pmax": 0.7330465912818909,
+      "medvlmr1_hint_confidence_pct": 49.152
+    },
+    {
+      "sample_id": "Xray_161",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.46418508887290955,
+      "qwen2vl_hint_confidence_pct": 35.709,
+      "medvlmr1_clean_pmax": 0.5052171945571899,
+      "medvlmr1_hint_confidence_pct": 37.761
+    },
+    {
+      "sample_id": "Xray_163",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5635696053504944,
+      "qwen2vl_hint_confidence_pct": 40.678,
+      "medvlmr1_clean_pmax": 0.7173140048980713,
+      "medvlmr1_hint_confidence_pct": 48.366
+    },
+    {
+      "sample_id": "Xray_165",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8115484118461609,
+      "qwen2vl_hint_confidence_pct": 53.077,
+      "medvlmr1_clean_pmax": 0.8898774981498718,
+      "medvlmr1_hint_confidence_pct": 56.994
+    },
+    {
+      "sample_id": "Xray_166",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9775814414024353,
+      "qwen2vl_hint_confidence_pct": 61.379,
+      "medvlmr1_clean_pmax": 0.9886530041694641,
+      "medvlmr1_hint_confidence_pct": 61.933
+    },
+    {
+      "sample_id": "Xray_167",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9378762245178223,
+      "qwen2vl_hint_confidence_pct": 59.394,
+      "medvlmr1_clean_pmax": 0.9580628871917725,
+      "medvlmr1_hint_confidence_pct": 60.403
+    },
+    {
+      "sample_id": "Xray_168",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9599990248680115,
+      "qwen2vl_hint_confidence_pct": 60.5,
+      "medvlmr1_clean_pmax": 0.9840567111968994,
+      "medvlmr1_hint_confidence_pct": 61.703
+    },
+    {
+      "sample_id": "Xray_169",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6337258815765381,
+      "qwen2vl_hint_confidence_pct": 44.186,
+      "medvlmr1_clean_pmax": 0.6533523201942444,
+      "medvlmr1_hint_confidence_pct": 45.168
+    },
+    {
+      "sample_id": "Xray_170",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.61178058385849,
+      "qwen2vl_hint_confidence_pct": 43.089,
+      "medvlmr1_clean_pmax": 0.6961888074874878,
+      "medvlmr1_hint_confidence_pct": 47.309
+    },
+    {
+      "sample_id": "Xray_171",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.985241711139679,
+      "qwen2vl_hint_confidence_pct": 61.762,
+      "medvlmr1_clean_pmax": 0.9936687350273132,
+      "medvlmr1_hint_confidence_pct": 62.183
+    },
+    {
+      "sample_id": "Xray_173",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7210544347763062,
+      "qwen2vl_hint_confidence_pct": 48.553,
+      "medvlmr1_clean_pmax": 0.8209871053695679,
+      "medvlmr1_hint_confidence_pct": 53.549
+    },
+    {
+      "sample_id": "Xray_174",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.45961514115333557,
+      "qwen2vl_hint_confidence_pct": 35.481,
+      "medvlmr1_clean_pmax": 0.49813249707221985,
+      "medvlmr1_hint_confidence_pct": 37.407
+    },
+    {
+      "sample_id": "Xray_175",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5872666835784912,
+      "qwen2vl_hint_confidence_pct": 41.863,
+      "medvlmr1_clean_pmax": 0.9483039975166321,
+      "medvlmr1_hint_confidence_pct": 59.915
+    },
+    {
+      "sample_id": "Xray_176",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9385716319084167,
+      "qwen2vl_hint_confidence_pct": 59.429,
+      "medvlmr1_clean_pmax": 0.9662142395973206,
+      "medvlmr1_hint_confidence_pct": 60.811
+    },
+    {
+      "sample_id": "Xray_177",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.33767879009246826,
+      "qwen2vl_hint_confidence_pct": 29.384,
+      "medvlmr1_clean_pmax": 0.3704758882522583,
+      "medvlmr1_hint_confidence_pct": 31.024
+    },
+    {
+      "sample_id": "Xray_178",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9914604425430298,
+      "qwen2vl_hint_confidence_pct": 62.073,
+      "medvlmr1_clean_pmax": 0.9952358603477478,
+      "medvlmr1_hint_confidence_pct": 62.262
+    },
+    {
+      "sample_id": "Xray_181",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4275873005390167,
+      "qwen2vl_hint_confidence_pct": 33.879,
+      "medvlmr1_clean_pmax": 0.4847303628921509,
+      "medvlmr1_hint_confidence_pct": 36.737
+    },
+    {
+      "sample_id": "Xray_182",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7939291596412659,
+      "qwen2vl_hint_confidence_pct": 52.196,
+      "medvlmr1_clean_pmax": 0.8298938870429993,
+      "medvlmr1_hint_confidence_pct": 53.995
+    },
+    {
+      "sample_id": "Xray_183",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9890801310539246,
+      "qwen2vl_hint_confidence_pct": 61.954,
+      "medvlmr1_clean_pmax": 0.994202196598053,
+      "medvlmr1_hint_confidence_pct": 62.21
+    },
+    {
+      "sample_id": "Xray_184",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9859910607337952,
+      "qwen2vl_hint_confidence_pct": 61.8,
+      "medvlmr1_clean_pmax": 0.9937859773635864,
+      "medvlmr1_hint_confidence_pct": 62.189
+    },
+    {
+      "sample_id": "Xray_185",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9492366909980774,
+      "qwen2vl_hint_confidence_pct": 59.962,
+      "medvlmr1_clean_pmax": 0.9694297909736633,
+      "medvlmr1_hint_confidence_pct": 60.971
+    },
+    {
+      "sample_id": "Xray_186",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7561007142066956,
+      "qwen2vl_hint_confidence_pct": 50.305,
+      "medvlmr1_clean_pmax": 0.7595463991165161,
+      "medvlmr1_hint_confidence_pct": 50.477
+    },
+    {
+      "sample_id": "Xray_187",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8561637997627258,
+      "qwen2vl_hint_confidence_pct": 55.308,
+      "medvlmr1_clean_pmax": 0.9323045611381531,
+      "medvlmr1_hint_confidence_pct": 59.115
+    },
+    {
+      "sample_id": "Xray_188",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6694333553314209,
+      "qwen2vl_hint_confidence_pct": 45.972,
+      "medvlmr1_clean_pmax": 0.6710875034332275,
+      "medvlmr1_hint_confidence_pct": 46.054
+    },
+    {
+      "sample_id": "Xray_190",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9972149133682251,
+      "qwen2vl_hint_confidence_pct": 62.361,
+      "medvlmr1_clean_pmax": 0.9987472295761108,
+      "medvlmr1_hint_confidence_pct": 62.437
+    },
+    {
+      "sample_id": "Xray_191",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.60243159532547,
+      "qwen2vl_hint_confidence_pct": 42.622,
+      "medvlmr1_clean_pmax": 0.55974280834198,
+      "medvlmr1_hint_confidence_pct": 40.487
+    },
+    {
+      "sample_id": "Xray_192",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.36694473028182983,
+      "qwen2vl_hint_confidence_pct": 30.847,
+      "medvlmr1_clean_pmax": 0.5421903729438782,
+      "medvlmr1_hint_confidence_pct": 39.61
+    },
+    {
+      "sample_id": "Xray_193",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.674372673034668,
+      "qwen2vl_hint_confidence_pct": 46.219,
+      "medvlmr1_clean_pmax": 0.6829342842102051,
+      "medvlmr1_hint_confidence_pct": 46.647
+    },
+    {
+      "sample_id": "Xray_194",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7519567608833313,
+      "qwen2vl_hint_confidence_pct": 50.098,
+      "medvlmr1_clean_pmax": 0.8698601126670837,
+      "medvlmr1_hint_confidence_pct": 55.993
+    },
+    {
+      "sample_id": "Xray_195",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6137569546699524,
+      "qwen2vl_hint_confidence_pct": 43.188,
+      "medvlmr1_clean_pmax": 0.7245175838470459,
+      "medvlmr1_hint_confidence_pct": 48.726
+    },
+    {
+      "sample_id": "Xray_196",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.77689129114151,
+      "qwen2vl_hint_confidence_pct": 51.345,
+      "medvlmr1_clean_pmax": 0.979620635509491,
+      "medvlmr1_hint_confidence_pct": 61.481
+    },
+    {
+      "sample_id": "Xray_198",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.972740650177002,
+      "qwen2vl_hint_confidence_pct": 61.137,
+      "medvlmr1_clean_pmax": 0.9875449538230896,
+      "medvlmr1_hint_confidence_pct": 61.877
+    },
+    {
+      "sample_id": "Xray_202",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5990210175514221,
+      "qwen2vl_hint_confidence_pct": 42.451,
+      "medvlmr1_clean_pmax": 0.6849009990692139,
+      "medvlmr1_hint_confidence_pct": 46.745
+    },
+    {
+      "sample_id": "Xray_204",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5560178756713867,
+      "qwen2vl_hint_confidence_pct": 40.301,
+      "medvlmr1_clean_pmax": 0.5929386615753174,
+      "medvlmr1_hint_confidence_pct": 42.147
+    },
+    {
+      "sample_id": "Xray_205",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9755394458770752,
+      "qwen2vl_hint_confidence_pct": 61.277,
+      "medvlmr1_clean_pmax": 0.9873573780059814,
+      "medvlmr1_hint_confidence_pct": 61.868
+    },
+    {
+      "sample_id": "Xray_206",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.796816885471344,
+      "qwen2vl_hint_confidence_pct": 52.341,
+      "medvlmr1_clean_pmax": 0.985666811466217,
+      "medvlmr1_hint_confidence_pct": 61.783
+    },
+    {
+      "sample_id": "Xray_208",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9794034361839294,
+      "qwen2vl_hint_confidence_pct": 61.47,
+      "medvlmr1_clean_pmax": 0.9890645742416382,
+      "medvlmr1_hint_confidence_pct": 61.953
+    },
+    {
+      "sample_id": "Xray_211",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8005737662315369,
+      "qwen2vl_hint_confidence_pct": 52.529,
+      "medvlmr1_clean_pmax": 0.8414861559867859,
+      "medvlmr1_hint_confidence_pct": 54.574
+    },
+    {
+      "sample_id": "Xray_213",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.997314989566803,
+      "qwen2vl_hint_confidence_pct": 62.366,
+      "medvlmr1_clean_pmax": 0.9984135627746582,
+      "medvlmr1_hint_confidence_pct": 62.421
+    },
+    {
+      "sample_id": "Xray_214",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6528112888336182,
+      "qwen2vl_hint_confidence_pct": 45.141,
+      "medvlmr1_clean_pmax": 0.7676416039466858,
+      "medvlmr1_hint_confidence_pct": 50.882
+    },
+    {
+      "sample_id": "Xray_218",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9508390426635742,
+      "qwen2vl_hint_confidence_pct": 60.042,
+      "medvlmr1_clean_pmax": 0.9650123119354248,
+      "medvlmr1_hint_confidence_pct": 60.751
+    },
+    {
+      "sample_id": "Xray_220",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8812084197998047,
+      "qwen2vl_hint_confidence_pct": 56.56,
+      "medvlmr1_clean_pmax": 0.9091565012931824,
+      "medvlmr1_hint_confidence_pct": 57.958
+    },
+    {
+      "sample_id": "Xray_222",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.3568633198738098,
+      "qwen2vl_hint_confidence_pct": 30.343,
+      "medvlmr1_clean_pmax": 0.39564236998558044,
+      "medvlmr1_hint_confidence_pct": 32.282
+    },
+    {
+      "sample_id": "Xray_224",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9359776377677917,
+      "qwen2vl_hint_confidence_pct": 59.299,
+      "medvlmr1_clean_pmax": 0.9592735171318054,
+      "medvlmr1_hint_confidence_pct": 60.464
+    },
+    {
+      "sample_id": "Xray_225",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8831959366798401,
+      "qwen2vl_hint_confidence_pct": 56.66,
+      "medvlmr1_clean_pmax": 0.9273848533630371,
+      "medvlmr1_hint_confidence_pct": 58.869
+    },
+    {
+      "sample_id": "Xray_227",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.41872960329055786,
+      "qwen2vl_hint_confidence_pct": 33.436,
+      "medvlmr1_clean_pmax": 0.4652709364891052,
+      "medvlmr1_hint_confidence_pct": 35.764
+    },
+    {
+      "sample_id": "Xray_228",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.47011280059814453,
+      "qwen2vl_hint_confidence_pct": 36.006,
+      "medvlmr1_clean_pmax": 0.5200545191764832,
+      "medvlmr1_hint_confidence_pct": 38.503
+    },
+    {
+      "sample_id": "Xray_229",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8792858719825745,
+      "qwen2vl_hint_confidence_pct": 56.464,
+      "medvlmr1_clean_pmax": 0.8219718933105469,
+      "medvlmr1_hint_confidence_pct": 53.599
+    },
+    {
+      "sample_id": "Xray_230",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.34366148710250854,
+      "qwen2vl_hint_confidence_pct": 29.683,
+      "medvlmr1_clean_pmax": 0.508997917175293,
+      "medvlmr1_hint_confidence_pct": 37.95
+    },
+    {
+      "sample_id": "Xray_231",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7413594126701355,
+      "qwen2vl_hint_confidence_pct": 49.568,
+      "medvlmr1_clean_pmax": 0.8010966181755066,
+      "medvlmr1_hint_confidence_pct": 52.555
+    },
+    {
+      "sample_id": "Xray_232",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7166749238967896,
+      "qwen2vl_hint_confidence_pct": 48.334,
+      "medvlmr1_clean_pmax": 0.8830177783966064,
+      "medvlmr1_hint_confidence_pct": 56.651
+    },
+    {
+      "sample_id": "Xray_234",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.998576283454895,
+      "qwen2vl_hint_confidence_pct": 62.429,
+      "medvlmr1_clean_pmax": 0.9992550015449524,
+      "medvlmr1_hint_confidence_pct": 62.463
+    },
+    {
+      "sample_id": "Xray_235",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8262915015220642,
+      "qwen2vl_hint_confidence_pct": 53.815,
+      "medvlmr1_clean_pmax": 0.8809153437614441,
+      "medvlmr1_hint_confidence_pct": 56.546
+    },
+    {
+      "sample_id": "Xray_236",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7499793171882629,
+      "qwen2vl_hint_confidence_pct": 49.999,
+      "medvlmr1_clean_pmax": 0.7038520574569702,
+      "medvlmr1_hint_confidence_pct": 47.693
+    },
+    {
+      "sample_id": "Xray_237",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9933446645736694,
+      "qwen2vl_hint_confidence_pct": 62.167,
+      "medvlmr1_clean_pmax": 0.9967635869979858,
+      "medvlmr1_hint_confidence_pct": 62.338
+    },
+    {
+      "sample_id": "Xray_239",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9497683048248291,
+      "qwen2vl_hint_confidence_pct": 59.988,
+      "medvlmr1_clean_pmax": 0.9781931638717651,
+      "medvlmr1_hint_confidence_pct": 61.41
+    },
+    {
+      "sample_id": "Xray_243",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.7303838729858398,
+      "qwen2vl_hint_confidence_pct": 49.019,
+      "medvlmr1_clean_pmax": 0.9365614652633667,
+      "medvlmr1_hint_confidence_pct": 59.328
+    },
+    {
+      "sample_id": "Xray_244",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9380452036857605,
+      "qwen2vl_hint_confidence_pct": 59.402,
+      "medvlmr1_clean_pmax": 0.9857365489006042,
+      "medvlmr1_hint_confidence_pct": 61.787
+    },
+    {
+      "sample_id": "Xray_248",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6038942933082581,
+      "qwen2vl_hint_confidence_pct": 42.695,
+      "medvlmr1_clean_pmax": 0.6422404050827026,
+      "medvlmr1_hint_confidence_pct": 44.612
+    },
+    {
+      "sample_id": "Xray_250",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5325311422348022,
+      "qwen2vl_hint_confidence_pct": 39.127,
+      "medvlmr1_clean_pmax": 0.6117450594902039,
+      "medvlmr1_hint_confidence_pct": 43.087
+    },
+    {
+      "sample_id": "Xray_253",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9777762293815613,
+      "qwen2vl_hint_confidence_pct": 61.389,
+      "medvlmr1_clean_pmax": 0.985587477684021,
+      "medvlmr1_hint_confidence_pct": 61.779
+    },
+    {
+      "sample_id": "Xray_254",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9325518608093262,
+      "qwen2vl_hint_confidence_pct": 59.128,
+      "medvlmr1_clean_pmax": 0.9692497253417969,
+      "medvlmr1_hint_confidence_pct": 60.962
+    },
+    {
+      "sample_id": "Xray_255",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.4853399991989136,
+      "qwen2vl_hint_confidence_pct": 36.767,
+      "medvlmr1_clean_pmax": 0.42886486649513245,
+      "medvlmr1_hint_confidence_pct": 33.943
+    },
+    {
+      "sample_id": "Xray_256",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.991949200630188,
+      "qwen2vl_hint_confidence_pct": 62.097,
+      "medvlmr1_clean_pmax": 0.9966926574707031,
+      "medvlmr1_hint_confidence_pct": 62.335
+    },
+    {
+      "sample_id": "Xray_257",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9679937958717346,
+      "qwen2vl_hint_confidence_pct": 60.9,
+      "medvlmr1_clean_pmax": 0.9846216440200806,
+      "medvlmr1_hint_confidence_pct": 61.731
+    },
+    {
+      "sample_id": "Xray_258",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9769695997238159,
+      "qwen2vl_hint_confidence_pct": 61.348,
+      "medvlmr1_clean_pmax": 0.9848313331604004,
+      "medvlmr1_hint_confidence_pct": 61.742
+    },
+    {
+      "sample_id": "Xray_260",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9701834917068481,
+      "qwen2vl_hint_confidence_pct": 61.009,
+      "medvlmr1_clean_pmax": 0.9807717204093933,
+      "medvlmr1_hint_confidence_pct": 61.539
+    },
+    {
+      "sample_id": "Xray_263",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9979447722434998,
+      "qwen2vl_hint_confidence_pct": 62.397,
+      "medvlmr1_clean_pmax": 0.9988357424736023,
+      "medvlmr1_hint_confidence_pct": 62.442
+    },
+    {
+      "sample_id": "Xray_264",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9909987449645996,
+      "qwen2vl_hint_confidence_pct": 62.05,
+      "medvlmr1_clean_pmax": 0.9952979683876038,
+      "medvlmr1_hint_confidence_pct": 62.265
+    },
+    {
+      "sample_id": "Xray_265",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.680411159992218,
+      "qwen2vl_hint_confidence_pct": 46.521,
+      "medvlmr1_clean_pmax": 0.7380765676498413,
+      "medvlmr1_hint_confidence_pct": 49.404
+    },
+    {
+      "sample_id": "Xray_268",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5172609090805054,
+      "qwen2vl_hint_confidence_pct": 38.363,
+      "medvlmr1_clean_pmax": 0.5431959629058838,
+      "medvlmr1_hint_confidence_pct": 39.66
+    },
+    {
+      "sample_id": "Xray_269",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9633808732032776,
+      "qwen2vl_hint_confidence_pct": 60.669,
+      "medvlmr1_clean_pmax": 0.9864902496337891,
+      "medvlmr1_hint_confidence_pct": 61.825
+    },
+    {
+      "sample_id": "Xray_270",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9978629946708679,
+      "qwen2vl_hint_confidence_pct": 62.393,
+      "medvlmr1_clean_pmax": 0.9988549947738647,
+      "medvlmr1_hint_confidence_pct": 62.443
+    },
+    {
+      "sample_id": "Xray_271",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9466758966445923,
+      "qwen2vl_hint_confidence_pct": 59.834,
+      "medvlmr1_clean_pmax": 0.9834917187690735,
+      "medvlmr1_hint_confidence_pct": 61.675
+    },
+    {
+      "sample_id": "Xray_272",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9336833357810974,
+      "qwen2vl_hint_confidence_pct": 59.184,
+      "medvlmr1_clean_pmax": 0.9420552253723145,
+      "medvlmr1_hint_confidence_pct": 59.603
+    },
+    {
+      "sample_id": "Xray_275",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5888168215751648,
+      "qwen2vl_hint_confidence_pct": 41.941,
+      "medvlmr1_clean_pmax": 0.6169665455818176,
+      "medvlmr1_hint_confidence_pct": 43.348
+    },
+    {
+      "sample_id": "Xray_277",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9176473617553711,
+      "qwen2vl_hint_confidence_pct": 58.382,
+      "medvlmr1_clean_pmax": 0.9580649733543396,
+      "medvlmr1_hint_confidence_pct": 60.403
+    },
+    {
+      "sample_id": "Xray_280",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9681352376937866,
+      "qwen2vl_hint_confidence_pct": 60.907,
+      "medvlmr1_clean_pmax": 0.9866249561309814,
+      "medvlmr1_hint_confidence_pct": 61.831
+    },
+    {
+      "sample_id": "Xray_284",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9226720929145813,
+      "qwen2vl_hint_confidence_pct": 58.634,
+      "medvlmr1_clean_pmax": 0.9783575534820557,
+      "medvlmr1_hint_confidence_pct": 61.418
+    },
+    {
+      "sample_id": "Xray_286",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.732852578163147,
+      "qwen2vl_hint_confidence_pct": 49.143,
+      "medvlmr1_clean_pmax": 0.829771101474762,
+      "medvlmr1_hint_confidence_pct": 53.989
+    },
+    {
+      "sample_id": "Xray_287",
+      "modality": "Xray",
+      "gt_index": 0,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9737275242805481,
+      "qwen2vl_hint_confidence_pct": 61.186,
+      "medvlmr1_clean_pmax": 0.9985645413398743,
+      "medvlmr1_hint_confidence_pct": 62.428
+    },
+    {
+      "sample_id": "Xray_288",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8760831952095032,
+      "qwen2vl_hint_confidence_pct": 56.304,
+      "medvlmr1_clean_pmax": 0.8903810977935791,
+      "medvlmr1_hint_confidence_pct": 57.019
+    },
+    {
+      "sample_id": "Xray_289",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.5958024263381958,
+      "qwen2vl_hint_confidence_pct": 42.29,
+      "medvlmr1_clean_pmax": 0.44966498017311096,
+      "medvlmr1_hint_confidence_pct": 34.983
+    },
+    {
+      "sample_id": "Xray_290",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9644596576690674,
+      "qwen2vl_hint_confidence_pct": 60.723,
+      "medvlmr1_clean_pmax": 0.9873391389846802,
+      "medvlmr1_hint_confidence_pct": 61.867
+    },
+    {
+      "sample_id": "Xray_291",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9866944551467896,
+      "qwen2vl_hint_confidence_pct": 61.835,
+      "medvlmr1_clean_pmax": 0.9917722344398499,
+      "medvlmr1_hint_confidence_pct": 62.089
+    },
+    {
+      "sample_id": "Xray_294",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.8696706295013428,
+      "qwen2vl_hint_confidence_pct": 55.984,
+      "medvlmr1_clean_pmax": 0.9281571507453918,
+      "medvlmr1_hint_confidence_pct": 58.908
+    },
+    {
+      "sample_id": "Xray_296",
+      "modality": "Xray",
+      "gt_index": 2,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.6274250745773315,
+      "qwen2vl_hint_confidence_pct": 43.871,
+      "medvlmr1_clean_pmax": 0.6450534462928772,
+      "medvlmr1_hint_confidence_pct": 44.753
+    },
+    {
+      "sample_id": "Xray_298",
+      "modality": "Xray",
+      "gt_index": 3,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9928337335586548,
+      "qwen2vl_hint_confidence_pct": 62.142,
+      "medvlmr1_clean_pmax": 0.9968024492263794,
+      "medvlmr1_hint_confidence_pct": 62.34
+    },
+    {
+      "sample_id": "Xray_299",
+      "modality": "Xray",
+      "gt_index": 1,
+      "option_order": "O0",
+      "qwen2vl_clean_pmax": 0.9899217486381531,
+      "qwen2vl_hint_confidence_pct": 61.996,
+      "medvlmr1_clean_pmax": 0.9948871731758118,
+      "medvlmr1_hint_confidence_pct": 62.244
+    }
+  ]
+}

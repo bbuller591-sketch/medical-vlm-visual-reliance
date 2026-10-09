@@ -50,17 +50,17 @@ The repository now includes the **full portable behavioral analysis pipeline**, 
 
 Quick index:
 
-1. `scripts/download_assets.py`: Hugging Face checkpoints and original dataset archives, including verified official 900-question JSON and source image archive.
-2. `scripts/prepare_datasets.py`: strict conversion to reproducible local JSONL manifests (official900/825, SLAKE test/val, PMC-VQA, VQA-RAD).
-3. `scripts/evaluate_external.py`: original, no-image, and shuffled-image **GPU** inference with frozen option permutations and image donors.
-4. `scripts/evaluate_quality.py`: **GPU** 900-question blur × three donors × semantic-conflict experiment using `configs/official900_donors.json`.
-5. `scripts/analyze_inference.py`: **CPU** accuracy, GT probability/log margin, entropy, paired source-cluster bootstrap CIs, image-content utility and VES-style confidence/harmfulness analysis.
-6. `scripts/probe_image_quality.py`: **GPU** layer-wise residual extraction and **CPU** group-disjoint linear probing.
+1. [`scripts/download_assets.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/download_assets.py): Hugging Face checkpoints and original dataset archives, including verified official 900-question JSON and source image archive.
+2. [`scripts/prepare_datasets.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/prepare_datasets.py): strict conversion to reproducible local JSONL manifests (official900/825, SLAKE test/val, PMC-VQA, VQA-RAD).
+3. [`scripts/evaluate_external.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_external.py): original, no-image, and shuffled-image **GPU** inference with frozen option permutations and image donors.
+4. [`scripts/evaluate_quality.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_quality.py): **GPU** 900-question blur × three donors × semantic-conflict experiment using `configs/official900_donors.json`.
+5. [`scripts/analyze_inference.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/analyze_inference.py): **CPU** accuracy, GT probability/log margin, entropy, paired source-cluster bootstrap CIs, image-content utility and VES-style confidence/harmfulness analysis.
+6. [`scripts/probe_image_quality.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/probe_image_quality.py): **GPU** layer-wise residual extraction and **CPU** group-disjoint linear probing.
 7. `experiments/original_sources/`: original research experiment sources for extended probing, activation patching, knockout and quality interventions (archived; additional original staging requirements).
 
 All original images, full questions, model files, and large feature arrays are ignored by Git; only safe numeric, item-ID-level experiment records and code are published. PMC-VQA image archives exceed 20 GB and download only when explicitly requested.
 
-**Verification boundary:** The standalone data adapters, two checkpoints' GPU inference on a smoke subset, main quality perturbation scorer on a smoke subset, and representation extraction have been tested. Full-scale GPU re-inference of every arm has *not* been rerun using the new portable wrapper and is not claimed as bitwise reproduced. The exact historical published figures **are** reproduced from frozen numeric CSV exports by `scripts/reproduce_results.py`.
+**Verification boundary:** The standalone data adapters, two checkpoints' GPU inference on a smoke subset, main quality perturbation scorer on a smoke subset, and representation extraction have been tested. Full-scale GPU re-inference of every arm has *not* been rerun using the new portable wrapper and is not claimed as bitwise reproduced. The exact historical published figures **are** reproduced from frozen numeric CSV exports by [`scripts/reproduce_results.py`](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/reproduce_results.py).
 
 ## Experimental limitations
 
@@ -83,3 +83,6 @@ This code/results release includes no raw medical images, weights, private exper
 ## Repository status and authorship
 
 This is the **public** GitHub repository: https://github.com/bbuller591-sketch/medical-vlm-visual-reliance . It contains the full stand-alone behavioral workflow and an archive of the original mechanistic scripts, with separate reproducibility statuses documented above. No API keys or raw patient images are included. The project owner has not selected a license for newly authored research code; all third-party model/dataset sources retain their own terms.
+
+
+**Direct code links:** [dataset downloader](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/download_assets.py) · [dataset preparation](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/prepare_datasets.py) · [visual interventions](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_external.py) · [quality evaluation](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_quality.py) · [paired analysis](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/analyze_inference.py) · [representation probing](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/probe_image_quality.py) · [report reproduction](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/reproduce_results.py) · [new matched-RL audit](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/analyze_rl_gains.py) · [559-item audit](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/analyze_joint_clean_559.py).

@@ -1,0 +1,278 @@
+{
+  "method": "Item-paired bootstrap, retaining three option-order scores per original question; 10000 resamples per group, seed=20261009",
+  "source": "results/official825_scores.csv",
+  "group_scores": {
+    "all825": {
+      "n": 825,
+      "metrics_pp": {
+        "base_clean": {
+          "mean": 68.8889,
+          "ci95": [
+            66.2222,
+            71.6364
+          ]
+        },
+        "base_noimage": {
+          "mean": 44.1212,
+          "ci95": [
+            41.5354,
+            46.6667
+          ]
+        },
+        "rl_clean": {
+          "mean": 80.9697,
+          "ci95": [
+            78.5859,
+            83.3131
+          ]
+        },
+        "rl_noimage": {
+          "mean": 57.9394,
+          "ci95": [
+            55.3535,
+            60.4848
+          ]
+        },
+        "base_image_benefit": {
+          "mean": 24.7677,
+          "ci95": [
+            21.7374,
+            27.798
+          ]
+        },
+        "rl_image_benefit": {
+          "mean": 23.0303,
+          "ci95": [
+            20.2828,
+            25.7778
+          ]
+        },
+        "rl_gain_clean": {
+          "mean": 12.0808,
+          "ci95": [
+            10.0606,
+            14.1414
+          ]
+        },
+        "rl_gain_noimage": {
+          "mean": 13.8182,
+          "ci95": [
+            11.8384,
+            15.8384
+          ]
+        },
+        "image_benefit_difference_RL_minus_Base": {
+          "mean": -1.7374,
+          "ci95": [
+            -3.798,
+            0.3232
+          ]
+        }
+      }
+    },
+    "MRI300": {
+      "n": 300,
+      "metrics_pp": {
+        "base_clean": {
+          "mean": 67.3333,
+          "ci95": [
+            62.8889,
+            71.6667
+          ]
+        },
+        "base_noimage": {
+          "mean": 43.5556,
+          "ci95": [
+            39.3306,
+            47.8889
+          ]
+        },
+        "rl_clean": {
+          "mean": 96.4444,
+          "ci95": [
+            94.6667,
+            98.0
+          ]
+        },
+        "rl_noimage": {
+          "mean": 75.6667,
+          "ci95": [
+            72.1111,
+            79.2222
+          ]
+        },
+        "base_image_benefit": {
+          "mean": 23.7778,
+          "ci95": [
+            18.7778,
+            28.7778
+          ]
+        },
+        "rl_image_benefit": {
+          "mean": 20.7778,
+          "ci95": [
+            17.2222,
+            24.4444
+          ]
+        },
+        "rl_gain_clean": {
+          "mean": 29.1111,
+          "ci95": [
+            24.8889,
+            33.4444
+          ]
+        },
+        "rl_gain_noimage": {
+          "mean": 32.1111,
+          "ci95": [
+            28.0,
+            36.3333
+          ]
+        },
+        "image_benefit_difference_RL_minus_Base": {
+          "mean": -3.0,
+          "ci95": [
+            -7.5556,
+            1.6667
+          ]
+        }
+      }
+    },
+    "CT237": {
+      "n": 237,
+      "metrics_pp": {
+        "base_clean": {
+          "mean": 70.6048,
+          "ci95": [
+            65.5415,
+            75.5274
+          ]
+        },
+        "base_noimage": {
+          "mean": 50.9142,
+          "ci95": [
+            46.4135,
+            55.2743
+          ]
+        },
+        "rl_clean": {
+          "mean": 74.9648,
+          "ci95": [
+            69.7609,
+            79.8875
+          ]
+        },
+        "rl_noimage": {
+          "mean": 56.3994,
+          "ci95": [
+            51.8987,
+            60.7595
+          ]
+        },
+        "base_image_benefit": {
+          "mean": 19.6906,
+          "ci95": [
+            13.9241,
+            25.5977
+          ]
+        },
+        "rl_image_benefit": {
+          "mean": 18.5654,
+          "ci95": [
+            13.2208,
+            24.0506
+          ]
+        },
+        "rl_gain_clean": {
+          "mean": 4.3601,
+          "ci95": [
+            1.8284,
+            7.0323
+          ]
+        },
+        "rl_gain_noimage": {
+          "mean": 5.4852,
+          "ci95": [
+            3.2349,
+            7.8762
+          ]
+        },
+        "image_benefit_difference_RL_minus_Base": {
+          "mean": -1.1252,
+          "ci95": [
+            -4.3601,
+            2.1097
+          ]
+        }
+      }
+    },
+    "Xray288": {
+      "n": 288,
+      "metrics_pp": {
+        "base_clean": {
+          "mean": 69.0972,
+          "ci95": [
+            64.4676,
+            73.7269
+          ]
+        },
+        "base_noimage": {
+          "mean": 39.1204,
+          "ci95": [
+            34.838,
+            43.5185
+          ]
+        },
+        "rl_clean": {
+          "mean": 69.7917,
+          "ci95": [
+            65.0463,
+            74.4213
+          ]
+        },
+        "rl_noimage": {
+          "mean": 40.7407,
+          "ci95": [
+            36.4583,
+            45.1389
+          ]
+        },
+        "base_image_benefit": {
+          "mean": 29.9769,
+          "ci95": [
+            24.7656,
+            35.1852
+          ]
+        },
+        "rl_image_benefit": {
+          "mean": 29.0509,
+          "ci95": [
+            23.8426,
+            34.2593
+          ]
+        },
+        "rl_gain_clean": {
+          "mean": 0.6944,
+          "ci95": [
+            -0.9259,
+            2.4306
+          ]
+        },
+        "rl_gain_noimage": {
+          "mean": 1.6204,
+          "ci95": [
+            -0.1157,
+            3.3565
+          ]
+        },
+        "image_benefit_difference_RL_minus_Base": {
+          "mean": -0.9259,
+          "ci95": [
+            -2.8935,
+            1.1574
+          ]
+        }
+      }
+    }
+  }
+}

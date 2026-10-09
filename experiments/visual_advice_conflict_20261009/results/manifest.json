@@ -1,0 +1,6 @@
+{
+  "generated_combined_condition": "Severe Gaussian blur of cached same-modality random mismatch image",
+  "blur_fraction_short_side": 0.03,
+  "n_images": 559,
+  "sample_ids_sha256": "709b98ba8977a094f27cff7224f30acac1038832b736528ffff7bfcdd113bcb7"
+}

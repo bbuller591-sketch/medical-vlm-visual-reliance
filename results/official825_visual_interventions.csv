@@ -1,0 +1,7 @@
+model,condition,valid_n,accuracy_pct,protocol,original_arm_id
+Qwen2-VL Base,Clean,825,64.73,candidate scoring,clean
+Qwen2-VL Base,No-image,825,43.39,candidate scoring,no_image
+Qwen2-VL Base,Mismatch,825,50.18,candidate scoring,pm_clean_k1
+MedVLM-R1,Clean,820,81.46,native generation,clean
+MedVLM-R1,No-image,817,55.69,native generation,no_image
+MedVLM-R1,Mismatch,812,69.58,native generation,pm_clean_k1

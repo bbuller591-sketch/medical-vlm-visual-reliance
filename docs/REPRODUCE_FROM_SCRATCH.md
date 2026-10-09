@@ -11,6 +11,8 @@ This guide is for a new machine. It distinguishes **CPU data/analysis** from **G
 
 See also the [original environment versions](ENVIRONMENT_PROVENANCE.md).
 
+**Source code (direct GitHub links):** [download_assets.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/download_assets.py), [prepare_datasets.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/prepare_datasets.py), [evaluate_external.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_external.py), [evaluate_quality.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/evaluate_quality.py), [analyze_inference.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/analyze_inference.py), [probe_image_quality.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/probe_image_quality.py), [reproduce_results.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/reproduce_results.py), [check_release.py](https://github.com/bbuller591-sketch/medical-vlm-visual-reliance/blob/main/scripts/check_release.py).
+
 ## 1. Installation
 
 ```bash

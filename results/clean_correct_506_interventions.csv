@@ -1,0 +1,8 @@
+condition,original_arm_id,selection_n,base_correct,base_valid,base_retention_pct,rl_correct,rl_valid,rl_retention_pct
+Clean,clean,506,506,506,100.0,506,506,100.0
+No-image,no_image,506,269,506,53.16,301,499,60.32
+White blank,blank_white,506,274,506,54.15,310,502,61.75
+Mean-color blank,blank_mean,506,261,506,51.58,313,503,62.23
+Mismatch,pm_clean_k1,506,344,506,67.98,390,499,78.16
+Semantic conflict,sc_clean,506,145,223,65.02,175,223,78.48
+Pure noise,pure_noise,506,0,0,,309,493,62.68
