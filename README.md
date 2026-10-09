@@ -2,12 +2,11 @@
 
 A reproducibility package for a medical-VQA pilot comparing **Qwen2-VL-2B-Instruct** and **MedVLM-R1**. It addresses whether answers depend on the **current image**, how that dependence varies under image degradation, and why a substantial part of the RL-checkpoint performance gain persists without an image.
 
-**Status (2026-10-09):** released checkpoint inference and exploratory analysis; **no RL model was trained by this project**. The main plots and accuracy contrasts below have been independently recomputed from frozen, non-image, per-item evaluation exports. The standalone GPU scorer mirrors the original scoring logic but **has not been rerun end-to-end** on newly downloaded models/datasets as part of this public packaging step; that distinction matters for reproducibility.
+**Status (2026-10-09):** released checkpoint inference and exploratory analysis; **no RL model was trained by this project**. The main plots and accuracy contrasts in the report have been independently recomputed from frozen, non-image, per-item evaluation exports. The standalone GPU scorer mirrors the original scoring logic but **has not been rerun end-to-end** on newly downloaded models/datasets as part of this public packaging step; that distinction matters for reproducibility.
 
 ## Read the research findings
 
-- **[One-page research brief](docs/ONE_PAGE_SUMMARY.md)** — measured / found / surprised; intended for research discussion.
-- **[Supporting experimental report](docs/DETAILED_REPORT.md)** — all main comparisons, error bounds, scope limits, and sources.
+- **[Research progress report](MEDICAL_VLM_PROGRESS_REPORT.md)** — research question, key findings, next steps, and detailed experimental appendices in one document.
 - **[Figure: visual-content benefit by blur level](figures/quality_content_gap.png)** and **[Figure: RL uplift with/without an image](figures/post_rl_uplift.png)**.
 
 ## Main findings

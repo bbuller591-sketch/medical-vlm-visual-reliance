@@ -166,7 +166,7 @@ python scripts/analyze_inference.py --predictions outputs/slake_base.jsonl \
 
 Metrics include: both mean-per-order and option-order-aggregated accuracy, correct-answer probability, **signed GT probability and log margin** (different units!), candidate-distribution entropy, current-image utility relative to No-image, correct vs donor benefit by blur level, and VES-inspired *sharpen-and-harm* rate. Confidence intervals are resampled over source image IDs to prevent treating many questions about one image as independent.
 
-For an **exact recomputation of the historical published tables and two figures**, which used several frozen scoring protocols, use `python scripts/reproduce_results.py --check --plots` from the checked-in numeric tables. This is the authoritative way to recreate the figures shown in the research brief. A new model inference run is separate and must preserve the source protocol for exact agreement; different model libraries, data versions, or prompt handling can change numbers.
+For an **exact recomputation of the historical published tables and two figures**, which used several frozen scoring protocols, use `python scripts/reproduce_results.py --check --plots` from the checked-in numeric tables. This is the authoritative way to recreate the figures shown in the research report. A new model inference run is separate and must preserve the source protocol for exact agreement; different model libraries, data versions, or prompt handling can change numbers.
 
 ## 7. Representation probing (optional mechanistic extension)
 

@@ -10,9 +10,14 @@
     "bytes": 668
   },
   {
+    "file": "MEDICAL_VLM_PROGRESS_REPORT.md",
+    "sha256": "cb66ac5c0d3730669721d460c819eefc0fd36815c8751e4cd88b96a791f37215",
+    "bytes": 15257
+  },
+  {
     "file": "README.md",
-    "sha256": "24c9a7eb68cf5afda478a52667c0587824c6d67343703a59023e581b9549d65b",
-    "bytes": 8767
+    "sha256": "1e07c35dc51b9371c0edb9d2c3f7e74c0071e9080bdd33d555acc3a335cda980",
+    "bytes": 8686
   },
   {
     "file": "configs/example_manifest.jsonl",
@@ -25,24 +30,14 @@
     "bytes": 104908
   },
   {
-    "file": "docs/DETAILED_REPORT.md",
-    "sha256": "37a86d8cac266574b1cbf5b94a7b1cc0eccdf1dd35c37fcef59c67b540120365",
-    "bytes": 10345
-  },
-  {
     "file": "docs/ENVIRONMENT_PROVENANCE.md",
     "sha256": "d8ebfce18eb85945f2f9807dfdbafe05492a2d02363d3e338c70fb33e3f50b56",
     "bytes": 1004
   },
   {
-    "file": "docs/ONE_PAGE_SUMMARY.md",
-    "sha256": "38ce23e0d015a66d41f66ced71cfd7a93099fd221b5f0c69ae0de49fe834b69d",
-    "bytes": 3198
-  },
-  {
     "file": "docs/REPRODUCE_FROM_SCRATCH.md",
-    "sha256": "eeb46d7b5fa6ef5e833eb7f2f8d4b71c950addf874bf6ba1e7c3f29b23f98670",
-    "bytes": 12851
+    "sha256": "bb335d89c5c48429717ff42ab7fa736fe2ba8de27f521a8076fe72e1b0b0be18",
+    "bytes": 12852
   },
   {
     "file": "experiments/original_sources/README.md",
@@ -343,5 +338,10 @@
     "file": "tests/test_metrics.py",
     "sha256": "9d79396a262b1ab4d68fca02e303e0cd5386afb37e26e3d09db7a4f70381f2f5",
     "bytes": 1403
+  },
+  {
+    "file": "tests/test_report.py",
+    "sha256": "6de31fc59c24086cdaf49a268d14ae3977168d8fee64e98d02cd263181eac089",
+    "bytes": 2551
   }
 ]
